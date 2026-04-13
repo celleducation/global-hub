@@ -70,10 +70,10 @@ formLabels:["Company / Practice","Contact Person","Email","Phone","Role","Intere
 roleOptions:["Please choose","Doctor","Practitioner","Pharmacist / Pharmacy","Health Professional","Health Sector Company","Sports Medicine / Performance","Other"],
 interestOptions:["Please choose","Longevity Lab Mallorca 2026","Global Hub Network","Shop Access / Products","Partnership / Cooperation"],
 messagePlaceholder:"What are you specifically interested in?",
-formNote:"Submitting this form will open your default mail app. Alternatively, you can reach us directly at info@cell-performance.com.",
+formNote:"We review every request personally. For direct contact, please email info@cell-education.com.",
 formBtns:["Send Inquiry","Go to Shop"],
-footerHeadings:["Contact","Social"],
-footerSponsor:"Sponsoring Inquiries",
+formStatus:{submitting:"Sending your inquiry...",submittingButton:"Sending...",success:"Thank you. Your request has been sent successfully.",error:"We could not send your request right now. Please email info@cell-education.com."},
+footerHeadings:["","Instagram"],
 footerTag:'Connecting<br>Medicine<br><span class="accent">Worldwide</span>',
 footerCompany:"Cell Education - The Institute GmbH & Co. KG · Frankfurter Straße 7 · 61462 Königstein im Taunus",
 footerLegal:["Imprint","Privacy Policy"],
@@ -143,10 +143,10 @@ formLabels:["Unternehmen / Praxis","Ansprechpartner","E-Mail","Telefon","Rolle",
 roleOptions:["Bitte wählen","Arzt","Heilpraktiker","Apotheker / Apotheke","Gesundheitsfachkraft","Unternehmen im Gesundheitsbereich","Sportmedizin / Performance","Sonstiges"],
 interestOptions:["Bitte wählen","Longevity Lab Mallorca 2026","Global Hub Netzwerk","Shop-Zugang / Produkte","Partnerschaft / Kooperation"],
 messagePlaceholder:"Wofür interessieren Sie sich konkret?",
-formNote:"Beim Absenden öffnet sich Ihr Standard-Mailprogramm. Alternativ erreichen Sie uns direkt unter info@cell-performance.com.",
+formNote:"Wir prüfen jede Anfrage persönlich. Für direkten Kontakt schreiben Sie bitte an info@cell-education.com.",
 formBtns:["Anfrage senden","Zum Shop"],
-footerHeadings:["Kontakt","Social"],
-footerSponsor:"Sponsoring-Anfragen",
+formStatus:{submitting:"Ihre Anfrage wird gesendet...",submittingButton:"Wird gesendet...",success:"Vielen Dank. Ihre Anfrage wurde erfolgreich versendet.",error:"Ihre Anfrage konnte gerade nicht gesendet werden. Bitte schreiben Sie an info@cell-education.com."},
+footerHeadings:["","Instagram"],
 footerTag:'Medizin<br>weltweit<br><span class="accent">verbinden</span>',
 footerCompany:"Cell Education - The Institute GmbH & Co. KG · Frankfurter Straße 7 · 61462 Königstein im Taunus",
 footerLegal:["Impressum","Datenschutz"],
@@ -216,10 +216,10 @@ formLabels:["Empresa / consulta","Persona de contacto","Email","Telefono","Perfi
 roleOptions:["Seleccione","Medico","Terapeuta","Farmaceutico / farmacia","Profesional sanitario","Empresa del sector salud","Medicina deportiva / performance","Otro"],
 interestOptions:["Seleccione","Longevity Lab Mallorca 2026","Red Global Hub","Acceso a tienda / productos","Partnership / cooperacion"],
 messagePlaceholder:"En que esta interesado exactamente?",
-formNote:"Al enviar este formulario se abrira su aplicacion de correo predeterminada. Tambien puede escribirnos directamente a info@cell-performance.com.",
+formNote:"Revisamos cada solicitud personalmente. Para contacto directo, escribanos a info@cell-education.com.",
 formBtns:["Enviar solicitud","Ir a la tienda"],
-footerHeadings:["Contacto","Redes"],
-footerSponsor:"Consultas de patrocinio",
+formStatus:{submitting:"Enviando su solicitud...",submittingButton:"Enviando...",success:"Gracias. Su solicitud se ha enviado correctamente.",error:"No hemos podido enviar su solicitud en este momento. Escribanos a info@cell-education.com."},
+footerHeadings:["","Instagram"],
 footerTag:'Conectando<br>la medicina<br><span class="accent">en todo el mundo</span>',
 footerCompany:"Cell Education - The Institute GmbH & Co. KG · Frankfurter Straße 7 · 61462 Königstein im Taunus",
 footerLegal:["Aviso legal","Privacidad"],
@@ -289,10 +289,10 @@ formLabels:["Firma / gabinet","Osoba kontaktowa","Email","Telefon","Rola","Zaint
 roleOptions:["Wybierz","Lekarz","Terapeuta","Farmaceuta / apteka","Specjalista medyczny","Firma z sektora zdrowia","Medycyna sportowa / performance","Inne"],
 interestOptions:["Wybierz","Longevity Lab Mallorca 2026","Siec Global Hub","Dostep do sklepu / produkty","Partnerstwo / wspolpraca"],
 messagePlaceholder:"Czym dokladnie jestes zainteresowany?",
-formNote:"Po wyslaniu formularza otworzy sie domyslna aplikacja pocztowa. Mozesz tez skontaktowac sie z nami bezposrednio pod adresem info@cell-performance.com.",
+formNote:"Kazde zgloszenie analizujemy osobiscie. Aby skontaktowac sie bezposrednio, napisz na info@cell-education.com.",
 formBtns:["Wyslij zapytanie","Przejdz do sklepu"],
-footerHeadings:["Kontakt","Social"],
-footerSponsor:"Zapytania sponsorskie",
+formStatus:{submitting:"Wysylanie zapytania...",submittingButton:"Wysylanie...",success:"Dziekujemy. Twoje zapytanie zostalo pomyslnie wyslane.",error:"Nie udalo sie teraz wyslac zapytania. Napisz prosze na info@cell-education.com."},
+footerHeadings:["","Instagram"],
 footerTag:'Laczymy<br>medycyne<br><span class="accent">na calym swiecie</span>',
 footerCompany:"Cell Education - The Institute GmbH & Co. KG · Frankfurter Straße 7 · 61462 Königstein im Taunus",
 footerLegal:["Nota prawna","Prywatnosc"],
@@ -388,16 +388,94 @@ function applyLanguage(lang){
   document.querySelector('.register-form__note').textContent=t.formNote;
   document.querySelector('.register-form__actions .pill--solid').childNodes[0].textContent=t.formBtns[0]+" ";
   document.querySelector('.register-form__actions .pill:not(.pill--solid)').childNodes[0].textContent=t.formBtns[1]+" ";
+  syncFormUi();
 
   document.querySelectorAll('.footer__col h5')[0].textContent=t.footerHeadings[0];
   document.querySelectorAll('.footer__col h5')[1].textContent=t.footerHeadings[1];
-  document.querySelectorAll('.footer__col a')[2].textContent=t.footerSponsor;
   document.querySelector('.footer__tagline h2').innerHTML=t.footerTag;
   document.querySelectorAll('.footer__bottom span')[0].textContent=t.footerCompany;
   document.querySelectorAll('.footer__legal-links a')[0].textContent=t.footerLegal[0];
   document.querySelectorAll('.footer__legal-links a')[1].textContent=t.footerLegal[1];
   document.querySelector('.floating-shop').childNodes[0].textContent=t.floatingShop+"\n";
   document.querySelector('.floating-shop').setAttribute('aria-label',t.formBtns[1]);
+}
+
+const registerForm=document.getElementById('registerForm');
+const registerFormStatus=document.querySelector('.register-form__status');
+const registerFormSubmit=registerForm?.querySelector('button[type="submit"]');
+let registerFormState='idle';
+
+function getActiveTranslation(){
+  return translations[document.documentElement.lang]||translations[localStorage.getItem("globalHubLang")]||translations.en;
+}
+
+function setRegisterFormStatus(state){
+  if(!registerFormStatus) return;
+  registerFormState=state;
+  const t=getActiveTranslation();
+  const message=state==='idle'?'':(t.formStatus?.[state]||translations.en.formStatus[state]||'');
+  registerFormStatus.hidden=!message;
+  registerFormStatus.dataset.state=state;
+  registerFormStatus.textContent=message;
+}
+
+function syncFormUi(){
+  if(!registerFormSubmit) return;
+  const t=getActiveTranslation();
+  const isSubmitting=registerForm?.dataset.submitting==='true';
+  registerFormSubmit.disabled=isSubmitting;
+  registerFormSubmit.childNodes[0].textContent=(isSubmitting?(t.formStatus?.submittingButton||translations.en.formStatus.submittingButton):t.formBtns[0])+" ";
+  if(registerFormState!=='idle') setRegisterFormStatus(registerFormState);
+}
+
+if(registerForm){
+  registerForm.addEventListener('submit',async event=>{
+    event.preventDefault();
+    if(!registerForm.reportValidity()) return;
+
+    const formData=new FormData(registerForm);
+    const payload={
+      company:String(formData.get('Company / Practice')||'').trim(),
+      contactName:String(formData.get('Contact Person')||'').trim(),
+      email:String(formData.get('Email')||'').trim(),
+      phone:String(formData.get('Phone')||'').trim(),
+      role:String(formData.get('Role')||'').trim(),
+      interest:String(formData.get('Interest')||'').trim(),
+      message:String(formData.get('Message')||'').trim(),
+      website:String(formData.get('website')||'').trim()
+    };
+
+    if(payload.website){
+      registerForm.reset();
+      setRegisterFormStatus('success');
+      syncFormUi();
+      return;
+    }
+
+    registerForm.dataset.submitting='true';
+    setRegisterFormStatus('submitting');
+    syncFormUi();
+
+    try{
+      const response=await fetch('/api/contact',{
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body:JSON.stringify(payload)
+      });
+      const result=await response.json().catch(()=>({}));
+      if(!response.ok||result.ok!==true){
+        throw new Error(result.error||'Request failed');
+      }
+      registerForm.reset();
+      setRegisterFormStatus('success');
+    }catch(error){
+      console.error('Contact form submission failed',error);
+      setRegisterFormStatus('error');
+    }finally{
+      registerForm.dataset.submitting='false';
+      syncFormUi();
+    }
+  });
 }
 
 document.querySelectorAll('.lang-switcher button').forEach(btn=>{
