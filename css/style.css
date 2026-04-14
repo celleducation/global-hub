@@ -21,19 +21,27 @@ a{color:inherit;text-decoration:none}img{max-width:100%;display:block}
 .nav .pill,.hero .pill,.footer .pill,.nav-overlay .pill,.floating-shop{--pill-border:rgba(255,255,255,.34);--pill-color:#fff;--pill-bg:rgba(0,0,0,.18)}
 .nav .pill:hover,.hero .pill:hover,.footer .pill:hover,.nav-overlay .pill:hover,.floating-shop:hover{border-color:var(--accent);box-shadow:inset 0 0 0 1px rgba(255,91,214,.22);background:rgba(0,0,0,.18);color:#fff}
 /* ── NAV ── */
-.nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:14px 40px;display:flex;align-items:center;justify-content:space-between;transition:background .3s,backdrop-filter .3s,border-color .3s;isolation:isolate;background:rgba(0,0,0,.92);border-bottom:1px solid rgba(255,255,255,.08)}
+.nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:14px 40px;display:flex;align-items:center;justify-content:space-between;transition:background .3s,backdrop-filter .3s,border-color .3s,box-shadow .3s,padding .3s;isolation:isolate;background:linear-gradient(180deg,rgba(8,8,8,.34) 0%, rgba(8,8,8,.14) 100%);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.08)}
 .nav::before{display:none}
-.nav--scrolled{background:rgba(0,0,0,.96);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border-bottom-color:rgba(255,255,255,.1)}
+.nav--scrolled{background:rgba(255,255,255,.82);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border-bottom-color:rgba(10,10,10,.08);box-shadow:0 8px 30px rgba(0,0,0,.04)}
 .nav__logo svg{height:18px;width:auto}
 .nav__links{display:flex;align-items:center;gap:28px;list-style:none}
 .nav__links a{font-family:var(--fm);font-weight:400;font-size:12px;color:var(--w60);transition:color .3s;text-transform:uppercase;letter-spacing:.5px}
 .nav__links a:hover{color:var(--white)}
+.nav--scrolled .nav__links a{color:rgba(10,10,10,.62)}
+.nav--scrolled .nav__links a:hover,.nav--scrolled .nav__links a.active{color:#0a0a0a}
+.nav--scrolled .lang-switcher button{color:rgba(10,10,10,.6)}
+.nav--scrolled .lang-switcher button.active,.nav--scrolled .lang-switcher button:hover{color:#0a0a0a}
+.nav--scrolled .nav__logo .gh-white{fill:#0a0a0a}
+.nav--scrolled .nav__logo .gh-pink{fill:var(--accent)}
+.nav--scrolled .nav__cta .pill{--pill-border:rgba(10,10,10,.14);--pill-color:#0a0a0a;--pill-bg:rgba(255,255,255,.56)}
 .lang-switcher{display:flex;align-items:center;gap:6px;margin-left:18px}
 .lang-switcher button{border:0;background:transparent;color:var(--w60);font-family:var(--fm);font-size:11px;letter-spacing:.6px;text-transform:uppercase;cursor:pointer;padding:0;transition:color .25s ease}
 .lang-switcher button:hover,.lang-switcher button.active{color:var(--white)}
 .nav__cta .pill{padding:8px 16px;font-size:12px}
 .nav__mobile{display:none;cursor:pointer}
-.nav__mobile span{display:block;width:22px;height:1.5px;background:var(--white);margin:5px 0}
+.nav__mobile span{display:block;width:22px;height:1.5px;background:var(--white);margin:5px 0;transition:background .3s ease}
+.nav--scrolled .nav__mobile span{background:#0a0a0a}
 
 /* ── HERO ── */
 .hero{position:relative;width:100%;height:100vh;min-height:600px;max-height:900px;overflow:hidden}
@@ -112,8 +120,8 @@ a{color:inherit;text-decoration:none}img{max-width:100%;display:block}
 /* ── EXPERTS (LIGHT BREAKER) ── */
 .experts{padding:96px 40px;background:#fff;color:#0a0a0a;border-top:1px solid var(--line)}
 .experts .sec-title{color:#0a0a0a}
-.experts__grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:32px}
-.expert-card{background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:14px;padding:32px 24px;text-align:center;transition:.3s}
+.experts__grid{display:grid;grid-template-columns:minmax(0,560px);justify-content:center;gap:24px;margin-top:32px}
+.expert-card{background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:14px;padding:32px 24px;text-align:center;transition:.3s;width:100%}
 .expert-card:hover{border-color:var(--accent-50);transform:translateY(-3px);box-shadow:0 8px 30px rgba(0,0,0,.06)}
 .expert-card__photo{width:160px;height:160px;border-radius:18px;object-fit:cover;object-position:center top;margin:0 auto 20px}
 .expert-card h4{font-family:var(--fb);font-weight:600;font-size:17px;margin-bottom:4px;color:#0a0a0a}

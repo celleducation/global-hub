@@ -1,10 +1,17 @@
 const nav=document.getElementById('nav');
+const hero=document.querySelector('.hero');
 function syncScrollUi(){
   const isScrolled = window.scrollY > 12;
-  nav.classList.toggle('nav--scrolled', window.scrollY > 50);
+  let switchPoint = 50;
+  if(hero){
+    const navHeight = nav ? nav.offsetHeight : 0;
+    switchPoint = Math.max(50, hero.offsetHeight - navHeight - 24);
+  }
+  nav.classList.toggle('nav--scrolled', window.scrollY >= switchPoint);
   document.body.classList.toggle('is-scrolled', isScrolled);
 }
 window.addEventListener('scroll', syncScrollUi, { passive: true });
+window.addEventListener('resize', syncScrollUi);
 function toggleNav(){document.getElementById('navOverlay').classList.toggle('active')}
 document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener('click',function(e){const t=document.querySelector(this.getAttribute('href'));if(t){e.preventDefault();t.scrollIntoView({behavior:'smooth',block:'start'})}})});
 
