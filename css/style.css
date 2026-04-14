@@ -250,7 +250,7 @@ font-weight:500;
 letter-spacing:-.02em;
 text-transform:uppercase;
 color:#fff;
-transition:background .25s ease,border-color .25s ease,transform .45s cubic-bezier(.22,1,.36,1),box-shadow .25s ease,color .25s ease,bottom .6s cubic-bezier(.22,1,.36,1);
+transition:background .25s ease,border-color .25s ease,transform .45s cubic-bezier(.22,1,.36,1),box-shadow .25s ease,color .25s ease,bottom .65s cubic-bezier(.22,1,.36,1);
 will-change:bottom,transform;
 }
 .floating-shop.is-docked{

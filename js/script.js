@@ -493,12 +493,8 @@ function updateFloatingShopPosition(){
     floatingShop.style.bottom = 'calc(16px + env(safe-area-inset-bottom,0px))';
     return;
   }
-  const startBottom = (window.innerHeight * 0.5) - 28;
-  const endBottom = 24;
-  const progress = Math.min(window.scrollY / 260, 1);
-  const currentBottom = startBottom + (endBottom - startBottom) * progress;
-  floatingShop.classList.toggle('is-docked', progress >= 0.98);
-  floatingShop.style.bottom = `${currentBottom}px`;
+  floatingShop.style.bottom = '';
+  floatingShop.classList.toggle('is-docked', window.scrollY > 12);
 }
 
 updateFloatingShopPosition();
