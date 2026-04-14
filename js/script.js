@@ -24,7 +24,7 @@ headlineTitle:'Shaping the future of <span class="accent">cellular medicine</spa
 headlineText:"The international network for cellular health, connecting doctors, researchers, and therapists worldwide.",
 headlineCta:"Join the Network",
 cards:["About Cell Education","Our Partners"],
-textblock:'We <span class="accent">connect doctors worldwide</span> for cellular medicine, longevity, and therapeutic innovation.',
+textblock:'With the Global Hub Network, we connect doctors worldwide for cellular medicine, longevity, and therapeutic innovation.',
 textblockCta:"Register",
 shopLabel:"Shop",
 shopTitle:"Products & Solutions",
@@ -101,7 +101,7 @@ headlineTitle:'Wir gestalten die Zukunft der <span class="accent">Zellmedizin</s
 headlineText:"Das internationale Netzwerk für zelluläre Gesundheit, das Ärzte, Forschende und Therapeutinnen und Therapeuten weltweit verbindet.",
 headlineCta:"Dem Netzwerk beitreten",
 cards:["Über Cell Education","Unsere Partner"],
-textblock:'Wir <span class="accent">vernetzen Ärzte weltweit</span> für Zellmedizin, Longevity und therapeutische Innovation.',
+textblock:'Mit dem Global Hub Netzwerk vernetzen wir Ärzte weltweit für Zellmedizin, Longevity und therapeutische Innovation.',
 textblockCta:"Jetzt anfragen",
 shopLabel:"Shop",
 shopTitle:"Produkte & Lösungen",
@@ -178,7 +178,7 @@ headlineTitle:'Dando forma al futuro de la <span class="accent">medicina celular
 headlineText:"La red internacional para la salud celular, que conecta a medicos, investigadores y terapeutas de todo el mundo.",
 headlineCta:"Unirse a la red",
 cards:["Sobre Cell Education","Nuestros socios"],
-textblock:'<span class="accent">Conectamos a profesionales medicos de todo el mundo</span> en torno a la medicina celular, la longevidad y la innovacion terapeutica.',
+textblock:'Con la red Global Hub conectamos a profesionales medicos de todo el mundo en torno a la medicina celular, la longevidad y la innovacion terapeutica.',
 textblockCta:"Solicitar acceso",
 shopLabel:"Tienda",
 shopTitle:"Productos y soluciones",
@@ -349,7 +349,6 @@ function applyLanguage(lang){
   document.querySelector('.headline-section p').textContent=t.headlineText;
   document.querySelector('.headline-section .pill').childNodes[0].textContent=t.headlineCta+" ";
   document.querySelector('.network__lede').innerHTML=t.textblock;
-  document.querySelectorAll('.network__actions .pill')[0].childNodes[0].textContent=t.textblockCta+" ";
 
   document.querySelector('#shop .sec-label').textContent=t.shopLabel;
   document.querySelector('#shop .sec-title').textContent=t.shopTitle;
@@ -380,12 +379,11 @@ function applyLanguage(lang){
   document.querySelectorAll('.expert-card .badge').forEach((badge,i)=>badge.textContent=t.badges[i]);
 
   document.querySelector('#network .sec-label').textContent=t.networkLabel;
-  document.querySelector('#network .sec-title').textContent=t.networkTitle;
   document.querySelectorAll('.network__feature').forEach((feature,i)=>{
     feature.querySelector('h4').textContent=t.networkFeatures[i][0];
     feature.querySelector('p').textContent=t.networkFeatures[i][1];
   });
-  document.querySelectorAll('.network__actions .pill')[1].childNodes[0].textContent=t.memberCta+" ";
+  document.querySelectorAll('.network__actions .pill')[0].childNodes[0].textContent=t.memberCta+" ";
 
   document.querySelector('#partners .sec-label').textContent=t.partnersLabel;
   document.querySelector('#partners .sec-title').textContent=t.partnersTitle;
