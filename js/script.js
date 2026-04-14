@@ -15,6 +15,71 @@ window.addEventListener('resize', syncScrollUi);
 function toggleNav(){document.getElementById('navOverlay').classList.toggle('active')}
 document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener('click',function(e){const t=document.querySelector(this.getAttribute('href'));if(t){e.preventDefault();t.scrollIntoView({behavior:'smooth',block:'start'})}})});
 
+const partnerLogoScroller=document.querySelector('.partners__mobile-scroll');
+const partnerLogoImage=document.querySelector('.partners__mobile-image');
+let partnerLogoFrame=null;
+let partnerLogoPausedUntil=0;
+
+function stopPartnerLogoAutoScroll(){
+  if(partnerLogoFrame){
+    cancelAnimationFrame(partnerLogoFrame);
+    partnerLogoFrame=null;
+  }
+}
+
+function startPartnerLogoAutoScroll(){
+  stopPartnerLogoAutoScroll();
+  if(!partnerLogoScroller || !partnerLogoImage) return;
+  if(!window.matchMedia('(max-width: 768px)').matches) return;
+  if(window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+  const maxScroll = Math.max(0, partnerLogoScroller.scrollWidth - partnerLogoScroller.clientWidth);
+  if(maxScroll < 24) return;
+
+  let direction = 1;
+  let lastTime = performance.now();
+  const speed = 18;
+
+  const step = (now) => {
+    const delta = now - lastTime;
+    lastTime = now;
+
+    if(now < partnerLogoPausedUntil){
+      partnerLogoFrame = requestAnimationFrame(step);
+      return;
+    }
+
+    const next = partnerLogoScroller.scrollLeft + direction * speed * (delta / 1000);
+    if(next >= maxScroll){
+      partnerLogoScroller.scrollLeft = maxScroll;
+      direction = -1;
+      partnerLogoPausedUntil = now + 900;
+    } else if(next <= 0){
+      partnerLogoScroller.scrollLeft = 0;
+      direction = 1;
+      partnerLogoPausedUntil = now + 900;
+    } else {
+      partnerLogoScroller.scrollLeft = next;
+    }
+
+    partnerLogoFrame = requestAnimationFrame(step);
+  };
+
+  partnerLogoFrame = requestAnimationFrame(step);
+}
+
+if(partnerLogoScroller){
+  const pauseAutoScroll = () => {
+    partnerLogoPausedUntil = performance.now() + 4000;
+  };
+  partnerLogoScroller.addEventListener('touchstart', pauseAutoScroll, { passive: true });
+  partnerLogoScroller.addEventListener('pointerdown', pauseAutoScroll, { passive: true });
+  partnerLogoScroller.addEventListener('scroll', pauseAutoScroll, { passive: true });
+  window.addEventListener('resize', startPartnerLogoAutoScroll);
+  window.addEventListener('load', startPartnerLogoAutoScroll);
+  startPartnerLogoAutoScroll();
+}
+
 const translations={
 en:{
 nav:["Shop","Event","Partners","Network"],
@@ -43,6 +108,7 @@ eventBtns:["Secure Your Spot"],
 timeline:[
 ["Longevity & Performance Seminar","Estadi Mallorca Son Moix, Home of RCD Mallorca. Scientific presentations on bionic cell therapy, longevity strategies and preventive medicine, led by Dr. Kay Bredehorst."],
 ["ATP Tournament & Networking","Mallorca Country Club, Vanda Pharmaceuticals Mallorca Championships. World-class tennis and exclusive networking in Santa Ponsa."],
+["Welcome Drink","Mallorca Country Club, Avinguda del Golf 20, 07180 Santa Ponsa. Enjoy a welcome drink to arrive, connect, and enjoy the atmosphere before the evening program begins."],
 ["Evening Event & Dinner","An exclusive evening for personal interaction with doctors, sports medicine specialists and business leaders."]
 ],
 gallery:[
@@ -120,6 +186,7 @@ eventBtns:["Platz sichern"],
 timeline:[
 ["Seminar zu Longevity & Performance","Im Estadi Mallorca Son Moix, der Heimat von RCD Mallorca. Fachvorträge zu bionischer Zelltherapie, Longevity-Strategien und Präventivmedizin unter der Leitung von Dr. Kay Bredehorst."],
 ["ATP-Turnier & Networking","Im Mallorca Country Club bei den Vanda Pharmaceuticals Mallorca Championships. Spitzentennis und exklusives Networking in Santa Ponsa."],
+["Welcome Drink","Mallorca Country Club, Avinguda del Golf 20, 07180 Santa Ponsa. Genießen Sie einen Welcome Drink, um anzukommen, sich auszutauschen und die Atmosphäre vor dem Abendprogramm zu erleben."],
 ["Abendveranstaltung & Dinner","Ein exklusiver Abend für den persönlichen Austausch mit Ärzten, Sportmedizinern und unternehmerischen Entscheidern."]
 ],
 gallery:[
@@ -197,6 +264,7 @@ eventBtns:["Reservar plaza"],
 timeline:[
 ["Seminario de longevidad y rendimiento","Estadi Mallorca Son Moix, sede del RCD Mallorca. Presentaciones cientificas sobre terapia celular bionica, estrategias de longevidad y medicina preventiva, dirigidas por el Dr. Kay Bredehorst."],
 ["Torneo ATP y networking","Mallorca Country Club, Vanda Pharmaceuticals Mallorca Championships. Tenis de primer nivel y networking exclusivo en Santa Ponsa."],
+["Welcome Drink","Mallorca Country Club, Avinguda del Golf 20, 07180 Santa Ponsa. Disfrute de una copa de bienvenida para llegar, conectar y disfrutar del ambiente antes de que comience el programa de la noche."],
 ["Evento de noche y cena","Una velada exclusiva para el intercambio personal con medicos, especialistas en medicina deportiva y responsables empresariales."]
 ],
 gallery:[
