@@ -214,6 +214,10 @@ a{color:inherit;text-decoration:none}img{max-width:100%;display:block}
 .register-form__status[data-state="error"]{color:#b42318}
 .register-form__status[data-state="submitting"]{color:#555}
 .register-form__actions{margin-top:20px;display:flex;gap:12px;flex-wrap:wrap}
+.register-form__submit{background:var(--accent);border-color:var(--accent);color:#0a0a0a}
+.register-form__submit svg path{stroke:#0a0a0a}
+.register-form__submit:hover{background:#ff78df;border-color:#ff78df;color:#0a0a0a}
+.register-form__submit:hover svg path{stroke:#0a0a0a}
 .register-form button[disabled]{opacity:.72;cursor:wait}
 
 /* ── FINAL CTA (INVERTED BREAKER) ── */
