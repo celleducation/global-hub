@@ -7,6 +7,9 @@ function escapeHtml(value) {
     .replace(/'/g, '&#39;');
 }
 
+const fs = require('fs');
+const path = require('path');
+
 function replaceTemplate(template, values) {
   return Object.entries(values).reduce((output, [key, value]) => {
     return output.replace(new RegExp(`{{${key}}}`, 'g'), escapeHtml(value));
@@ -32,73 +35,8 @@ function buildInternalInquiryHtml(data) {
 }
 
 function buildConfirmationHtml(data) {
-  const template = `<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Global Hub Inquiry Confirmation</title>
-</head>
-<body style="margin:0;padding:0;background:#0b0b0b;font-family:Arial,sans-serif;color:#ffffff;">
-  <div style="display:none;max-height:0;overflow:hidden;opacity:0;">
-    Your Global Hub inquiry has been received. We will get back to you personally shortly.
-  </div>
-  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="background:#0b0b0b;">
-    <tr>
-      <td align="center" style="padding:40px 16px;">
-        <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="max-width:640px;background:#111111;border:1px solid rgba(255,255,255,0.08);border-radius:24px;overflow:hidden;box-shadow:0 18px 48px rgba(0,0,0,0.28);">
-          <tr>
-            <td style="padding:24px 28px 20px 28px;background:#050505;color:#ffffff;border-bottom:1px solid rgba(255,255,255,0.06);">
-              <img src="https://cell-performance.com/images/global-hub-logo-email.png" alt="Global Hub for Cell Performance" width="320" style="display:block;width:320px;max-width:100%;height:auto;border:0;">
-            </td>
-          </tr>
-          <tr>
-            <td style="padding:40px 28px 24px 28px;background:linear-gradient(180deg,#1a1a1a 0%,#141414 100%);">
-              <div style="font-size:12px;letter-spacing:0.22em;text-transform:uppercase;color:#ff5bd6;margin-bottom:14px;">Inquiry Received</div>
-              <h1 style="margin:0 0 18px 0;font-size:36px;line-height:1.05;font-weight:800;color:#ffffff;">Thank you for your request.</h1>
-              <p style="margin:0 0 18px 0;font-size:17px;line-height:1.75;color:rgba(255,255,255,0.82);">Hello {{contactName}}, we have received your Global Hub inquiry regarding <span style="color:#ff5bd6;">{{interest}}</span>.</p>
-              <p style="margin:0;font-size:16px;line-height:1.75;color:rgba(255,255,255,0.72);">Our team will review your request personally and come back to you shortly with the next steps for network access, event participation, or shop-related questions.</p>
-            </td>
-          </tr>
-          <tr>
-            <td style="padding:0 28px 28px 28px;background:#111111;">
-              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="border-collapse:separate;border-spacing:0;background:#1a1a1a;border:1px solid rgba(255,255,255,0.06);border-radius:18px;overflow:hidden;">
-                <tr>
-                  <td style="padding:20px 22px;border-bottom:1px solid rgba(255,255,255,0.06);">
-                    <div style="font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:#ff5bd6;margin-bottom:8px;">Your Request</div>
-                    <div style="font-size:15px;line-height:1.7;color:#ffffff;"><strong style="font-weight:700;">Company / Practice:</strong> {{company}}</div>
-                    <div style="font-size:15px;line-height:1.7;color:#ffffff;"><strong style="font-weight:700;">Contact Person:</strong> {{contactName}}</div>
-                    <div style="font-size:15px;line-height:1.7;color:#ffffff;"><strong style="font-weight:700;">Interest:</strong> {{interest}}</div>
-                  </td>
-                </tr>
-                <tr>
-                  <td style="padding:20px 22px;">
-                    <div style="font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:#ff5bd6;margin-bottom:8px;">What Happens Next</div>
-                    <div style="font-size:15px;line-height:1.8;color:rgba(255,255,255,0.78);">1. We review your inquiry internally.<br>2. We assess the right fit for your request.<br>3. We get back to you personally via email.</div>
-                  </td>
-                </tr>
-              </table>
-            </td>
-          </tr>
-          <tr>
-            <td style="padding:0 28px 34px 28px;background:#151515;">
-              <a href="https://www.cell-performance.shop" style="display:inline-block;padding:14px 22px;border-radius:999px;border:1.5px solid #ff5bd6;color:#ffffff;text-decoration:none;font-size:13px;font-weight:700;letter-spacing:0.04em;text-transform:uppercase;">Visit Shop</a>
-              <a href="https://www.cell-education.com" style="display:inline-block;margin-left:12px;padding:14px 22px;border-radius:999px;border:1px solid rgba(255,255,255,0.18);color:#ffffff;text-decoration:none;font-size:13px;font-weight:700;letter-spacing:0.04em;text-transform:uppercase;">Cell Education</a>
-            </td>
-          </tr>
-          <tr>
-            <td style="padding:20px 28px 28px 28px;background:#0f0f0f;border-top:1px solid rgba(255,255,255,0.06);">
-              <p style="margin:0 0 8px 0;font-size:13px;line-height:1.7;color:rgba(255,255,255,0.72);">Global Hub for Cell Performance</p>
-              <p style="margin:0 0 8px 0;font-size:13px;line-height:1.7;color:rgba(255,255,255,0.52);">Cell Education - The Institute GmbH & Co. KG · Frankfurter Straße 7 · 61462 Königstein im Taunus</p>
-              <p style="margin:0;font-size:13px;line-height:1.7;color:rgba(255,255,255,0.52);"><a href="https://cell-education.com/impressum" style="color:rgba(255,255,255,0.72);text-decoration:none;">Imprint</a> · <a href="https://cell-education.com/datenschutz" style="color:rgba(255,255,255,0.72);text-decoration:none;">Privacy Policy</a></p>
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
-</body>
-</html>`;
+  const templatePath = path.join(__dirname, '..', 'emails', 'global-hub-inquiry-confirmation.html');
+  const template = fs.readFileSync(templatePath, 'utf8');
 
   return replaceTemplate(template, {
     company: data.company || '—',
