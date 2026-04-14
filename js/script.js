@@ -6,8 +6,6 @@ function syncScrollUi(){
 }
 window.addEventListener('scroll', syncScrollUi, { passive: true });
 function toggleNav(){document.getElementById('navOverlay').classList.toggle('active')}
-const obs=new IntersectionObserver(e=>{e.forEach(el=>{if(el.isIntersecting)el.target.classList.add('visible')})},{threshold:.1,rootMargin:'0px 0px -40px 0px'});
-document.querySelectorAll('.fade-in').forEach(el=>obs.observe(el));
 document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener('click',function(e){const t=document.querySelector(this.getAttribute('href'));if(t){e.preventDefault();t.scrollIntoView({behavior:'smooth',block:'start'})}})});
 
 const translations={
@@ -24,15 +22,15 @@ textblockCta:"Register",
 shopLabel:"Shop",
 shopTitle:"Products & Solutions",
 shopCards:[
-["Supplements","NAD+ boosters, mitochondrial supplements, and cellular nutrients for medical professionals.","Explore"],
-["Diagnostic Kits","Precision diagnostics for cellular markers and mitochondrial function, designed for use in practice.","Explore"],
-["Therapy Devices","Bionic cell therapy, photobiomodulation, and PEMF devices with clinical validation and CE certification.","Explore"]
+["Supplements","Targeted formulations for mitochondrial support, cellular health, and performance-oriented practice concepts.","Explore"],
+["Infusions","Specialized infusion solutions for structured clinical use, including mitochondrial support and practice-oriented application concepts.","Explore"],
+["Medical Know-How","Educational resources and structured medical guidance around bionic cell therapy, cellular health protocols, and practical integration into clinical settings.","Explore"]
 ],
 eventLabel:"Event",
 eventTitle:"Longevity Lab Mallorca 2026",
 eventDate:"June 20, 2026",
 eventHeroTitle:"Longevity Lab<br>Mallorca",
-eventLocation:"📍 Mallorca, Spain · Estadi Mallorca Son Moix & Mallorca Country Club",
+eventLocation:"Mallorca, Spain · Estadi Mallorca Son Moix & Mallorca Country Club",
 eventDesc:"As the official sponsor of RCD Mallorca and a partner of the Mallorca Country Club, the Global Hub for Cell Performance invites an exclusive group to a unique day of experiences. Discover how bionic cell therapy and evidence-based approaches to cellular health are setting new standards for performance, recovery, and long-term health.",
 eventBtns:["Secure Your Spot","Program"],
 timeline:[
@@ -57,10 +55,12 @@ networkFeatures:[
 ["Medical Education","Education in cellular medicine, available online and in person."],
 ["B2B Opportunities","Exclusive conditions, network access, and new partnership opportunities for practices, clinics, and health businesses."]
 ],
-partnersLabel:"Our Partners & Network",
-sportLabel:"Sponsorship",
+partnersLabel:"Partners",
+partnersTitle:"Selected partners in the Global Hub ecosystem",
+partnersText:"The Global Hub brings together educational, clinical, and sports-related partners in one curated context. This creates a clearer entry point for professional exchange, product orientation, and event participation.",
+sportLabel:"Official Partner of RCD Mallorca",
 sportTitle:"Sport & Cellular Medicine",
-sportHead:'Official Partner of <span style="color:var(--accent)">RCD Mallorca</span>',
+sportHead:'RCD Mallorca',
 sportText:"Cellular medicine and performance optimization in professional sports, bringing cellular health into elite performance on and off the pitch.",
 sportBtn:"Learn More",
 officialLabel:"Official Partners",
@@ -69,7 +69,7 @@ officialBodies:[
 "Mallorca Country Club is one of the island's leading sports and event venues and hosts international tennis events such as the ATP Mallorca Championships. This partnership creates a distinctive setting for our events and network gatherings, combining a professional sports environment, an international audience, and high-quality infrastructure for meaningful exchange around health, performance, and prevention."
 ],
 officialBtns:["Burg Apotheke","Mallorca Country Club"],
-finalTitle:'Become Part of the <span style="color:var(--accent)">Global Hub</span>',
+finalTitle:'Become Part of the Global Hub',
 finalText:"B2B inquiry for doctors, practitioners, health professionals, and companies in the health sector.",
 finalIntro:"Please enter your details. We will get back to you personally and review the right fit for network access, event participation, and shop access.",
 formLabels:["Company / Practice","Contact Person","Email","Phone","Role","Interest","Message"],
@@ -78,6 +78,7 @@ interestOptions:["Please choose","Longevity Lab Mallorca 2026","Global Hub Netwo
 messagePlaceholder:"What are you specifically interested in?",
 formNote:"We review every request personally. For direct contact, please email info@cell-education.com.",
 formBtns:["Send Inquiry","Go to Shop"],
+memberCta:"Become a Member",
 formStatus:{submitting:"Sending your inquiry...",submittingButton:"Sending...",success:"Thank you. Your request has been sent successfully.",error:"We could not send your request right now. Please email info@cell-education.com."},
 footerHeadings:["","Instagram"],
 footerTag:'Connecting<br>Medicine<br><span class="accent">Worldwide</span>',
@@ -98,15 +99,15 @@ textblockCta:"Jetzt anfragen",
 shopLabel:"Shop",
 shopTitle:"Produkte & Lösungen",
 shopCards:[
-["Supplemente","NAD+-Booster, mitochondriale Supplemente und zelluläre Nährstoffe für medizinische Fachkreise.","Entdecken"],
-["Diagnostik-Kits","Präzisionsdiagnostik für zelluläre Marker und mitochondriale Funktion, entwickelt für den Einsatz in der Praxis.","Entdecken"],
-["Therapiegeräte","Bionische Zelltherapie, Photobiomodulation und PEMF-Systeme mit klinischer Validierung und CE-Zertifizierung.","Entdecken"]
+["Supplemente","Gezielte Formulierungen für mitochondriale Unterstützung, zelluläre Gesundheit und leistungsorientierte Praxiskonzepte.","Entdecken"],
+["Infusionen","Spezialisierte Infusionslösungen für den strukturierten klinischen Einsatz, inklusive mitochondrialer Unterstützung und praxisnaher Anwendungskonzepte.","Entdecken"],
+["Medizinisches Know-how","Fachliche Inhalte und strukturierte medizinische Orientierung zu bionischer Zelltherapie, Protokollen für zelluläre Gesundheit und deren Integration in den Praxisalltag.","Entdecken"]
 ],
 eventLabel:"Veranstaltung",
 eventTitle:"Longevity Lab Mallorca 2026",
 eventDate:"20. Juni 2026",
 eventHeroTitle:"Longevity Lab<br>Mallorca",
-eventLocation:"📍 Mallorca, Spanien · Estadi Mallorca Son Moix & Mallorca Country Club",
+eventLocation:"Mallorca, Spanien · Estadi Mallorca Son Moix & Mallorca Country Club",
 eventDesc:"Als offizieller Sponsor von RCD Mallorca und Partner des Mallorca Country Club lädt der Global Hub for Cell Performance eine exklusive Gruppe zu einem besonderen Tag voller Impulse und Begegnungen ein. Erleben Sie, wie bionische Zelltherapie und evidenzbasierte Konzepte für zelluläre Gesundheit neue Standards für Performance, Regeneration und langfristige Gesundheit setzen.",
 eventBtns:["Platz sichern","Programm"],
 timeline:[
@@ -131,10 +132,12 @@ networkFeatures:[
 ["Medizinische Fortbildung","Fortbildungen in der Zellmedizin, online und vor Ort verfügbar."],
 ["B2B-Möglichkeiten","Exklusive Konditionen, Netzwerkzugang und neue Partnerschaftschancen für Praxen, Kliniken und Gesundheitsunternehmen."]
 ],
-partnersLabel:"Unsere Partner & Netzwerk",
-sportLabel:"Sponsoring",
+partnersLabel:"Partner",
+partnersTitle:"Ausgewählte Partner im Global Hub Ökosystem",
+partnersText:"Der Global Hub bringt Bildungs-, Klinik- und sportbezogene Partner in einem kuratierten Kontext zusammen. So entsteht ein klarerer Einstieg in fachlichen Austausch, Produktorientierung und Veranstaltungsteilnahme.",
+sportLabel:"Offizieller Partner von RCD Mallorca",
 sportTitle:"Sport & Zellmedizin",
-sportHead:'Offizieller Partner von <span style="color:var(--accent)">RCD Mallorca</span>',
+sportHead:'RCD Mallorca',
 sportText:"Zellmedizin und Performance-Optimierung im Profisport und damit zelluläre Gesundheit mitten im Spitzensport auf und neben dem Platz.",
 sportBtn:"Mehr erfahren",
 officialLabel:"Offizielle Partner",
@@ -143,7 +146,7 @@ officialBodies:[
 "Der Mallorca Country Club zählt zu den renommiertesten Sport- und Eventlocations der Insel und ist Austragungsort internationaler Tennisevents wie der ATP Mallorca Championships. Die Partnerschaft schafft den passenden Rahmen für unsere Veranstaltungen und Netzwerktreffen mit professionellem Sportumfeld, internationalem Publikum und hochwertiger Infrastruktur."
 ],
 officialBtns:["Burg Apotheke","Mallorca Country Club"],
-finalTitle:'Teil des <span style="color:var(--accent)">Global Hub</span> werden',
+finalTitle:'Teil des Global Hub werden',
 finalText:"B2B-Anfrage für Ärzte, Heilpraktiker, Gesundheitsfachkräfte und Unternehmen aus dem Gesundheitsbereich.",
 finalIntro:"Bitte hinterlassen Sie Ihre Angaben. Wir melden uns persönlich bei Ihnen und prüfen gemeinsam den passenden Zugang zu Netzwerk, Veranstaltung und Shop.",
 formLabels:["Unternehmen / Praxis","Ansprechpartner","E-Mail","Telefon","Rolle","Interesse","Nachricht"],
@@ -152,6 +155,7 @@ interestOptions:["Bitte wählen","Longevity Lab Mallorca 2026","Global Hub Netzw
 messagePlaceholder:"Wofür interessieren Sie sich konkret?",
 formNote:"Wir prüfen jede Anfrage persönlich. Für direkten Kontakt schreiben Sie bitte an info@cell-education.com.",
 formBtns:["Anfrage senden","Zum Shop"],
+memberCta:"Mitglied werden",
 formStatus:{submitting:"Ihre Anfrage wird gesendet...",submittingButton:"Wird gesendet...",success:"Vielen Dank. Ihre Anfrage wurde erfolgreich versendet.",error:"Ihre Anfrage konnte gerade nicht gesendet werden. Bitte schreiben Sie an info@cell-education.com."},
 footerHeadings:["","Instagram"],
 footerTag:'Medizin<br>weltweit<br><span class="accent">verbinden</span>',
@@ -172,16 +176,16 @@ textblockCta:"Solicitar acceso",
 shopLabel:"Tienda",
 shopTitle:"Productos y soluciones",
 shopCards:[
-["Suplementos","Impulsores de NAD+, suplementos mitocondriales y nutrientes celulares para profesionales medicos.","Explorar"],
-["Kits de diagnostico","Diagnostico de precision para marcadores celulares y funcion mitocondrial, pensado para el uso en consulta.","Explorar"],
-["Dispositivos terapeuticos","Terapia celular bionica, fotobiomodulacion y equipos PEMF con validacion clinica y certificacion CE.","Explorar"]
+["Suplementos","Formulaciones dirigidas al soporte mitocondrial, la salud celular y conceptos orientados al rendimiento en la practica profesional.","Explorar"],
+["Infusiones","Soluciones de infusion especializadas para un uso clinico estructurado, con apoyo mitocondrial y conceptos de aplicacion orientados a la practica.","Explorar"],
+["Conocimiento medico","Recursos formativos y orientacion medica estructurada sobre terapia celular bionica, protocolos de salud celular e integracion practica en entornos clinicos.","Explorar"]
 ],
 eventLabel:"Evento",
 eventTitle:"Longevity Lab Mallorca 2026",
 eventDate:"20 de junio de 2026",
 eventHeroTitle:"Longevity Lab<br>Mallorca",
-eventLocation:"📍 Mallorca, Espana · Estadi Mallorca Son Moix & Mallorca Country Club",
-eventDesc:"Como patrocinador oficial del RCD Mallorca y socio del Mallorca Country Club, Global Hub for Cell Performance invita a un grupo exclusivo a una jornada unica de experiencia, conocimiento y networking. Descubra como la terapia celular bionica y los enfoques basados en evidencia para la salud celular estan marcando nuevos estandares en rendimiento, recuperacion y salud a largo plazo.",
+eventLocation:"Mallorca, Espana · Estadi Mallorca Son Moix & Mallorca Country Club",
+eventDesc:"Como patrocinador oficial del RCD Mallorca y socio del Mallorca Country Club, Global Hub for Cell Performance reune a profesionales para una jornada centrada en salud celular, prevencion y medicina del rendimiento. El programa combina educacion medica, intercambio interdisciplinar y perspectivas basadas en evidencia para la practica clinica y aplicada.",
 eventBtns:["Reservar plaza","Programa"],
 timeline:[
 ["Seminario de longevidad y rendimiento","Estadi Mallorca Son Moix, sede del RCD Mallorca. Presentaciones cientificas sobre terapia celular bionica, estrategias de longevidad y medicina preventiva, dirigidas por el Dr. Kay Bredehorst."],
@@ -190,7 +194,7 @@ timeline:[
 ],
 gallery:[
 ["Evento de noche en Mallorca Country Club","Networking, cena y conversaciones curadas en un entorno premium en Santa Ponsa."],
-["Torneo ATP y networking","Ambiente de tenis de primer nivel en el marco de las Vanda Pharmaceuticals Mallorca Championships."]
+["Torneo ATP e intercambio profesional","Contexto tenistico internacional en el marco de las Vanda Pharmaceuticals Mallorca Championships."]
 ],
 expertsLabel:"Direccion medica",
 expertsTitle:"Dr. Kay Bredehorst",
@@ -205,10 +209,12 @@ networkFeatures:[
 ["Formacion medica","Formacion en medicina celular, disponible online y presencial."],
 ["Oportunidades B2B","Condiciones exclusivas, acceso a la red y nuevas oportunidades de colaboracion para consultas, clinicas y empresas de salud."]
 ],
-partnersLabel:"Nuestros socios y red",
-sportLabel:"Patrocinio",
+partnersLabel:"Socios",
+partnersTitle:"Socios seleccionados en el ecosistema Global Hub",
+partnersText:"Global Hub reúne a socios educativos, clínicos y vinculados al deporte en un contexto curado. Esto crea un punto de entrada más claro para el intercambio profesional, la orientación sobre productos y la participación en eventos.",
+sportLabel:"Socio oficial del RCD Mallorca",
 sportTitle:"Deporte y medicina celular",
-sportHead:'Socio oficial del <span style="color:var(--accent)">RCD Mallorca</span>',
+sportHead:'RCD Mallorca',
 sportText:"Medicina celular y optimizacion del rendimiento en el deporte profesional, llevando la salud celular al maximo nivel dentro y fuera del campo.",
 sportBtn:"Mas informacion",
 officialLabel:"Socios oficiales",
@@ -217,7 +223,7 @@ officialBodies:[
 "Mallorca Country Club es uno de los espacios deportivos y de eventos mas destacados de la isla y acoge citas internacionales como la ATP Mallorca Championships. Esta colaboracion crea el entorno ideal para nuestros eventos y encuentros de red, con un ambiente deportivo profesional, publico internacional e infraestructura de alto nivel."
 ],
 officialBtns:["Burg Apotheke","Mallorca Country Club"],
-finalTitle:'Forme parte del <span style="color:var(--accent)">Global Hub</span>',
+finalTitle:'Forme parte del Global Hub',
 finalText:"Solicitud B2B para medicos, terapeutas, profesionales sanitarios y empresas del sector salud.",
 finalIntro:"Dejenos sus datos. Nos pondremos en contacto personalmente para valorar el acceso mas adecuado a la red, al evento y a la tienda.",
 formLabels:["Empresa / consulta","Persona de contacto","Email","Telefono","Perfil","Interes","Mensaje"],
@@ -226,6 +232,7 @@ interestOptions:["Seleccione","Longevity Lab Mallorca 2026","Red Global Hub","Ac
 messagePlaceholder:"En que esta interesado exactamente?",
 formNote:"Revisamos cada solicitud personalmente. Para contacto directo, escribanos a info@cell-education.com.",
 formBtns:["Enviar solicitud","Ir a la tienda"],
+memberCta:"Hazte miembro",
 formStatus:{submitting:"Enviando su solicitud...",submittingButton:"Enviando...",success:"Gracias. Su solicitud se ha enviado correctamente.",error:"No hemos podido enviar su solicitud en este momento. Escribanos a info@cell-education.com."},
 footerHeadings:["","Instagram"],
 footerTag:'Conectando<br>la medicina<br><span class="accent">en todo el mundo</span>',
@@ -246,16 +253,16 @@ textblockCta:"Zglos sie",
 shopLabel:"Sklep",
 shopTitle:"Produkty i rozwiazania",
 shopCards:[
-["Suplementy","Boostery NAD+, suplementy mitochondrialne i skladniki wspierajace zdrowie komorkowe dla profesjonalistow medycznych.","Odkryj"],
-["Zestawy diagnostyczne","Precyzyjna diagnostyka markerow komorkowych i funkcji mitochondrialnej, przygotowana do zastosowania w praktyce.","Odkryj"],
-["Urzadzenia terapeutyczne","Terapia komorkowa bioniczna, fotobiomodulacja i urzadzenia PEMF z walidacja kliniczna oraz certyfikacja CE.","Odkryj"]
+["Suplementy","Ukierunkowane formulacje wspierajace mitochondria, zdrowie komorkowe i koncepcje pracy zorientowane na wydolnosc.","Odkryj"],
+["Infuzje","Specjalistyczne rozwiazania infuzyjne do ustrukturyzowanego zastosowania klinicznego, obejmujace wsparcie mitochondrialne i praktyczne koncepcje wdrozenia.","Odkryj"],
+["Know-how medyczny","Materialy edukacyjne i uporzadkowane wskazowki medyczne dotyczace bionicznej terapii komorkowej, protokolow zdrowia komorkowego i ich integracji w praktyce klinicznej.","Odkryj"]
 ],
 eventLabel:"Wydarzenie",
 eventTitle:"Longevity Lab Mallorca 2026",
 eventDate:"20 czerwca 2026",
 eventHeroTitle:"Longevity Lab<br>Mallorca",
-eventLocation:"📍 Majorka, Hiszpania · Estadi Mallorca Son Moix & Mallorca Country Club",
-eventDesc:"Jako oficjalny sponsor RCD Mallorca i partner Mallorca Country Club, Global Hub for Cell Performance zaprasza wyselekcjonowana grupe na wyjatkowy dzien laczacy wiedze, doswiadczenie i networking. Zobacz, jak bioniczna terapia komorkowa oraz podejscia oparte na dowodach wyznaczaja nowe standardy w zakresie wydolnosci, regeneracji i dlugoterminowego zdrowia.",
+eventLocation:"Majorka, Hiszpania · Estadi Mallorca Son Moix & Mallorca Country Club",
+eventDesc:"Jako oficjalny sponsor RCD Mallorca i partner Mallorca Country Club, Global Hub for Cell Performance gromadzi profesjonalistow wokol zdrowia komorkowego, prewencji i medycyny wydolnosciowej. Program laczy edukacje medyczna, wymiane interdyscyplinarna i podejscie oparte na dowodach dla praktyki klinicznej i stosowanej.",
 eventBtns:["Zarezerwuj miejsce","Program"],
 timeline:[
 ["Seminarium Longevity i Performance","Estadi Mallorca Son Moix, stadion RCD Mallorca. Prezentacje naukowe o bionicznej terapii komorkowej, strategiach longevity i medycynie prewencyjnej prowadzone przez dr. Kaya Bredehorsta."],
@@ -264,7 +271,7 @@ timeline:[
 ],
 gallery:[
 ["Wieczorne wydarzenie w Mallorca Country Club","Networking, kolacja i starannie zaplanowane rozmowy w wyjatkowej przestrzeni w Santa Ponsa."],
-["Turniej ATP i networking","Atmosfera swiatowego tenisa w ramach Vanda Pharmaceuticals Mallorca Championships."]
+["Turniej ATP i networking","Atmosfera swiatowego tenisa w ramach Vanda Pharmaceuticals Mallorca Championships."],
 ],
 expertsLabel:"Nadzor merytoryczny",
 expertsTitle:"Dr. Kay Bredehorst",
@@ -277,12 +284,14 @@ networkFeatures:[
 ["Zweryfikowani partnerzy","Dostep dla lekarzy, terapeutow, specjalistow medycznych i firm z sektora zdrowia."],
 ["Ekskluzywne protokoly","Klinicznie zweryfikowane protokoly terapeutyczne oraz praktyczne wskazowki dotyczace dawkowania."],
 ["Edukacja medyczna","Edukacja w zakresie medycyny komorkowej, dostepna online i stacjonarnie."],
-["Szanse B2B","Ekskluzywne warunki, dostep do sieci i nowe mozliwosci partnerstwa dla praktyk, klinik i firm zdrowotnych."]
+["Partnerstwa w ochronie zdrowia","Ustrukturyzowany dostep, wymiana w sieci i mozliwosci partnerstwa dla praktyk, klinik i firm zdrowotnych."]
 ],
-partnersLabel:"Nasi partnerzy i siec",
-sportLabel:"Sponsoring",
+partnersLabel:"Partnerzy",
+partnersTitle:"Wybrani partnerzy w ekosystemie Global Hub",
+partnersText:"Global Hub łączy partnerów edukacyjnych, klinicznych i związanych ze sportem w jednym, starannie dobranym kontekście. Tworzy to bardziej przejrzysty punkt wejścia do wymiany profesjonalnej, orientacji produktowej i udziału w wydarzeniach.",
+sportLabel:"Oficjalny partner RCD Mallorca",
 sportTitle:"Sport i medycyna komorkowa",
-sportHead:'Oficjalny partner <span style="color:var(--accent)">RCD Mallorca</span>',
+sportHead:'RCD Mallorca',
 sportText:"Medycyna komorkowa i optymalizacja wydolnosci w profesjonalnym sporcie, wprowadzajace zdrowie komorkowe do sportu na najwyzszym poziomie.",
 sportBtn:"Dowiedz sie wiecej",
 officialLabel:"Oficjalni partnerzy",
@@ -291,7 +300,7 @@ officialBodies:[
 "Mallorca Country Club nalezy do najbardziej renomowanych obiektow sportowych i eventowych na wyspie i gosci miedzynarodowe wydarzenia tenisowe, takie jak ATP Mallorca Championships. Ta wspolpraca tworzy idealne warunki dla naszych wydarzen i spotkan sieciowych."
 ],
 officialBtns:["Burg Apotheke","Mallorca Country Club"],
-finalTitle:'Dolacz do <span style="color:var(--accent)">Global Hub</span>',
+finalTitle:'Dołącz do Global Hub',
 finalText:"Zapytanie B2B dla lekarzy, terapeutow, specjalistow medycznych i firm z sektora zdrowia.",
 finalIntro:"Zostaw swoje dane. Skontaktujemy sie osobiscie, aby dobrac odpowiedni dostep do sieci, wydarzenia i sklepu.",
 formLabels:["Firma / gabinet","Osoba kontaktowa","Email","Telefon","Rola","Zainteresowanie","Wiadomosc"],
@@ -300,6 +309,7 @@ interestOptions:["Wybierz","Longevity Lab Mallorca 2026","Siec Global Hub","Dost
 messagePlaceholder:"Czym dokladnie jestes zainteresowany?",
 formNote:"Kazde zgloszenie analizujemy osobiscie. Aby skontaktowac sie bezposrednio, napisz na info@cell-education.com.",
 formBtns:["Wyslij zapytanie","Przejdz do sklepu"],
+memberCta:"Zostań członkiem",
 formStatus:{submitting:"Wysylanie zapytania...",submittingButton:"Wysylanie...",success:"Dziekujemy. Twoje zapytanie zostalo pomyslnie wyslane.",error:"Nie udalo sie teraz wyslac zapytania. Napisz prosze na info@cell-education.com."},
 footerHeadings:["","Instagram"],
 footerTag:'Laczymy<br>medycyne<br><span class="accent">na calym swiecie</span>',
@@ -326,18 +336,13 @@ function applyLanguage(lang){
   document.querySelectorAll('#navOverlay > a')[3].textContent=t.nav[3];
   document.querySelectorAll('#navOverlay > a')[4].childNodes[0].textContent=t.nav[0]+" ";
 
-  document.querySelectorAll('.event-banner__item--exclusive').forEach(el=>el.textContent=t.banner[0]);
-  document.querySelectorAll('.event-banner__item--event').forEach(el=>el.textContent=t.banner[1]);
-  document.querySelectorAll('.event-banner__item--capacity').forEach(el=>el.textContent=t.banner[2]);
 
   document.querySelector('.hero__content .pill').childNodes[0].textContent=t.heroAbout+" ";
   document.querySelector('.headline-section h2').innerHTML=t.headlineTitle;
   document.querySelector('.headline-section p').textContent=t.headlineText;
   document.querySelector('.headline-section .pill').childNodes[0].textContent=t.headlineCta+" ";
-  document.querySelectorAll('.cards .pill')[0].childNodes[0].textContent=t.cards[0]+" ";
-  document.querySelectorAll('.cards .pill')[1].childNodes[0].textContent=t.cards[1]+" ";
-  document.querySelector('.textblock h2').innerHTML=t.textblock;
-  document.querySelector('.textblock .pill').childNodes[0].textContent=t.textblockCta+" ";
+  document.querySelector('.network__lede').innerHTML=t.textblock;
+  document.querySelectorAll('.network__actions .pill')[0].childNodes[0].textContent=t.textblockCta+" ";
 
   document.querySelector('#shop .sec-label').textContent=t.shopLabel;
   document.querySelector('#shop .sec-title').textContent=t.shopTitle;
@@ -347,8 +352,6 @@ function applyLanguage(lang){
     card.querySelector('.pill').childNodes[0].textContent=t.shopCards[i][2]+" ";
   });
 
-  document.querySelector('#event .sec-label').textContent=t.eventLabel;
-  document.querySelector('#event .sec-title').textContent=t.eventTitle;
   document.querySelector('.event__date').textContent=t.eventDate;
   document.querySelector('.event__hero h3').innerHTML=t.eventHeroTitle;
   document.querySelector('.event__location').innerHTML=t.eventLocation;
@@ -376,15 +379,15 @@ function applyLanguage(lang){
     feature.querySelector('h4').textContent=t.networkFeatures[i][0];
     feature.querySelector('p').textContent=t.networkFeatures[i][1];
   });
+  document.querySelectorAll('.network__actions .pill')[1].childNodes[0].textContent=t.memberCta+" ";
 
-  document.querySelector('.partners__label').textContent=t.partnersLabel;
-  document.querySelector('.sport .sec-label').textContent=t.sportLabel;
-  document.querySelector('.sport .sec-title').textContent=t.sportTitle;
-  document.querySelector('.sport__text h3').innerHTML=t.sportHead;
-  document.querySelector('.sport__text p').textContent=t.sportText;
-  document.querySelector('.sport__text .pill').childNodes[0].textContent=t.sportBtn+" ";
-
-  document.querySelector('.official-partners .sec-label').textContent=t.officialLabel;
+  document.querySelector('#partners .sec-label').textContent=t.partnersLabel;
+  document.querySelector('#partners .sec-title').textContent=t.partnersTitle;
+  document.querySelector('.partner-cluster__text').textContent=t.partnersText;
+  document.querySelector('.partner-cluster__eyebrow').textContent=t.sportLabel;
+  document.querySelector('.partner-cluster__spotlight-copy h3').innerHTML=t.sportHead;
+  document.querySelector('.partner-cluster__spotlight-copy p').textContent=t.sportText;
+  document.querySelector('.partner-cluster__spotlight-copy .pill').childNodes[0].textContent=t.sportBtn+" ";
   document.querySelectorAll('.official-card__content p')[0].textContent=t.officialBodies[0];
   document.querySelectorAll('.official-card__content p')[1].textContent=t.officialBodies[1];
   document.querySelectorAll('.official-card .pill').forEach((btn,i)=>btn.childNodes[0].textContent=t.officialBtns[i]+" ");
