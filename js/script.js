@@ -39,7 +39,7 @@ eventDate:"June 20, 2026",
 eventHeroTitle:"Longevity Lab<br>Mallorca",
 eventLocation:"Mallorca, Spain · Estadi Mallorca Son Moix & Mallorca Country Club",
 eventDesc:"As the official sponsor of RCD Mallorca and a partner of the Mallorca Country Club, the Global Hub for Cell Performance invites an exclusive group to a unique day of experiences. Discover how bionic cell therapy and evidence-based approaches to cellular health are setting new standards for performance, recovery, and long-term health.",
-eventBtns:["Secure Your Spot","Program"],
+eventBtns:["Secure Your Spot"],
 timeline:[
 ["Longevity & Performance Seminar","Estadi Mallorca Son Moix, Home of RCD Mallorca. Scientific presentations on bionic cell therapy, longevity strategies and preventive medicine, led by Dr. Kay Bredehorst."],
 ["ATP Tournament & Networking","Mallorca Country Club, Vanda Pharmaceuticals Mallorca Championships. World-class tennis and exclusive networking in Santa Ponsa."],
@@ -68,8 +68,8 @@ partnersText:"The Global Hub brings together educational, clinical, and sports-r
 sportLabel:"Official Partner of RCD Mallorca",
 sportTitle:"Sport & Cellular Medicine",
 sportHead:'RCD Mallorca',
-sportText:"Cellular medicine and performance optimization in professional sports, bringing cellular health into elite performance on and off the pitch.",
-sportBtn:"Learn More",
+sportText:"As an official sponsor of RCD Mallorca, we support elite performance at the highest international level. The partnership reflects shared values such as ambition, professionalism, and continuous development. Through this sponsorship, we engage in the environment of international professional football and contribute to a context in which peak athletic performance can thrive.",
+sportBtn:"Visit RCD Mallorca",
 officialLabel:"Official Partners",
 officialBodies:[
 "With Burg-Apotheke as a partner, we develop novel infusion applications that are available exclusively to our participants. Together, we offer a unique combination of medical knowledge transfer and innovative infusion solutions, individually developed for your practice or clinic.",
@@ -116,7 +116,7 @@ eventDate:"20. Juni 2026",
 eventHeroTitle:"Longevity Lab<br>Mallorca",
 eventLocation:"Mallorca, Spanien · Estadi Mallorca Son Moix & Mallorca Country Club",
 eventDesc:"Als offizieller Sponsor von RCD Mallorca und Partner des Mallorca Country Club lädt der Global Hub for Cell Performance eine exklusive Gruppe zu einem besonderen Tag voller Impulse und Begegnungen ein. Erleben Sie, wie bionische Zelltherapie und evidenzbasierte Konzepte für zelluläre Gesundheit neue Standards für Performance, Regeneration und langfristige Gesundheit setzen.",
-eventBtns:["Platz sichern","Programm"],
+eventBtns:["Platz sichern"],
 timeline:[
 ["Seminar zu Longevity & Performance","Im Estadi Mallorca Son Moix, der Heimat von RCD Mallorca. Fachvorträge zu bionischer Zelltherapie, Longevity-Strategien und Präventivmedizin unter der Leitung von Dr. Kay Bredehorst."],
 ["ATP-Turnier & Networking","Im Mallorca Country Club bei den Vanda Pharmaceuticals Mallorca Championships. Spitzentennis und exklusives Networking in Santa Ponsa."],
@@ -146,7 +146,7 @@ sportLabel:"Offizieller Partner von RCD Mallorca",
 sportTitle:"Sport & Zellmedizin",
 sportHead:'RCD Mallorca',
 sportText:"Zellmedizin und Performance-Optimierung im Profisport und damit zelluläre Gesundheit mitten im Spitzensport auf und neben dem Platz.",
-sportBtn:"Mehr erfahren",
+sportBtn:"RCD Mallorca besuchen",
 officialLabel:"Offizielle Partner",
 officialBodies:[
 "Gemeinsam mit der Burg-Apotheke entwickeln wir neuartige Infusionsanwendungen, die exklusiv für unsere Teilnehmer verfügbar sind. So entsteht eine besondere Verbindung aus medizinischer Wissensvermittlung und innovativen Infusionslösungen, individuell für Praxis oder Klinik konzipiert.",
@@ -193,7 +193,7 @@ eventDate:"20 de junio de 2026",
 eventHeroTitle:"Longevity Lab<br>Mallorca",
 eventLocation:"Mallorca, Espana · Estadi Mallorca Son Moix & Mallorca Country Club",
 eventDesc:"Como patrocinador oficial del RCD Mallorca y socio del Mallorca Country Club, Global Hub for Cell Performance reune a profesionales para una jornada centrada en salud celular, prevencion y medicina del rendimiento. El programa combina educacion medica, intercambio interdisciplinar y perspectivas basadas en evidencia para la practica clinica y aplicada.",
-eventBtns:["Reservar plaza","Programa"],
+eventBtns:["Reservar plaza"],
 timeline:[
 ["Seminario de longevidad y rendimiento","Estadi Mallorca Son Moix, sede del RCD Mallorca. Presentaciones cientificas sobre terapia celular bionica, estrategias de longevidad y medicina preventiva, dirigidas por el Dr. Kay Bredehorst."],
 ["Torneo ATP y networking","Mallorca Country Club, Vanda Pharmaceuticals Mallorca Championships. Tenis de primer nivel y networking exclusivo en Santa Ponsa."],
@@ -223,7 +223,7 @@ sportLabel:"Socio oficial del RCD Mallorca",
 sportTitle:"Deporte y medicina celular",
 sportHead:'RCD Mallorca',
 sportText:"Medicina celular y optimizacion del rendimiento en el deporte profesional, llevando la salud celular al maximo nivel dentro y fuera del campo.",
-sportBtn:"Mas informacion",
+sportBtn:"Visitar RCD Mallorca",
 officialLabel:"Socios oficiales",
 officialBodies:[
 "Junto a Burg-Apotheke desarrollamos nuevas aplicaciones de infusion disponibles en exclusiva para nuestros participantes. La colaboracion combina transferencia de conocimiento medico e innovadoras soluciones de infusion adaptadas a cada consulta o clinica.",
@@ -270,7 +270,7 @@ eventDate:"20 czerwca 2026",
 eventHeroTitle:"Longevity Lab<br>Mallorca",
 eventLocation:"Majorka, Hiszpania · Estadi Mallorca Son Moix & Mallorca Country Club",
 eventDesc:"Jako oficjalny sponsor RCD Mallorca i partner Mallorca Country Club, Global Hub for Cell Performance gromadzi profesjonalistow wokol zdrowia komorkowego, prewencji i medycyny wydolnosciowej. Program laczy edukacje medyczna, wymiane interdyscyplinarna i podejscie oparte na dowodach dla praktyki klinicznej i stosowanej.",
-eventBtns:["Zarezerwuj miejsce","Program"],
+eventBtns:["Zarezerwuj miejsce"],
 timeline:[
 ["Seminarium Longevity i Performance","Estadi Mallorca Son Moix, stadion RCD Mallorca. Prezentacje naukowe o bionicznej terapii komorkowej, strategiach longevity i medycynie prewencyjnej prowadzone przez dr. Kaya Bredehorsta."],
 ["Turniej ATP i networking","Mallorca Country Club, Vanda Pharmaceuticals Mallorca Championships. Swiatowej klasy tenis i ekskluzywny networking w Santa Ponsa."],
@@ -300,7 +300,7 @@ sportLabel:"Oficjalny partner RCD Mallorca",
 sportTitle:"Sport i medycyna komorkowa",
 sportHead:'RCD Mallorca',
 sportText:"Medycyna komorkowa i optymalizacja wydolnosci w profesjonalnym sporcie, wprowadzajace zdrowie komorkowe do sportu na najwyzszym poziomie.",
-sportBtn:"Dowiedz sie wiecej",
+sportBtn:"Odwiedz RCD Mallorca",
 officialLabel:"Oficjalni partnerzy",
 officialBodies:[
 "Wspolnie z Burg-Apotheke rozwijamy nowoczesne zastosowania infuzyjne dostepne wylacznie dla naszych uczestnikow. To polaczenie transferu wiedzy medycznej i innowacyjnych rozwiazan infuzyjnych dopasowanych do potrzeb gabinetu lub kliniki.",
@@ -364,7 +364,6 @@ function applyLanguage(lang){
   document.querySelector('.event__location').innerHTML=t.eventLocation;
   document.querySelector('.event__desc').textContent=t.eventDesc;
   document.querySelectorAll('.event__btns .pill')[0].childNodes[0].textContent=t.eventBtns[0]+" ";
-  document.querySelectorAll('.event__btns .pill')[1].childNodes[0].textContent=t.eventBtns[1]+" ";
   document.querySelectorAll('.timeline__item').forEach((item,i)=>{
     item.querySelector('.timeline__title').textContent=t.timeline[i][0];
     item.querySelector('.timeline__desc').textContent=t.timeline[i][1];
