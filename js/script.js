@@ -48,7 +48,7 @@ networkTitle:"The Global Hub Network",
 networkFeatures:[
 ["Verified Partners","Access for doctors, practitioners, medical professionals, and companies in the health sector."],
 ["Exclusive Protocols","Clinically validated therapy protocols and practical dosage guidance."],
-["Education & Certification","CME-certified education in cellular medicine, available online and in person."],
+["Medical Education","Education in cellular medicine, available online and in person."],
 ["B2B Opportunities","Exclusive conditions, network access, and new partnership opportunities for practices, clinics, and health businesses."]
 ],
 partnersLabel:"Our Partners & Network",
@@ -121,7 +121,7 @@ networkTitle:"Das Global Hub Netzwerk",
 networkFeatures:[
 ["Verifizierte Partner","Zugang für Ärzte, Heilpraktiker, medizinische Fachkräfte und Unternehmen aus dem Gesundheitsbereich."],
 ["Exklusive Protokolle","Klinisch validierte Therapieprotokolle und praxisnahe Dosierungsempfehlungen."],
-["Fortbildung & Zertifizierung","CME-zertifizierte Fortbildungen in der Zellmedizin, online und vor Ort verfügbar."],
+["Medizinische Fortbildung","Fortbildungen in der Zellmedizin, online und vor Ort verfügbar."],
 ["B2B-Möglichkeiten","Exklusive Konditionen, Netzwerkzugang und neue Partnerschaftschancen für Praxen, Kliniken und Gesundheitsunternehmen."]
 ],
 partnersLabel:"Unsere Partner & Netzwerk",
@@ -194,7 +194,7 @@ networkTitle:"La red Global Hub",
 networkFeatures:[
 ["Socios verificados","Acceso para medicos, terapeutas, profesionales sanitarios y empresas del sector salud."],
 ["Protocolos exclusivos","Protocolos terapeuticos clinicamente validados y pautas practicas de dosificacion."],
-["Formacion y certificacion","Formacion en medicina celular con certificacion CME, disponible online y presencial."],
+["Formacion medica","Formacion en medicina celular, disponible online y presencial."],
 ["Oportunidades B2B","Condiciones exclusivas, acceso a la red y nuevas oportunidades de colaboracion para consultas, clinicas y empresas de salud."]
 ],
 partnersLabel:"Nuestros socios y red",
@@ -267,7 +267,7 @@ networkTitle:"Siec Global Hub",
 networkFeatures:[
 ["Zweryfikowani partnerzy","Dostep dla lekarzy, terapeutow, specjalistow medycznych i firm z sektora zdrowia."],
 ["Ekskluzywne protokoly","Klinicznie zweryfikowane protokoly terapeutyczne oraz praktyczne wskazowki dotyczace dawkowania."],
-["Edukacja i certyfikacja","Edukacja w zakresie medycyny komorkowej z certyfikacja CME, dostepna online i stacjonarnie."],
+["Edukacja medyczna","Edukacja w zakresie medycyny komorkowej, dostepna online i stacjonarnie."],
 ["Szanse B2B","Ekskluzywne warunki, dostep do sieci i nowe mozliwosci partnerstwa dla praktyk, klinik i firm zdrowotnych."]
 ],
 partnersLabel:"Nasi partnerzy i siec",
@@ -487,9 +487,18 @@ applyLanguage(localStorage.getItem("globalHubLang")||"en");
 const floatingShop=document.querySelector('.floating-shop');
 function updateFloatingShopPosition(){
   if(!floatingShop) return;
-  const docked = window.innerWidth<=768 || window.scrollY>48;
-  floatingShop.classList.toggle('is-docked',docked);
-  floatingShop.style.top = docked ? 'calc(100vh - 52px)' : '50%';
+  const isMobile = window.innerWidth<=768;
+  if(isMobile){
+    floatingShop.classList.add('is-docked');
+    floatingShop.style.top = 'calc(100vh - 52px)';
+    return;
+  }
+  const startTop = window.innerHeight * 0.5;
+  const endTop = window.innerHeight - 52;
+  const progress = Math.min(window.scrollY / 220, 1);
+  const currentTop = startTop + (endTop - startTop) * progress;
+  floatingShop.classList.toggle('is-docked', progress >= 0.98);
+  floatingShop.style.top = `${currentTop}px`;
 }
 
 updateFloatingShopPosition();
