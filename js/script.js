@@ -1,5 +1,10 @@
 const nav=document.getElementById('nav');
-window.addEventListener('scroll',()=>{nav.classList.toggle('nav--scrolled',window.scrollY>50)});
+function syncScrollUi(){
+  const isScrolled = window.scrollY > 12;
+  nav.classList.toggle('nav--scrolled', window.scrollY > 50);
+  document.body.classList.toggle('is-scrolled', isScrolled);
+}
+window.addEventListener('scroll', syncScrollUi, { passive: true });
 function toggleNav(){document.getElementById('navOverlay').classList.toggle('active')}
 const obs=new IntersectionObserver(e=>{e.forEach(el=>{if(el.isIntersecting)el.target.classList.add('visible')})},{threshold:.1,rootMargin:'0px 0px -40px 0px'});
 document.querySelectorAll('.fade-in').forEach(el=>obs.observe(el));
@@ -8,6 +13,7 @@ document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener('click'
 const translations={
 en:{
 nav:["Shop","Event","Partners","Network"],
+banner:["Exclusive","June 20, 2026 - Longevity Lab Mallorca","Limited spots for doctors, health professionals, and companies in the health sector"],
 heroAbout:"About Cell Education",
 headlineTitle:'Shaping the future of <span class="accent">cellular medicine</span>.',
 headlineText:"The international network for cellular health, connecting doctors, researchers, and therapists worldwide.",
@@ -81,6 +87,7 @@ floatingShop:"Shop"
 },
 de:{
 nav:["Shop","Veranstaltung","Partners","Netzwerk"],
+banner:["Exklusiv","20. Juni 2026 - Longevity Lab Mallorca","Begrenzte Plätze für Ärzte, Gesundheitsfachkräfte und Unternehmen aus dem Gesundheitsbereich"],
 heroAbout:"Über Cell Education",
 headlineTitle:'Wir gestalten die Zukunft der <span class="accent">Zellmedizin</span>.',
 headlineText:"Das internationale Netzwerk für zelluläre Gesundheit, das Ärzte, Forschende und Therapeutinnen und Therapeuten weltweit verbindet.",
@@ -154,6 +161,7 @@ floatingShop:"Shop"
 },
 es:{
 nav:["Tienda","Evento","Partners","Red"],
+banner:["Exclusivo","20 de junio de 2026 - Longevity Lab Mallorca","Plazas limitadas para médicos, profesionales de la salud y empresas del sector sanitario"],
 heroAbout:"Sobre Cell Education",
 headlineTitle:'Dando forma al futuro de la <span class="accent">medicina celular</span>.',
 headlineText:"La red internacional para la salud celular, que conecta a medicos, investigadores y terapeutas de todo el mundo.",
@@ -227,6 +235,7 @@ floatingShop:"Tienda"
 },
 pl:{
 nav:["Sklep","Wydarzenie","Partners","Siec"],
+banner:["Ekskluzywnie","20 czerwca 2026 - Longevity Lab Mallorca","Ograniczona liczba miejsc dla lekarzy, specjalistów ochrony zdrowia i firm z sektora zdrowia"],
 heroAbout:"O Cell Education",
 headlineTitle:'Tworzymy przyszlosc <span class="accent">medycyny komorkowej</span>.',
 headlineText:"Miedzynarodowa siec zdrowia komorkowego, laczaca lekarzy, badaczy i terapeutow z calego swiata.",
@@ -316,6 +325,10 @@ function applyLanguage(lang){
   document.querySelectorAll('#navOverlay > a')[2].textContent=t.nav[2];
   document.querySelectorAll('#navOverlay > a')[3].textContent=t.nav[3];
   document.querySelectorAll('#navOverlay > a')[4].childNodes[0].textContent=t.nav[0]+" ";
+
+  document.querySelectorAll('.event-banner__item--exclusive').forEach(el=>el.textContent=t.banner[0]);
+  document.querySelectorAll('.event-banner__item--event').forEach(el=>el.textContent=t.banner[1]);
+  document.querySelectorAll('.event-banner__item--capacity').forEach(el=>el.textContent=t.banner[2]);
 
   document.querySelector('.hero__content .pill').childNodes[0].textContent=t.heroAbout+" ";
   document.querySelector('.headline-section h2').innerHTML=t.headlineTitle;
@@ -484,19 +497,4 @@ document.querySelectorAll('.lang-switcher button').forEach(btn=>{
 
 applyLanguage(localStorage.getItem("globalHubLang")||"en");
 
-const floatingShop=document.querySelector('.floating-shop');
-function updateFloatingShopPosition(){
-  if(!floatingShop) return;
-  const isMobile = window.innerWidth<=768;
-  if(isMobile){
-    floatingShop.classList.add('is-docked');
-    floatingShop.style.bottom = 'calc(16px + env(safe-area-inset-bottom,0px))';
-    return;
-  }
-  floatingShop.style.bottom = '';
-  floatingShop.classList.toggle('is-docked', window.scrollY > 12);
-}
-
-updateFloatingShopPosition();
-window.addEventListener('scroll',updateFloatingShopPosition,{passive:true});
-window.addEventListener('resize',updateFloatingShopPosition);
+syncScrollUi();

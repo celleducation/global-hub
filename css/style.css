@@ -250,10 +250,10 @@ font-weight:500;
 letter-spacing:-.02em;
 text-transform:uppercase;
 color:#fff;
-transition:background .25s ease,border-color .25s ease,transform .45s cubic-bezier(.22,1,.36,1),box-shadow .25s ease,color .25s ease,bottom .65s cubic-bezier(.22,1,.36,1);
+transition:background .25s ease,border-color .25s ease,transform .45s cubic-bezier(.22,1,.36,1),box-shadow .25s ease,color .25s ease,bottom .7s cubic-bezier(.22,1,.36,1);
 will-change:bottom,transform;
 }
-.floating-shop.is-docked{
+body.is-scrolled .floating-shop{
 bottom:24px;
 transform:translateX(-50%);
 }
@@ -264,7 +264,7 @@ color:#0a0a0a;
 box-shadow:0 18px 44px rgba(255,91,214,.28);
 transform:translateX(-50%) scale(1.06);
 }
-.floating-shop.is-docked:hover{
+body.is-scrolled .floating-shop:hover{
 transform:translateX(-50%) scale(1.06);
 }
 .floating-shop svg{
