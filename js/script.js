@@ -483,18 +483,4 @@ if(registerForm){
       setRegisterFormStatus('success');
     }catch(error){
       console.error('Contact form submission failed',error);
-      setRegisterFormStatus('error');
-    }finally{
-      registerForm.dataset.submitting='false';
-      syncFormUi();
-    }
-  });
-}
-
-document.querySelectorAll('.lang-switcher button').forEach(btn=>{
-  btn.addEventListener('click',()=>applyLanguage(btn.dataset.lang));
-});
-
-applyLanguage(localStorage.getItem("globalHubLang")||"en");
-
-syncScrollUi();
+      setRegisterF

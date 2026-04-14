@@ -39,16 +39,16 @@ function buildConfirmationHtml(data) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Global Hub Inquiry Confirmation</title>
 </head>
-<body style="margin:0;padding:0;background:#ece8e1;font-family:Arial,sans-serif;color:#ffffff;">
+<body style="margin:0;padding:0;background:#0b0b0b;font-family:Arial,sans-serif;color:#ffffff;">
   <div style="display:none;max-height:0;overflow:hidden;opacity:0;">
     Your Global Hub inquiry has been received. We will get back to you personally shortly.
   </div>
-  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="background:#ece8e1;">
+  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="background:#0b0b0b;">
     <tr>
       <td align="center" style="padding:40px 16px;">
-        <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="max-width:640px;background:#151515;border:1px solid rgba(0,0,0,0.08);border-radius:24px;overflow:hidden;box-shadow:0 14px 44px rgba(0,0,0,0.08);">
+        <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="max-width:640px;background:#111111;border:1px solid rgba(255,255,255,0.08);border-radius:24px;overflow:hidden;box-shadow:0 18px 48px rgba(0,0,0,0.28);">
           <tr>
-            <td style="padding:24px 28px 20px 28px;background:#f4efe8;color:#050505;border-bottom:1px solid rgba(0,0,0,0.06);">
+            <td style="padding:24px 28px 20px 28px;background:#050505;color:#ffffff;border-bottom:1px solid rgba(255,255,255,0.06);">
               <img src="https://cell-performance.com/images/global-hub-logo-email.png" alt="Global Hub for Cell Performance" width="320" style="display:block;width:320px;max-width:100%;height:auto;border:0;">
             </td>
           </tr>
@@ -61,7 +61,7 @@ function buildConfirmationHtml(data) {
             </td>
           </tr>
           <tr>
-            <td style="padding:0 28px 28px 28px;background:#151515;">
+            <td style="padding:0 28px 28px 28px;background:#111111;">
               <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="border-collapse:separate;border-spacing:0;background:#1a1a1a;border:1px solid rgba(255,255,255,0.06);border-radius:18px;overflow:hidden;">
                 <tr>
                   <td style="padding:20px 22px;border-bottom:1px solid rgba(255,255,255,0.06);">
@@ -87,7 +87,7 @@ function buildConfirmationHtml(data) {
             </td>
           </tr>
           <tr>
-            <td style="padding:20px 28px 28px 28px;background:#121212;border-top:1px solid rgba(255,255,255,0.06);">
+            <td style="padding:20px 28px 28px 28px;background:#0f0f0f;border-top:1px solid rgba(255,255,255,0.06);">
               <p style="margin:0 0 8px 0;font-size:13px;line-height:1.7;color:rgba(255,255,255,0.72);">Global Hub for Cell Performance</p>
               <p style="margin:0 0 8px 0;font-size:13px;line-height:1.7;color:rgba(255,255,255,0.52);">Cell Education - The Institute GmbH & Co. KG · Frankfurter Straße 7 · 61462 Königstein im Taunus</p>
               <p style="margin:0;font-size:13px;line-height:1.7;color:rgba(255,255,255,0.52);"><a href="https://cell-education.com/impressum" style="color:rgba(255,255,255,0.72);text-decoration:none;">Imprint</a> · <a href="https://cell-education.com/datenschutz" style="color:rgba(255,255,255,0.72);text-decoration:none;">Privacy Policy</a></p>
