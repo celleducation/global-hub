@@ -149,7 +149,7 @@ formLabels:["Company / Practice","Contact Person","Email","Phone","Role","Intere
 roleOptions:["Please choose","Doctor","Practitioner","Pharmacist / Pharmacy","Health Professional","Health Sector Company","Sports Medicine / Performance","Other"],
 interestOptions:["Please choose","Longevity Lab Mallorca 2026","Global Hub Network","Shop Access / Products","Partnership / Cooperation"],
 messagePlaceholder:"What are you specifically interested in?",
-formNote:"We review every request personally. For direct contact, please email info@cell-education.com.",
+formNote:"We review every request personally. For direct contact, please email",
 formBtns:["Send Inquiry","Go to Shop"],
 memberCta:"Become a Member",
 formStatus:{submitting:"Sending your inquiry...",submittingButton:"Sending...",success:"Thank you. Your request has been sent successfully.",error:"We could not send your request right now. Please email info@cell-education.com."},
@@ -227,7 +227,7 @@ formLabels:["Unternehmen / Praxis","Ansprechpartner","E-Mail","Telefon","Rolle",
 roleOptions:["Bitte wählen","Arzt","Heilpraktiker","Apotheker / Apotheke","Gesundheitsfachkraft","Unternehmen im Gesundheitsbereich","Sportmedizin / Performance","Sonstiges"],
 interestOptions:["Bitte wählen","Longevity Lab Mallorca 2026","Global Hub Netzwerk","Shop-Zugang / Produkte","Partnerschaft / Kooperation"],
 messagePlaceholder:"Wofür interessieren Sie sich konkret?",
-formNote:"Wir prüfen jede Anfrage persönlich. Für direkten Kontakt schreiben Sie bitte an info@cell-education.com.",
+formNote:"Wir prüfen jede Anfrage persönlich. Für direkten Kontakt schreiben Sie bitte an",
 formBtns:["Anfrage senden","Zum Shop"],
 memberCta:"Mitglied werden",
 formStatus:{submitting:"Ihre Anfrage wird gesendet...",submittingButton:"Wird gesendet...",success:"Vielen Dank. Ihre Anfrage wurde erfolgreich versendet.",error:"Ihre Anfrage konnte gerade nicht gesendet werden. Bitte schreiben Sie an info@cell-education.com."},
@@ -305,7 +305,7 @@ formLabels:["Empresa / consulta","Persona de contacto","Email","Telefono","Perfi
 roleOptions:["Seleccione","Medico","Terapeuta","Farmaceutico / farmacia","Profesional sanitario","Empresa del sector salud","Medicina deportiva / performance","Otro"],
 interestOptions:["Seleccione","Longevity Lab Mallorca 2026","Red Global Hub","Acceso a tienda / productos","Partnership / cooperacion"],
 messagePlaceholder:"En que esta interesado exactamente?",
-formNote:"Revisamos cada solicitud personalmente. Para contacto directo, escribanos a info@cell-education.com.",
+formNote:"Revisamos cada solicitud personalmente. Para contacto directo, escribanos a",
 formBtns:["Enviar solicitud","Ir a la tienda"],
 memberCta:"Hazte miembro",
 formStatus:{submitting:"Enviando su solicitud...",submittingButton:"Enviando...",success:"Gracias. Su solicitud se ha enviado correctamente.",error:"No hemos podido enviar su solicitud en este momento. Escribanos a info@cell-education.com."},
@@ -382,7 +382,7 @@ formLabels:["Firma / gabinet","Osoba kontaktowa","Email","Telefon","Rola","Zaint
 roleOptions:["Wybierz","Lekarz","Terapeuta","Farmaceuta / apteka","Specjalista medyczny","Firma z sektora zdrowia","Medycyna sportowa / performance","Inne"],
 interestOptions:["Wybierz","Longevity Lab Mallorca 2026","Siec Global Hub","Dostep do sklepu / produkty","Partnerstwo / wspolpraca"],
 messagePlaceholder:"Czym dokladnie jestes zainteresowany?",
-formNote:"Kazde zgloszenie analizujemy osobiscie. Aby skontaktowac sie bezposrednio, napisz na info@cell-education.com.",
+formNote:"Kazde zgloszenie analizujemy osobiscie. Aby skontaktowac sie bezposrednio, napisz na",
 formBtns:["Wyslij zapytanie","Przejdz do sklepu"],
 memberCta:"Zostań członkiem",
 formStatus:{submitting:"Wysylanie zapytania...",submittingButton:"Wysylanie...",success:"Dziekujemy. Twoje zapytanie zostalo pomyslnie wyslane.",error:"Nie udalo sie teraz wyslac zapytania. Napisz prosze na info@cell-education.com."},
@@ -473,7 +473,7 @@ function applyLanguage(lang){
   const interestOptions=document.querySelectorAll('#interest option');
   t.interestOptions.forEach((opt,i)=>{if(interestOptions[i]) interestOptions[i].textContent=opt;});
   document.querySelector('#message').placeholder=t.messagePlaceholder;
-  document.querySelector('.register-form__note').textContent=t.formNote;
+  document.querySelector('.register-form__note').innerHTML=`${t.formNote} <a class="register-form__email" href="mailto:info@cell-education.com">info@cell-education.com</a>.`;
   document.querySelector('.register-form__actions .pill--solid').childNodes[0].textContent=t.formBtns[0]+" ";
   document.querySelector('.register-form__actions .pill:not(.pill--solid)').childNodes[0].textContent=t.formBtns[1]+" ";
   syncFormUi();
