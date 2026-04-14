@@ -487,11 +487,9 @@ applyLanguage(localStorage.getItem("globalHubLang")||"en");
 const floatingShop=document.querySelector('.floating-shop');
 function updateFloatingShopPosition(){
   if(!floatingShop) return;
-  if(window.innerWidth<=768){
-    floatingShop.classList.add('is-docked');
-    return;
-  }
-  floatingShop.classList.toggle('is-docked',window.scrollY>48);
+  const docked = window.innerWidth<=768 || window.scrollY>48;
+  floatingShop.classList.toggle('is-docked',docked);
+  floatingShop.style.top = docked ? 'calc(100vh - 52px)' : '50%';
 }
 
 updateFloatingShopPosition();
