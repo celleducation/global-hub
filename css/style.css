@@ -166,8 +166,8 @@ a{color:inherit;text-decoration:none}img{max-width:100%;display:block}
 .partner-cluster__text{font-size:16px;line-height:1.82;color:var(--muted);max-width:760px;margin:0 auto}
 .partners__frame{max-width:1180px;margin:0 auto 30px;padding:18px 8px 10px;background:#fff;border:0;box-shadow:none}
 .partners__image{width:100%;height:auto;display:block;filter:invert(1) grayscale(1) contrast(1.02);opacity:.7}
-.partners__mobile-grid{display:none}
-.partners__mobile-logo{display:none}
+.partners__mobile-scroll{display:none}
+.partners__mobile-scroll-image{display:none}
 .partner-cluster__grid{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:22px;align-items:stretch}
 .partner-cluster__card{min-height:420px;min-width:0;width:100%}
 .partner-cluster__spotlight-copy{background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:18px;padding:24px;display:flex;flex-direction:column;justify-content:center;min-height:100%;height:100%}
@@ -188,7 +188,7 @@ a{color:inherit;text-decoration:none}img{max-width:100%;display:block}
 .official-card .pill{justify-self:start;align-self:end;background:transparent;border-color:rgba(10,10,10,.16);color:#0a0a0a;backdrop-filter:none;-webkit-backdrop-filter:none}
 .official-card .pill:hover{background:transparent;border-color:var(--accent);box-shadow:inset 0 0 0 1px rgba(255,91,214,.18)}
 @media(max-width:1024px){.partner-cluster__grid{grid-template-columns:1fr}}
-@media(max-width:768px){.partner-cluster{padding:64px 20px}.partners__frame{padding:4px 0 0}.partners__image{display:none}.partners__mobile-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 22px;align-items:center}.partners__mobile-logo{display:flex;align-items:center;justify-content:center;min-height:44px}.partners__mobile-logo svg{display:block;width:100%;height:44px;overflow:visible}.partner-cluster__grid{gap:16px}.partner-cluster__card{min-height:auto}.partner-cluster__spotlight-copy{padding:22px}.partner-cluster__spotlight-copy h3{font-size:24px}.partner-cluster__spotlight-media,.official-card__media{aspect-ratio:16/8.6}.sport__logo{margin-left:0}.register-form__note{font-size:13px;color:#777;line-height:1.7;margin-top:18px;white-space:normal;text-align:left;margin-left:0;padding-left:0;align-self:flex-start;max-width:100%}
+@media(max-width:768px){.partner-cluster{padding:64px 20px}.partners__frame{padding:4px 0 0;overflow:hidden}.partners__image{display:none}.partners__mobile-scroll{display:block;overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;scrollbar-width:none}.partners__mobile-scroll::-webkit-scrollbar{display:none}.partners__mobile-scroll-image{display:block;width:780px;max-width:none;height:auto;opacity:.82;filter:invert(1) grayscale(1) contrast(1.02)}.partner-cluster__grid{gap:16px}.partner-cluster__card{min-height:auto}.partner-cluster__spotlight-copy{padding:22px}.partner-cluster__spotlight-copy h3{font-size:24px}.partner-cluster__spotlight-media,.official-card__media{aspect-ratio:16/8.6}.sport__logo{margin-left:0}.register-form__note{font-size:13px;color:#777;line-height:1.7;margin-top:18px;white-space:normal;text-align:left;margin-left:0;padding-left:0;align-self:flex-start;max-width:100%}
 .register-form__email{display:inline-block;white-space:nowrap;color:inherit;text-decoration:none;border-bottom:1px solid rgba(0,0,0,.16)}
 .register-form__email:hover{color:#0a0a0a;border-bottom-color:var(--accent)}.network__cta{justify-content:flex-start}}
 
