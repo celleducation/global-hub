@@ -231,8 +231,9 @@ a{color:inherit;text-decoration:none}img{max-width:100%;display:block}
 .floating-shop{
 position:fixed;
 left:50%;
-top:50%;
-transform:translate(-50%,-50%);
+top:auto;
+bottom:calc(50vh - 28px);
+transform:translateX(-50%);
 z-index:999;
 display:inline-flex;
 align-items:center;
@@ -249,22 +250,22 @@ font-weight:500;
 letter-spacing:-.02em;
 text-transform:uppercase;
 color:#fff;
-transition:background .25s ease,border-color .25s ease,transform .45s cubic-bezier(.22,1,.36,1),box-shadow .25s ease,color .25s ease,top .6s cubic-bezier(.22,1,.36,1);
-will-change:top,transform;
+transition:background .25s ease,border-color .25s ease,transform .45s cubic-bezier(.22,1,.36,1),box-shadow .25s ease,color .25s ease,bottom .6s cubic-bezier(.22,1,.36,1);
+will-change:bottom,transform;
 }
 .floating-shop.is-docked{
-top:calc(100vh - 52px);
-transform:translate(-50%,-50%);
+bottom:24px;
+transform:translateX(-50%);
 }
 .floating-shop:hover{
 background:var(--accent);
 border-color:var(--accent);
 color:#0a0a0a;
 box-shadow:0 18px 44px rgba(255,91,214,.28);
-transform:translate(-50%,-50%) scale(1.06);
+transform:translateX(-50%) scale(1.06);
 }
 .floating-shop.is-docked:hover{
-transform:translate(-50%,-50%) scale(1.06);
+transform:translateX(-50%) scale(1.06);
 }
 .floating-shop svg{
 width:12px;

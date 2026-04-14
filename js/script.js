@@ -490,15 +490,15 @@ function updateFloatingShopPosition(){
   const isMobile = window.innerWidth<=768;
   if(isMobile){
     floatingShop.classList.add('is-docked');
-    floatingShop.style.top = 'calc(100vh - 52px)';
+    floatingShop.style.bottom = 'calc(16px + env(safe-area-inset-bottom,0px))';
     return;
   }
-  const startTop = window.innerHeight * 0.5;
-  const endTop = window.innerHeight - 52;
-  const progress = Math.min(window.scrollY / 220, 1);
-  const currentTop = startTop + (endTop - startTop) * progress;
+  const startBottom = (window.innerHeight * 0.5) - 28;
+  const endBottom = 24;
+  const progress = Math.min(window.scrollY / 260, 1);
+  const currentBottom = startBottom + (endBottom - startBottom) * progress;
   floatingShop.classList.toggle('is-docked', progress >= 0.98);
-  floatingShop.style.top = `${currentTop}px`;
+  floatingShop.style.bottom = `${currentBottom}px`;
 }
 
 updateFloatingShopPosition();
