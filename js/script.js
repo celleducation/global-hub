@@ -225,7 +225,7 @@ partnersText:"Der Global Hub bringt Bildungs-, Klinik- und sportbezogene Partner
 sportLabel:"Offizieller Partner von RCD Mallorca",
 sportTitle:"Sport & Zellmedizin",
 sportHead:'RCD Mallorca',
-sportText:"Zellmedizin und Performance-Optimierung im Profisport und damit zelluläre Gesundheit mitten im Spitzensport auf und neben dem Platz.",
+sportText:"Als offizieller Sponsor des RCD Mallorca unterstützen wir Spitzenleistung auf höchstem internationalen Niveau. Die Partnerschaft steht für gemeinsame Werte wie Leistungsbereitschaft, Professionalität und kontinuierliche Weiterentwicklung. Durch das Sponsoring engagieren wir uns im Umfeld des internationalen Profifußballs und fördern ein Umfeld, in dem sportliche Höchstleistungen möglich werden.",
 sportBtn:"RCD Mallorca besuchen",
 officialLabel:"Offizielle Partner",
 officialBodies:[
@@ -303,7 +303,7 @@ partnersText:"Global Hub reúne a socios educativos, clínicos y vinculados al d
 sportLabel:"Socio oficial del RCD Mallorca",
 sportTitle:"Deporte y medicina celular",
 sportHead:'RCD Mallorca',
-sportText:"Medicina celular y optimizacion del rendimiento en el deporte profesional, llevando la salud celular al maximo nivel dentro y fuera del campo.",
+sportText:"Como patrocinador oficial del RCD Mallorca, apoyamos el rendimiento de élite al más alto nivel internacional. La colaboración refleja valores compartidos como la ambición, la profesionalidad y el desarrollo continuo. A través de este patrocinio, participamos en el entorno del fútbol profesional internacional y contribuimos a un contexto en el que el máximo rendimiento deportivo puede prosperar.",
 sportBtn:"Visitar RCD Mallorca",
 officialLabel:"Socios oficiales",
 officialBodies:[
@@ -537,7 +537,7 @@ partnersText:"Global Hub łączy partnerów edukacyjnych, klinicznych i związan
 sportLabel:"Oficjalny partner RCD Mallorca",
 sportTitle:"Sport i medycyna komorkowa",
 sportHead:'RCD Mallorca',
-sportText:"Medycyna komorkowa i optymalizacja wydolnosci w profesjonalnym sporcie, wprowadzajace zdrowie komorkowe do sportu na najwyzszym poziomie.",
+sportText:"Jako oficjalny sponsor RCD Mallorca wspieramy najwyższy poziom sportowej wydajności na arenie międzynarodowej. Partnerstwo odzwierciedla wspólne wartości, takie jak ambicja, profesjonalizm i ciągły rozwój. Dzięki temu sponsoringowi działamy w środowisku międzynarodowej profesjonalnej piłki nożnej i współtworzymy kontekst, w którym sport na najwyższym poziomie może się rozwijać.",
 sportBtn:"Odwiedz RCD Mallorca",
 officialLabel:"Oficjalni partnerzy",
 officialBodies:[
