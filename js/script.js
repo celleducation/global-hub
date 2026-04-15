@@ -1,5 +1,6 @@
 const nav=document.getElementById('nav');
 const hero=document.querySelector('.hero');
+const floatingShop=document.querySelector('.floating-shop');
 function syncScrollUi(){
   const isScrolled = window.scrollY > 12;
   let switchPoint = 50;
@@ -9,6 +10,18 @@ function syncScrollUi(){
   }
   nav.classList.toggle('nav--scrolled', window.scrollY >= switchPoint);
   document.body.classList.toggle('is-scrolled', isScrolled);
+
+  if(floatingShop){
+    if(window.innerWidth <= 767){
+      floatingShop.style.bottom = '';
+    }else{
+      const startBottom = Math.max(24, window.innerHeight * 0.5 - 28);
+      const endBottom = 24;
+      const progress = Math.min(window.scrollY / 220, 1);
+      const currentBottom = startBottom + (endBottom - startBottom) * progress;
+      floatingShop.style.bottom = `${currentBottom}px`;
+    }
+  }
 }
 window.addEventListener('scroll', syncScrollUi, { passive: true });
 window.addEventListener('resize', syncScrollUi);
@@ -319,11 +332,11 @@ fr:{
 nav:["Boutique","Événement","Partenaires","Réseau"],
 banner:["Exclusif","20 juin 2026 - Longevity Lab Mallorca","Places limitées pour les médecins, professionnels de santé et entreprises du secteur santé"],
 heroAbout:"À propos de Cell Education",
-headlineTitle:'Façonner l'avenir de la <span class="accent">médecine cellulaire</span>.',
+headlineTitle:"Façonner l'avenir de la <span class=\"accent\">médecine cellulaire</span>.",
 headlineText:"Le réseau international dédié à la santé cellulaire, reliant médecins, chercheurs et thérapeutes dans le monde entier.",
 headlineCta:"Rejoindre le réseau",
 cards:["À propos de Cell Education","Nos partenaires"],
-textblock:'Avec le Global Hub Network, nous relions les médecins du monde entier autour de la médecine cellulaire, de la longévité et de l'innovation thérapeutique.',
+textblock:"Avec le Global Hub Network, nous relions les médecins du monde entier autour de la médecine cellulaire, de la longévité et de l'innovation thérapeutique.",
 textblockCta:"Demander l'accès",
 shopLabel:"Boutique",
 shopTitle:"Produits & solutions",
@@ -376,7 +389,7 @@ officialBodies:[
 "Mallorca Country Club est l'un des lieux sportifs et événementiels les plus réputés de l'île et accueille des événements internationaux tels que l'ATP Mallorca Championships. Ce partenariat crée le cadre idéal pour nos événements et rencontres réseau, avec un environnement sportif professionnel, un public international et une infrastructure de haut niveau."
 ],
 officialBtns:["Burg Apotheke","Mallorca Country Club"],
-finalTitle:'Rejoindre le Global Hub',
+finalTitle:"Rejoindre le Global Hub",
 finalText:"Demande B2B pour médecins, praticiens, professionnels de santé et entreprises du secteur santé.",
 finalIntro:"Laissez-nous vos coordonnées. Nous vous recontacterons personnellement afin d'évaluer l'accès le plus adapté au réseau, à l'événement et à la boutique.",
 formLabels:["Entreprise / cabinet","Personne de contact","E-mail","Téléphone","Rôle","Intérêt","Message"],
@@ -388,7 +401,7 @@ formBtns:["Envoyer la demande","Aller à la boutique"],
 memberCta:"Devenir membre",
 formStatus:{submitting:"Envoi de votre demande...",submittingButton:"Envoi...",success:"Merci. Votre demande a été envoyée avec succès.",error:"Nous ne pouvons pas envoyer votre demande pour le moment. Veuillez écrire à info@cell-education.com."},
 footerHeadings:["","Instagram"],
-footerTag:'Relier<br>la médecine<br><span class="accent">dans le monde entier</span>',
+footerTag:"Relier<br>la médecine<br><span class=\"accent\">dans le monde entier</span>",
 footerCompany:"Cell Education - The Institute GmbH & Co. KG · Frankfurter Straße 7 · 61462 Königstein im Taunus",
 footerLegal:["Mentions légales","Confidentialité"],
 floatingShop:"Boutique"
@@ -454,7 +467,7 @@ officialBodies:[
 "Mallorca Country Club patří mezi nejprestižnější sportovní a eventové lokality na ostrově a hostí mezinárodní tenisové akce, jako je ATP Mallorca Championships. Toto partnerství vytváří ideální prostředí pro naše události a setkání sítě, s profesionálním sportovním zázemím, mezinárodním publikem a vysoce kvalitní infrastrukturou."
 ],
 officialBtns:["Burg Apotheke","Mallorca Country Club"],
-finalTitle:'Staňte se součástí Global Hub',
+finalTitle:"Staňte se součástí Global Hub",
 finalText:"B2B poptávka pro lékaře, praktiky, zdravotnické odborníky a firmy ze zdravotnického sektoru.",
 finalIntro:"Zanechte nám své údaje. Ozveme se vám osobně a společně posoudíme vhodný přístup k síti, události i obchodu.",
 formLabels:["Společnost / praxe","Kontaktní osoba","E-mail","Telefon","Role","Zájem","Zpráva"],
@@ -466,7 +479,7 @@ formBtns:["Odeslat poptávku","Přejít do obchodu"],
 memberCta:"Stát se členem",
 formStatus:{submitting:"Odesílání vaší poptávky...",submittingButton:"Odesílání...",success:"Děkujeme. Vaše poptávka byla úspěšně odeslána.",error:"Vaši poptávku se teď nepodařilo odeslat. Napište prosím na info@cell-education.com."},
 footerHeadings:["","Instagram"],
-footerTag:'Propojujeme<br>medicínu<br><span class="accent">po celém světě</span>',
+footerTag:"Propojujeme<br>medicínu<br><span class=\"accent\">po celém světě</span>",
 footerCompany:"Cell Education - The Institute GmbH & Co. KG · Frankfurter Straße 7 · 61462 Königstein im Taunus",
 footerLegal:["Impresum","Ochrana soukromí"],
 floatingShop:"Obchod"

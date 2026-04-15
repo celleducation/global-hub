@@ -233,7 +233,7 @@ a{color:inherit;text-decoration:none}img{max-width:100%;display:block}
 position:fixed;
 left:50%;
 top:auto;
-bottom:calc(50vh - 28px);
+bottom:24px;
 transform:translateX(-50%);
 z-index:999;
 display:inline-flex;
@@ -255,7 +255,6 @@ transition:background .25s ease,border-color .25s ease,transform .45s cubic-bezi
 will-change:bottom,transform;
 }
 body.is-scrolled .floating-shop{
-bottom:24px;
 transform:translateX(-50%);
 }
 .floating-shop:hover{
