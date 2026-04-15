@@ -160,7 +160,7 @@ footerLegal:["Imprint","Privacy Policy"],
 floatingShop:"Shop"
 },
 de:{
-nav:["Shop","Veranstaltung","Partners","Netzwerk"],
+nav:["Shop","Veranstaltung","Partner","Netzwerk"],
 banner:["Exklusiv","20. Juni 2026 - Longevity Lab Mallorca","Begrenzte Plätze für Ärzte, Gesundheitsfachkräfte und Unternehmen aus dem Gesundheitsbereich"],
 heroAbout:"Über Cell Education",
 headlineTitle:'Wir gestalten die Zukunft der <span class="accent">Zellmedizin</span>.',
@@ -186,7 +186,7 @@ eventBtns:["Platz sichern"],
 timeline:[
 ["Seminar zu Longevity & Performance","Im Estadi Mallorca Son Moix, der Heimat von RCD Mallorca. Fachvorträge zu bionischer Zelltherapie, Longevity-Strategien und Präventivmedizin unter der Leitung von Dr. Kay Bredehorst."],
 ["ATP-Turnier & Networking","Im Mallorca Country Club bei den Vanda Pharmaceuticals Mallorca Championships. Spitzentennis und exklusives Networking in Santa Ponsa."],
-["Welcome Drink","Mallorca Country Club, Avinguda del Golf 20, 07180 Santa Ponsa. Genießen Sie einen Welcome Drink, um anzukommen, sich auszutauschen und die Atmosphäre vor dem Abendprogramm zu erleben."],
+["Empfangsdrink","Mallorca Country Club, Avinguda del Golf 20, 07180 Santa Ponsa. Genießen Sie einen Empfangsdrink, um anzukommen, sich auszutauschen und die Atmosphäre vor dem Abendprogramm zu erleben."],
 ["Abendveranstaltung & Dinner","Ein exklusiver Abend für den persönlichen Austausch mit Ärzten, Sportmedizinern und unternehmerischen Entscheidern."]
 ],
 gallery:[
@@ -238,7 +238,7 @@ footerLegal:["Impressum","Datenschutz"],
 floatingShop:"Shop"
 },
 es:{
-nav:["Tienda","Evento","Partners","Red"],
+nav:["Tienda","Evento","Socios","Red"],
 banner:["Exclusivo","20 de junio de 2026 - Longevity Lab Mallorca","Plazas limitadas para médicos, profesionales de la salud y empresas del sector sanitario"],
 heroAbout:"Sobre Cell Education",
 headlineTitle:'Dando forma al futuro de la <span class="accent">medicina celular</span>.',
@@ -264,7 +264,7 @@ eventBtns:["Reservar plaza"],
 timeline:[
 ["Seminario de longevidad y rendimiento","Estadi Mallorca Son Moix, sede del RCD Mallorca. Presentaciones cientificas sobre terapia celular bionica, estrategias de longevidad y medicina preventiva, dirigidas por el Dr. Kay Bredehorst."],
 ["Torneo ATP y networking","Mallorca Country Club, Vanda Pharmaceuticals Mallorca Championships. Tenis de primer nivel y networking exclusivo en Santa Ponsa."],
-["Welcome Drink","Mallorca Country Club, Avinguda del Golf 20, 07180 Santa Ponsa. Disfrute de una copa de bienvenida para llegar, conectar y disfrutar del ambiente antes de que comience el programa de la noche."],
+["Copa de bienvenida","Mallorca Country Club, Avinguda del Golf 20, 07180 Santa Ponsa. Disfrute de una copa de bienvenida para llegar, conectar y disfrutar del ambiente antes de que comience el programa de la noche."],
 ["Evento de noche y cena","Una velada exclusiva para el intercambio personal con medicos, especialistas en medicina deportiva y responsables empresariales."]
 ],
 gallery:[
@@ -316,7 +316,7 @@ footerLegal:["Aviso legal","Privacidad"],
 floatingShop:"Tienda"
 },
 pl:{
-nav:["Sklep","Wydarzenie","Partners","Siec"],
+nav:["Sklep","Wydarzenie","Partnerzy","Siec"],
 banner:["Ekskluzywnie","20 czerwca 2026 - Longevity Lab Mallorca","Ograniczona liczba miejsc dla lekarzy, specjalistów ochrony zdrowia i firm z sektora zdrowia"],
 heroAbout:"O Cell Education",
 headlineTitle:'Tworzymy przyszlosc <span class="accent">medycyny komorkowej</span>.',
@@ -342,6 +342,7 @@ eventBtns:["Zarezerwuj miejsce"],
 timeline:[
 ["Seminarium Longevity i Performance","Estadi Mallorca Son Moix, stadion RCD Mallorca. Prezentacje naukowe o bionicznej terapii komorkowej, strategiach longevity i medycynie prewencyjnej prowadzone przez dr. Kaya Bredehorsta."],
 ["Turniej ATP i networking","Mallorca Country Club, Vanda Pharmaceuticals Mallorca Championships. Swiatowej klasy tenis i ekskluzywny networking w Santa Ponsa."],
+["Drink powitalny","Mallorca Country Club, Avinguda del Golf 20, 07180 Santa Ponsa. Zapraszamy na drink powitalny, aby spokojnie dotrzec, nawiazac rozmowy i poczuc atmosfere przed rozpoczeciem wieczornego programu."],
 ["Wieczorne wydarzenie i kolacja","Ekskluzywny wieczor sprzyjajacy bezposrednim rozmowom z lekarzami, ekspertami medycyny sportowej i liderami biznesu."]
 ],
 gallery:[
@@ -409,7 +410,6 @@ function applyLanguage(lang){
   document.querySelectorAll('#navOverlay > a')[1].textContent=t.nav[1];
   document.querySelectorAll('#navOverlay > a')[2].textContent=t.nav[2];
   document.querySelectorAll('#navOverlay > a')[3].textContent=t.nav[3];
-  document.querySelectorAll('#navOverlay > a')[4].childNodes[0].textContent=t.nav[0]+" ";
 
 
   document.querySelector('.hero__content .pill').childNodes[0].textContent=t.heroAbout+" ";

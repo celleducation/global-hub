@@ -319,7 +319,7 @@ flex-shrink:0;
 @media(max-width:768px){
 .nav{padding:12px 20px;top:0}
 .nav__logo svg{height:12px}
-.nav__links,.nav__cta,.lang-switcher{display:none}.nav__mobile{display:block}
+.nav__links,.nav__cta,.nav > .lang-switcher{display:none}.nav__mobile{display:block}.nav-overlay .lang-switcher{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:4px}
 .floating-shop{
 top:auto;
 bottom:calc(16px + env(safe-area-inset-bottom,0px));
@@ -358,4 +358,6 @@ transform:translateX(-50%) translateY(-2px) scale(1.06);
 .nav-overlay.active{opacity:1;pointer-events:all}
 .nav-overlay a{font-family:var(--fm);font-size:20px;text-transform:uppercase;letter-spacing:2px;color:var(--w60);transition:color .3s}
 .nav-overlay a:hover{color:var(--accent)}
+.nav-overlay .lang-switcher button{color:rgba(255,255,255,.68);font-size:12px;letter-spacing:1px}
+.nav-overlay .lang-switcher button.active,.nav-overlay .lang-switcher button:hover{color:#fff}
 .nav-overlay__close{position:absolute;top:16px;right:20px;width:36px;height:36px;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:24px;color:var(--white)}
