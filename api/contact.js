@@ -53,7 +53,7 @@ module.exports = async function handler(req, res) {
 
   const apiKey = process.env.RESEND_API_KEY;
   const from = process.env.RESEND_FROM_EMAIL || 'Global Hub <onboarding@resend.dev>';
-  const to = process.env.CONTACT_TO_EMAIL || 'info@cell-education.com';
+  const to = process.env.CONTACT_TO_EMAIL || 'hello@cell-performance.com';
 
   if (!apiKey) {
     return res.status(500).json({ ok: false, error: 'Missing RESEND_API_KEY' });
