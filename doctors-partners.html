@@ -31,6 +31,17 @@ html{scroll-behavior:smooth}body{font-family:var(--body);font-weight:300;color:v
 .card--placeholder{min-height:174px;padding:20px}
 .card--placeholder h3{margin-top:30px}
 .card--partner .card__media{background:#fbfbfb}
+.nav{background:rgba(255,255,255,.92);border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}
+.nav__logo img{filter:none}
+.nav__links a{color:rgba(10,10,10,.55)}
+.nav__links a:hover,.nav__links a.active{color:var(--ink)}
+.nav .pill{color:var(--ink);border-color:rgba(10,10,10,.16);background:#fff}
+.hero{min-height:430px;color:var(--ink);background:#fff;align-items:flex-end;border-bottom:1px solid var(--line)}
+.hero__bg,.hero__overlay{display:none}
+.hero .label{color:#777}
+.hero p{color:var(--muted)}
+.stats span{border-color:var(--line);background:#fbfbfb;color:var(--muted)}
+.stats strong{color:var(--ink)}
 @media(max-width:768px){.card__media{aspect-ratio:1/1}.card__body{padding:16px 18px 18px}.card--placeholder{padding:18px}}
 </style>
 </head>
@@ -44,7 +55,7 @@ html{scroll-behavior:smooth}body{font-family:var(--body);font-weight:300;color:v
 <a href="https://www.cell-performance.shop" class="pill" target="_blank" rel="noopener noreferrer">Shop <svg viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
 </nav>
 <main>
-<section class="hero"><div class="hero__bg"></div><div class="hero__overlay"></div><div class="hero__content"><div class="label">Global Hub Network</div><h1>Doctors & selected partners</h1><p>A curated overview of medical experts, health professionals, and partner contacts connected to the Global Hub for Cell Performance.</p><div class="stats"><span><strong>24</strong> listed contacts</span><span><strong>5</strong> partner entries</span><span><strong>1</strong> medical performance network</span></div></div></section>
+<section class="hero"><div class="hero__content"><div class="label">Global Hub Network</div><h1>Doctors & selected partners</h1><p>A curated overview of medical experts, health professionals, and partner contacts connected to the Global Hub for Cell Performance.</p><div class="stats"><span><strong>24</strong> listed contacts</span><span><strong>5</strong> partner entries</span><span><strong>1</strong> medical performance network</span></div></div></section>
 <section class="directory"><div class="directory__header"><div><div class="label" style="color:#777">Directory</div><h2 class="section-title">Medical experts and partners</h2></div><p>Use this page as a structured placement area for the doctors and partners in the Global Hub ecosystem. Profile details, photos, clinic names, specialties, and links can be added later.</p></div><div class="grid">
 <article class="card"><div class="card__media"><img src="images/doctors/marco-hartl.avif" alt="Dr. Marco Hartl" loading="lazy"></div><div class="card__body"><span class="card__type">Doctor</span><h3>Dr. Marco Hartl</h3></div></article>
 <article class="card"><div class="card__media"><img src="images/doctors/monika-brueck.jpeg" alt="Dr. Monika Brück" loading="lazy"></div><div class="card__body"><span class="card__type">Doctor</span><h3>Dr. Monika Brück</h3></div></article>
