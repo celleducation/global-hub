@@ -36,12 +36,11 @@ html{scroll-behavior:smooth}body{font-family:var(--body);font-weight:300;color:v
 .nav__links a{color:rgba(10,10,10,.55)}
 .nav__links a:hover,.nav__links a.active{color:var(--ink)}
 .nav .pill{color:var(--ink);border-color:rgba(10,10,10,.16);background:#fff}
-.hero{min-height:430px;color:var(--ink);background:#fff;align-items:flex-end;border-bottom:1px solid var(--line)}
+.hero{min-height:360px;color:var(--ink);background:#fff;align-items:flex-end;border-bottom:1px solid var(--line)}
 .hero__bg,.hero__overlay{display:none}
 .hero .label{color:#777}
 .hero p{color:var(--muted)}
-.stats span{border-color:var(--line);background:#fbfbfb;color:var(--muted)}
-.stats strong{color:var(--ink)}
+.hero p{margin-bottom:0}
 @media(max-width:768px){.card__media{aspect-ratio:1/1}.card__body{padding:16px 18px 18px}.card--placeholder{padding:18px}}
 </style>
 <style>
@@ -58,7 +57,7 @@ html{scroll-behavior:smooth}body{font-family:var(--body);font-weight:300;color:v
 <div class="nav__right"><div class="lang-switcher" aria-label="Language switcher"><button type="button" data-lang="en" class="active">EN</button><button type="button" data-lang="de">DE</button><button type="button" data-lang="es">ES</button><button type="button" data-lang="pl">PL</button><button type="button" data-lang="fr">FR</button><button type="button" data-lang="cz">CZ</button></div><a href="https://www.cell-performance.shop" class="pill" target="_blank" rel="noopener noreferrer">Shop <svg viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
 </nav>
 <main>
-<section class="hero"><div class="hero__content"><div class="label">Global Hub Network</div><h1>Doctors & selected partners</h1><p>A curated overview of medical experts, health professionals, and partner contacts connected to the Global Hub for Cell Performance.</p><div class="stats"><span><strong>24</strong> listed contacts</span><span><strong>4</strong> partner entries</span><span><strong>1</strong> medical performance network</span></div></div></section>
+<section class="hero"><div class="hero__content"><div class="label">Global Hub Network</div><h1>Doctors & selected partners</h1><p>A curated overview of medical experts, health professionals, and partner contacts connected to the Global Hub for Cell Performance.</p></div></section>
 <section class="directory"><div class="directory__header"><div><div class="label" style="color:#777">Directory</div><h2 class="section-title">Medical experts and partners</h2></div><p>Use this page as a structured placement area for the doctors and partners in the Global Hub ecosystem. Profile details, photos, clinic names, specialties, and links can be added later.</p></div><div class="grid">
 <article class="card"><div class="card__media"><img src="images/doctors/winfried-banzer.webp" alt="Prof. Dr. Winfried Banzer" loading="lazy"></div><div class="card__body"><span class="card__type">Professor</span><h3>Prof. Dr. Winfried Banzer</h3></div></article>
 <article class="card"><div class="card__media"><img src="images/doctors/monika-brueck.jpeg" alt="Dr. Monika Brück" loading="lazy"></div><div class="card__body"><span class="card__type">Doctor</span><h3>Dr. Monika Brück</h3></div></article>
@@ -117,7 +116,6 @@ function applyDirectoryLanguage(lang){
   setText(document.querySelector('.hero .label'),t.heroLabel);
   setText(document.querySelector('.hero h1'),t.heroTitle);
   setText(document.querySelector('.hero p'),t.heroText);
-  document.querySelectorAll('.stats span').forEach((span,i)=>{span.lastChild.textContent=" "+t.stats[i];});
   setText(document.querySelector('.directory__header .label'),t.dirLabel);
   setText(document.querySelector('.section-title'),t.dirTitle);
   setText(document.querySelector('.directory__header p'),t.dirText);
