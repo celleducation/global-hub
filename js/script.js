@@ -733,4 +733,6 @@ document.querySelectorAll('.lang-switcher button').forEach(btn=>{
   btn.addEventListener('click',()=>applyLanguage(btn.dataset.lang));
 });
 
-applyLanguage(localSto
+applyLanguage(localStorage.getItem("globalHubLang")||"en");
+
+syncScrollUi();
