@@ -95,7 +95,7 @@ if(partnerLogoScroller){
 
 const translations={
 en:{
-nav:["Shop","Event","Doctors & Network"],
+nav:["Shop","Longevity Lab 2026","Doctors & Network"],
 banner:["Exclusive","June 20, 2026 - Longevity Lab Mallorca","Limited spots for doctors, health professionals, and companies in the health sector"],
 heroAbout:"About Cell Education",
 headlineTitle:'Shaping the future of <span class="accent">cellular medicine</span>.',
@@ -173,7 +173,7 @@ footerLegal:["Imprint","Privacy Policy"],
 floatingShop:"Shop"
 },
 de:{
-nav:["Shop","Veranstaltung","Ärzte & Netzwerk"],
+nav:["Shop","Longevity Lab 2026","Ärzte & Netzwerk"],
 banner:["Exklusiv","20. Juni 2026 - Longevity Lab Mallorca","Begrenzte Plätze für Ärzte, Gesundheitsfachkräfte und Unternehmen aus dem Gesundheitsbereich"],
 heroAbout:"Über Cell Education",
 headlineTitle:'Wir gestalten die Zukunft der <span class="accent">Zellmedizin</span>.',
@@ -251,7 +251,7 @@ footerLegal:["Impressum","Datenschutz"],
 floatingShop:"Shop"
 },
 es:{
-nav:["Tienda","Evento","Doctores y red"],
+nav:["Tienda","Longevity Lab 2026","Doctores y red"],
 banner:["Exclusivo","20 de junio de 2026 - Longevity Lab Mallorca","Plazas limitadas para médicos, profesionales de la salud y empresas del sector sanitario"],
 heroAbout:"Sobre Cell Education",
 headlineTitle:'Dando forma al futuro de la <span class="accent">medicina celular</span>.',
@@ -329,7 +329,7 @@ footerLegal:["Aviso legal","Privacidad"],
 floatingShop:"Tienda"
 },
 fr:{
-nav:["Boutique","Événement","Médecins & réseau"],
+nav:["Boutique","Longevity Lab 2026","Médecins & réseau"],
 banner:["Exclusif","20 juin 2026 - Longevity Lab Mallorca","Places limitées pour les médecins, professionnels de santé et entreprises du secteur santé"],
 heroAbout:"À propos de Cell Education",
 headlineTitle:"Façonner l'avenir de la <span class=\"accent\">médecine cellulaire</span>.",
@@ -407,7 +407,7 @@ footerLegal:["Mentions légales","Confidentialité"],
 floatingShop:"Boutique"
 },
 cz:{
-nav:["Obchod","Událost","Lékaři a síť"],
+nav:["Obchod","Longevity Lab 2026","Lékaři a síť"],
 banner:["Exkluzivně","20. června 2026 - Longevity Lab Mallorca","Omezený počet míst pro lékaře, zdravotnické odborníky a firmy ze zdravotnického sektoru"],
 heroAbout:"O Cell Education",
 headlineTitle:'Formujeme budoucnost <span class="accent">buněčné medicíny</span>.',
@@ -485,7 +485,7 @@ footerLegal:["Impresum","Ochrana soukromí"],
 floatingShop:"Obchod"
 },
 pl:{
-nav:["Sklep","Wydarzenie","Lekarze i siec"],
+nav:["Sklep","Longevity Lab 2026","Lekarze i siec"],
 banner:["Ekskluzywnie","20 czerwca 2026 - Longevity Lab Mallorca","Ograniczona liczba miejsc dla lekarzy, specjalistów ochrony zdrowia i firm z sektora zdrowia"],
 heroAbout:"O Cell Education",
 headlineTitle:'Tworzymy przyszlosc <span class="accent">medycyny komorkowej</span>.',
