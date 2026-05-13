@@ -232,7 +232,79 @@ function applyEventLanguage(lang){
   setText(document.querySelector('.registration h2'),t.regTitle);
   setHtml(document.querySelector('.registration p'),t.regText);
   document.querySelectorAll('.registration__actions .pill').forEach((link,i)=>{link.childNodes[0].textContent=(i===0?t.register:t.request)+" ";});
+  setText(document.querySelector('.request-form__intro'),t.formIntro);
+  document.querySelectorAll('.request-form label').forEach((label,i)=>{if(t.formLabels[i])setText(label,t.formLabels[i]);});
+  document.querySelectorAll('#role option').forEach((option,i)=>{if(t.roleOptions[i])setText(option,t.roleOptions[i]);});
+  document.querySelectorAll('#interest option').forEach((option,i)=>{if(t.interestOptions[i])setText(option,t.interestOptions[i]);});
+  const messageField=document.querySelector('#message');
+  if(messageField)messageField.placeholder=t.messagePlaceholder;
+  setHtml(document.querySelector('.request-form__note'),`${t.formNote} <a class="request-form__email" href="mailto:hello@cell-performance.com">hello@cell-performance.com</a>.`);
+  document.querySelectorAll('.request-form__actions .pill').forEach((link,i)=>{if(t.formBtns[i])link.childNodes[0].textContent=t.formBtns[i]+" ";});
+  syncFormUi();
   document.querySelectorAll('.footer__legal a').forEach((link,i)=>setText(link,t.legal[i]));
+}
+const requestForm=document.getElementById('registerForm');
+const requestFormStatus=document.querySelector('.request-form__status');
+const requestFormSubmit=requestForm?.querySelector('button[type="submit"]');
+let requestFormState='idle';
+function getActiveTranslation(){
+  return withFallback(localStorage.getItem('globalHubLang')||document.documentElement.lang||'en');
+}
+function setRequestFormStatus(state){
+  if(!requestFormStatus)return;
+  requestFormState=state;
+  const t=getActiveTranslation();
+  const message=state==='idle'?'':(t.formStatus?.[state]||eventTranslations.en.formStatus[state]||'');
+  requestFormStatus.hidden=!message;
+  requestFormStatus.dataset.state=state;
+  requestFormStatus.textContent=message;
+}
+function syncFormUi(){
+  if(!requestFormSubmit)return;
+  const t=getActiveTranslation();
+  const isSubmitting=requestForm?.dataset.submitting==='true';
+  requestFormSubmit.disabled=isSubmitting;
+  requestFormSubmit.childNodes[0].textContent=(isSubmitting?(t.formStatus?.submittingButton||eventTranslations.en.formStatus.submittingButton):t.formBtns[0])+" ";
+  if(requestFormState!=='idle')setRequestFormStatus(requestFormState);
+}
+if(requestForm){
+  requestForm.addEventListener('submit',async event=>{
+    event.preventDefault();
+    if(!requestForm.reportValidity())return;
+    const formData=new FormData(requestForm);
+    const payload={
+      company:String(formData.get('Company / Practice')||'').trim(),
+      contactName:String(formData.get('Contact Person')||'').trim(),
+      email:String(formData.get('Email')||'').trim(),
+      phone:String(formData.get('Phone')||'').trim(),
+      role:String(formData.get('Role')||'').trim(),
+      interest:String(formData.get('Interest')||'').trim(),
+      message:String(formData.get('Message')||'').trim(),
+      website:String(formData.get('website')||'').trim()
+    };
+    if(payload.website){
+      requestForm.reset();
+      setRequestFormStatus('success');
+      syncFormUi();
+      return;
+    }
+    requestForm.dataset.submitting='true';
+    setRequestFormStatus('submitting');
+    syncFormUi();
+    try{
+      const response=await fetch('/api/contact',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});
+      const result=await response.json().catch(()=>({}));
+      if(!response.ok||result.ok!==true)throw new Error(result.error||'Request failed');
+      requestForm.reset();
+      setRequestFormStatus('success');
+    }catch(error){
+      console.error('Contact form submission failed',error);
+      setRequestFormStatus('error');
+    }finally{
+      requestForm.dataset.submitting='false';
+      syncFormUi();
+    }
+  });
 }
 document.querySelectorAll('.lang-switcher button').forEach(btn=>btn.addEventListener('click',()=>applyEventLanguage(btn.dataset.lang)));
 applyEventLanguage(localStorage.getItem('globalHubLang')||'en');
