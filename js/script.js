@@ -95,7 +95,7 @@ if(partnerLogoScroller){
 
 const translations={
 en:{
-nav:["Shop","Event","Partners","Network"],
+nav:["Shop","Longevity Lab 2026"],
 banner:["Exclusive","June 20, 2026 - Longevity Lab Mallorca","Limited spots for doctors, health professionals, and companies in the health sector"],
 heroAbout:"About Cell Education",
 headlineTitle:'Shaping the future of <span class="accent">cellular medicine</span>.',
@@ -165,7 +165,7 @@ messagePlaceholder:"What are you specifically interested in?",
 formNote:"We review every request personally. For direct contact, please email",
 formBtns:["Send Inquiry","Go to Shop"],
 memberCta:"Become a Member",
-formStatus:{submitting:"Sending your inquiry...",submittingButton:"Sending...",success:"Thank you. Your request has been sent successfully.",error:"We could not send your request right now. Please email hello@cell-performance.com."},
+formStatus:{submitting:"Sending your inquiry...",submittingButton:"Sending...",success:"Thank you. Your request has been sent successfully.",error:"We could not send your request right now. Please email info@cell-education.com."},
 footerHeadings:["","Instagram"],
 footerTag:'Connecting<br>Medicine<br><span class="accent">Worldwide</span>',
 footerCompany:"Cell Education - The Institute GmbH & Co. KG · Frankfurter Straße 7 · 61462 Königstein im Taunus",
@@ -173,7 +173,7 @@ footerLegal:["Imprint","Privacy Policy"],
 floatingShop:"Shop"
 },
 de:{
-nav:["Shop","Veranstaltung","Partner","Netzwerk"],
+nav:["Shop","Longevity Lab 2026"],
 banner:["Exklusiv","20. Juni 2026 - Longevity Lab Mallorca","Begrenzte Plätze für Ärzte, Gesundheitsfachkräfte und Unternehmen aus dem Gesundheitsbereich"],
 heroAbout:"Über Cell Education",
 headlineTitle:'Wir gestalten die Zukunft der <span class="accent">Zellmedizin</span>.',
@@ -243,7 +243,7 @@ messagePlaceholder:"Wofür interessieren Sie sich konkret?",
 formNote:"Wir prüfen jede Anfrage persönlich. Für direkten Kontakt schreiben Sie bitte an",
 formBtns:["Anfrage senden","Zum Shop"],
 memberCta:"Mitglied werden",
-formStatus:{submitting:"Ihre Anfrage wird gesendet...",submittingButton:"Wird gesendet...",success:"Vielen Dank. Ihre Anfrage wurde erfolgreich versendet.",error:"Ihre Anfrage konnte gerade nicht gesendet werden. Bitte schreiben Sie an hello@cell-performance.com."},
+formStatus:{submitting:"Ihre Anfrage wird gesendet...",submittingButton:"Wird gesendet...",success:"Vielen Dank. Ihre Anfrage wurde erfolgreich versendet.",error:"Ihre Anfrage konnte gerade nicht gesendet werden. Bitte schreiben Sie an info@cell-education.com."},
 footerHeadings:["","Instagram"],
 footerTag:'Medizin<br>weltweit<br><span class="accent">verbinden</span>',
 footerCompany:"Cell Education - The Institute GmbH & Co. KG · Frankfurter Straße 7 · 61462 Königstein im Taunus",
@@ -251,7 +251,7 @@ footerLegal:["Impressum","Datenschutz"],
 floatingShop:"Shop"
 },
 es:{
-nav:["Tienda","Evento","Socios","Red"],
+nav:["Tienda","Longevity Lab 2026"],
 banner:["Exclusivo","20 de junio de 2026 - Longevity Lab Mallorca","Plazas limitadas para médicos, profesionales de la salud y empresas del sector sanitario"],
 heroAbout:"Sobre Cell Education",
 headlineTitle:'Dando forma al futuro de la <span class="accent">medicina celular</span>.',
@@ -321,7 +321,7 @@ messagePlaceholder:"En que esta interesado exactamente?",
 formNote:"Revisamos cada solicitud personalmente. Para contacto directo, escribanos a",
 formBtns:["Enviar solicitud","Ir a la tienda"],
 memberCta:"Hazte miembro",
-formStatus:{submitting:"Enviando su solicitud...",submittingButton:"Enviando...",success:"Gracias. Su solicitud se ha enviado correctamente.",error:"No hemos podido enviar su solicitud en este momento. Escribanos a hello@cell-performance.com."},
+formStatus:{submitting:"Enviando su solicitud...",submittingButton:"Enviando...",success:"Gracias. Su solicitud se ha enviado correctamente.",error:"No hemos podido enviar su solicitud en este momento. Escribanos a info@cell-education.com."},
 footerHeadings:["","Instagram"],
 footerTag:'Conectando<br>la medicina<br><span class="accent">en todo el mundo</span>',
 footerCompany:"Cell Education - The Institute GmbH & Co. KG · Frankfurter Straße 7 · 61462 Königstein im Taunus",
@@ -329,7 +329,7 @@ footerLegal:["Aviso legal","Privacidad"],
 floatingShop:"Tienda"
 },
 fr:{
-nav:["Boutique","Événement","Partenaires","Réseau"],
+nav:["Boutique","Longevity Lab 2026"],
 banner:["Exclusif","20 juin 2026 - Longevity Lab Mallorca","Places limitées pour les médecins, professionnels de santé et entreprises du secteur santé"],
 heroAbout:"À propos de Cell Education",
 headlineTitle:"Façonner l'avenir de la <span class=\"accent\">médecine cellulaire</span>.",
@@ -399,7 +399,7 @@ messagePlaceholder:"Quel est précisément votre intérêt ?",
 formNote:"Nous examinons chaque demande personnellement. Pour un contact direct, écrivez à",
 formBtns:["Envoyer la demande","Aller à la boutique"],
 memberCta:"Devenir membre",
-formStatus:{submitting:"Envoi de votre demande...",submittingButton:"Envoi...",success:"Merci. Votre demande a été envoyée avec succès.",error:"Nous ne pouvons pas envoyer votre demande pour le moment. Veuillez écrire à hello@cell-performance.com."},
+formStatus:{submitting:"Envoi de votre demande...",submittingButton:"Envoi...",success:"Merci. Votre demande a été envoyée avec succès.",error:"Nous ne pouvons pas envoyer votre demande pour le moment. Veuillez écrire à info@cell-education.com."},
 footerHeadings:["","Instagram"],
 footerTag:"Relier<br>la médecine<br><span class=\"accent\">dans le monde entier</span>",
 footerCompany:"Cell Education - The Institute GmbH & Co. KG · Frankfurter Straße 7 · 61462 Königstein im Taunus",
@@ -407,7 +407,7 @@ footerLegal:["Mentions légales","Confidentialité"],
 floatingShop:"Boutique"
 },
 cz:{
-nav:["Obchod","Událost","Partneři","Síť"],
+nav:["Obchod","Longevity Lab 2026"],
 banner:["Exkluzivně","20. června 2026 - Longevity Lab Mallorca","Omezený počet míst pro lékaře, zdravotnické odborníky a firmy ze zdravotnického sektoru"],
 heroAbout:"O Cell Education",
 headlineTitle:'Formujeme budoucnost <span class="accent">buněčné medicíny</span>.',
@@ -477,7 +477,7 @@ messagePlaceholder:"O co máte konkrétně zájem?",
 formNote:"Každou poptávku posuzujeme osobně. Pro přímý kontakt napište na",
 formBtns:["Odeslat poptávku","Přejít do obchodu"],
 memberCta:"Stát se členem",
-formStatus:{submitting:"Odesílání vaší poptávky...",submittingButton:"Odesílání...",success:"Děkujeme. Vaše poptávka byla úspěšně odeslána.",error:"Vaši poptávku se teď nepodařilo odeslat. Napište prosím na hello@cell-performance.com."},
+formStatus:{submitting:"Odesílání vaší poptávky...",submittingButton:"Odesílání...",success:"Děkujeme. Vaše poptávka byla úspěšně odeslána.",error:"Vaši poptávku se teď nepodařilo odeslat. Napište prosím na info@cell-education.com."},
 footerHeadings:["","Instagram"],
 footerTag:"Propojujeme<br>medicínu<br><span class=\"accent\">po celém světě</span>",
 footerCompany:"Cell Education - The Institute GmbH & Co. KG · Frankfurter Straße 7 · 61462 Königstein im Taunus",
@@ -485,7 +485,7 @@ footerLegal:["Impresum","Ochrana soukromí"],
 floatingShop:"Obchod"
 },
 pl:{
-nav:["Sklep","Wydarzenie","Partnerzy","Siec"],
+nav:["Sklep","Longevity Lab 2026","Lekarze i siec"],
 banner:["Ekskluzywnie","20 czerwca 2026 - Longevity Lab Mallorca","Ograniczona liczba miejsc dla lekarzy, specjalistów ochrony zdrowia i firm z sektora zdrowia"],
 heroAbout:"O Cell Education",
 headlineTitle:'Tworzymy przyszlosc <span class="accent">medycyny komorkowej</span>.',
@@ -555,7 +555,7 @@ messagePlaceholder:"Czym dokladnie jestes zainteresowany?",
 formNote:"Kazde zgloszenie analizujemy osobiscie. Aby skontaktowac sie bezposrednio, napisz na",
 formBtns:["Wyslij zapytanie","Przejdz do sklepu"],
 memberCta:"Zostań członkiem",
-formStatus:{submitting:"Wysylanie zapytania...",submittingButton:"Wysylanie...",success:"Dziekujemy. Twoje zapytanie zostalo pomyslnie wyslane.",error:"Nie udalo sie teraz wyslac zapytania. Napisz prosze na hello@cell-performance.com."},
+formStatus:{submitting:"Wysylanie zapytania...",submittingButton:"Wysylanie...",success:"Dziekujemy. Twoje zapytanie zostalo pomyslnie wyslane.",error:"Nie udalo sie teraz wyslac zapytania. Napisz prosze na info@cell-education.com."},
 footerHeadings:["","Instagram"],
 footerTag:'Laczymy<br>medycyne<br><span class="accent">na calym swiecie</span>',
 footerCompany:"Cell Education - The Institute GmbH & Co. KG · Frankfurter Straße 7 · 61462 Königstein im Taunus",
@@ -570,15 +570,9 @@ function applyLanguage(lang){
   localStorage.setItem("globalHubLang",lang);
   document.querySelectorAll('.lang-switcher button').forEach(btn=>btn.classList.toggle('active',btn.dataset.lang===lang));
 
-  document.querySelectorAll('.nav__links a')[0].textContent=t.nav[0];
-  document.querySelectorAll('.nav__links a')[1].textContent=t.nav[1];
-  document.querySelectorAll('.nav__links a')[2].textContent=t.nav[2];
-  document.querySelectorAll('.nav__links a')[3].textContent=t.nav[3];
+  document.querySelectorAll('.nav__links a').forEach((link,i)=>{if(t.nav[i]) link.textContent=t.nav[i];});
   document.querySelector('.nav__cta .pill').childNodes[0].textContent=t.nav[0]+" ";
-  document.querySelectorAll('#navOverlay > a')[0].textContent=t.nav[0];
-  document.querySelectorAll('#navOverlay > a')[1].textContent=t.nav[1];
-  document.querySelectorAll('#navOverlay > a')[2].textContent=t.nav[2];
-  document.querySelectorAll('#navOverlay > a')[3].textContent=t.nav[3];
+  document.querySelectorAll('#navOverlay > a').forEach((link,i)=>{if(t.nav[i]) link.textContent=t.nav[i];});
 
 
   document.querySelector('.hero__content .pill').childNodes[0].textContent=t.heroAbout+" ";
@@ -642,7 +636,7 @@ function applyLanguage(lang){
   const interestOptions=document.querySelectorAll('#interest option');
   t.interestOptions.forEach((opt,i)=>{if(interestOptions[i]) interestOptions[i].textContent=opt;});
   document.querySelector('#message').placeholder=t.messagePlaceholder;
-  document.querySelector('.register-form__note').innerHTML=`${t.formNote} <a class="register-form__email" href="mailto:hello@cell-performance.com">hello@cell-performance.com</a>.`;
+  document.querySelector('.register-form__note').innerHTML=`${t.formNote} <a class="register-form__email" href="mailto:info@cell-education.com">info@cell-education.com</a>.`;
   document.querySelector('.register-form__actions .pill--solid').childNodes[0].textContent=t.formBtns[0]+" ";
   document.querySelector('.register-form__actions .pill:not(.pill--solid)').childNodes[0].textContent=t.formBtns[1]+" ";
   syncFormUi();
