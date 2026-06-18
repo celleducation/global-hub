@@ -17,6 +17,7 @@ a{color:inherit;text-decoration:none}img{max-width:100%;display:block}
 .pill:hover{border-color:var(--accent);box-shadow:inset 0 0 0 1px rgba(255,91,214,.18);background:var(--pill-bg);color:var(--pill-color)}
 .pill--pink,.pill--solid{background:var(--pill-bg);border-color:var(--pill-border);color:var(--pill-color)}
 .pill--pink:hover,.pill--solid:hover{border-color:var(--accent);box-shadow:inset 0 0 0 1px rgba(255,91,214,.18);background:var(--pill-bg);color:var(--pill-color)}
+.pill--disabled,.pill--disabled:hover{opacity:.72;cursor:not-allowed;pointer-events:none;box-shadow:none}
 .pill svg{width:12px;height:12px;flex-shrink:0}
 .nav .pill,.hero .pill,.footer .pill,.nav-overlay .pill,.floating-shop{--pill-border:rgba(255,255,255,.34);--pill-color:#fff;--pill-bg:rgba(0,0,0,.18)}
 .nav .pill:hover,.hero .pill:hover,.footer .pill:hover,.nav-overlay .pill:hover,.floating-shop:hover{border-color:var(--accent);box-shadow:inset 0 0 0 1px rgba(255,91,214,.22);background:rgba(0,0,0,.18);color:#fff}

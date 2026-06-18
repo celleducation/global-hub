@@ -34,6 +34,7 @@ a{color:inherit;text-decoration:none}img{max-width:100%;display:block}
 .pill--pink:hover{background:#f1f1f1;border-color:#f1f1f1}
 .pill--solid{background:var(--black);border-color:var(--black);color:var(--white)}
 .pill--solid:hover{background:#1a1a1a;border-color:#1a1a1a}
+.pill--disabled,.pill--disabled:hover{background:var(--black);border-color:var(--black);color:var(--white);opacity:.72;cursor:not-allowed;pointer-events:none}
 .pill svg{width:12px;height:12px;flex-shrink:0}
 
 /* ── NAV ── */
@@ -500,7 +501,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="event__location">📍 Mallorca, Spain · Estadi Mallorca Son Moix & Mallorca Country Club</div>
 <p class="event__desc">As the official sponsor of RCD Mallorca and a partner of the Mallorca Country Club, the Global Hub for Cell Performance invites an exclusive group to a unique day of experiences. Discover how bionic cell therapy and evidence-based approaches to cellular health are setting new standards for performance, recovery, and long-term health.</p>
 <div class="event__btns">
-<a href="#register" class="pill pill--solid">Secure Your Spot <svg viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+<span class="pill pill--solid pill--disabled" aria-disabled="true">Fully Booked</span>
 <a href="#" class="pill">Program <svg viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
 </div>
 </div>
@@ -732,7 +733,7 @@ eventDate:"June 20, 2026",
 eventHeroTitle:"Longevity Lab<br>Mallorca",
 eventLocation:"📍 Mallorca, Spain · Estadi Mallorca Son Moix & Mallorca Country Club",
 eventDesc:"As the official sponsor of RCD Mallorca and a partner of the Mallorca Country Club, the Global Hub for Cell Performance invites an exclusive group to a unique day of experiences. Discover how bionic cell therapy and evidence-based approaches to cellular health are setting new standards for performance, recovery, and long-term health.",
-eventBtns:["Secure Your Spot","Program"],
+eventBtns:["Fully Booked","Program"],
 timeline:[
 ["Longevity & Performance Seminar","Estadi Mallorca Son Moix, Home of RCD Mallorca. Scientific presentations on bionic cell therapy, longevity strategies and preventive medicine, led by Dr. Kay Bredehorst."],
 ["ATP Tournament & Networking","Mallorca Country Club, Vanda Pharmaceuticals Mallorca Championships. World-class tennis and exclusive networking in Santa Ponsa."],
@@ -805,7 +806,7 @@ eventDate:"20. Juni 2026",
 eventHeroTitle:"Longevity Lab<br>Mallorca",
 eventLocation:"📍 Mallorca, Spanien · Estadi Mallorca Son Moix & Mallorca Country Club",
 eventDesc:"Als offizieller Sponsor von RCD Mallorca und Partner des Mallorca Country Club lädt der Global Hub for Cell Performance eine exklusive Gruppe zu einem besonderen Tag voller Impulse und Begegnungen ein. Erleben Sie, wie bionische Zelltherapie und evidenzbasierte Konzepte für zelluläre Gesundheit neue Standards für Performance, Regeneration und langfristige Gesundheit setzen.",
-eventBtns:["Platz sichern","Programm"],
+eventBtns:["Ausgebucht","Programm"],
 timeline:[
 ["Seminar zu Longevity & Performance","Im Estadi Mallorca Son Moix, der Heimat von RCD Mallorca. Fachvorträge zu bionischer Zelltherapie, Longevity-Strategien und Präventivmedizin unter der Leitung von Dr. Kay Bredehorst."],
 ["ATP-Turnier & Networking","Im Mallorca Country Club bei den Vanda Pharmaceuticals Mallorca Championships. Spitzentennis und exklusives Networking in Santa Ponsa."],
@@ -878,7 +879,7 @@ eventDate:"20 de junio de 2026",
 eventHeroTitle:"Longevity Lab<br>Mallorca",
 eventLocation:"📍 Mallorca, Espana · Estadi Mallorca Son Moix & Mallorca Country Club",
 eventDesc:"Como patrocinador oficial del RCD Mallorca y socio del Mallorca Country Club, Global Hub for Cell Performance invita a un grupo exclusivo a una jornada unica de experiencia, conocimiento y networking. Descubra como la terapia celular bionica y los enfoques basados en evidencia para la salud celular estan marcando nuevos estandares en rendimiento, recuperacion y salud a largo plazo.",
-eventBtns:["Reservar plaza","Programa"],
+eventBtns:["Completo","Programa"],
 timeline:[
 ["Seminario de longevidad y rendimiento","Estadi Mallorca Son Moix, sede del RCD Mallorca. Presentaciones cientificas sobre terapia celular bionica, estrategias de longevidad y medicina preventiva, dirigidas por el Dr. Kay Bredehorst."],
 ["Torneo ATP y networking","Mallorca Country Club, Vanda Pharmaceuticals Mallorca Championships. Tenis de primer nivel y networking exclusivo en Santa Ponsa."],
@@ -951,7 +952,7 @@ eventDate:"20 czerwca 2026",
 eventHeroTitle:"Longevity Lab<br>Mallorca",
 eventLocation:"📍 Majorka, Hiszpania · Estadi Mallorca Son Moix & Mallorca Country Club",
 eventDesc:"Jako oficjalny sponsor RCD Mallorca i partner Mallorca Country Club, Global Hub for Cell Performance zaprasza wyselekcjonowana grupe na wyjatkowy dzien laczacy wiedze, doswiadczenie i networking. Zobacz, jak bioniczna terapia komorkowa oraz podejscia oparte na dowodach wyznaczaja nowe standardy w zakresie wydolnosci, regeneracji i dlugoterminowego zdrowia.",
-eventBtns:["Zarezerwuj miejsce","Program"],
+eventBtns:["Brak miejsc","Program"],
 timeline:[
 ["Seminarium Longevity i Performance","Estadi Mallorca Son Moix, stadion RCD Mallorca. Prezentacje naukowe o bionicznej terapii komorkowej, strategiach longevity i medycynie prewencyjnej prowadzone przez dr. Kaya Bredehorsta."],
 ["Turniej ATP i networking","Mallorca Country Club, Vanda Pharmaceuticals Mallorca Championships. Swiatowej klasy tenis i ekskluzywny networking w Santa Ponsa."],
