@@ -293,6 +293,9 @@ flex-shrink:0;
 .footer__tagline{position:relative;z-index:1;padding:0 40px 48px}
 .footer__tagline h2{font-family:var(--fh);font-weight:800;font-size:clamp(36px,7.5vw,120px);line-height:1.0;letter-spacing:-2px;color:#fff}
 .footer__tagline h2 .accent{color:#fff}
+.footer__product{position:relative;z-index:1;padding:0 40px 28px;display:flex;flex-direction:column;align-items:flex-start;gap:10px}
+.footer__product span{font-family:var(--fm);font-size:11px;text-transform:uppercase;letter-spacing:1.8px;color:var(--w40)}
+.footer__product img{height:24px;width:auto;max-width:220px;opacity:.9}
 .footer__bottom{position:relative;z-index:1;padding:16px 40px;border-top:1px solid var(--w10);display:flex;justify-content:space-between;align-items:center}
 .footer__bottom span{font-family:var(--fm);font-size:11px;color:var(--w40)}
 .footer__bottom a{font-family:var(--fm);font-size:11px;color:var(--w40);text-decoration:none;transition:color .25s ease}
@@ -347,6 +350,7 @@ transform:translateX(-50%) translateY(-2px) scale(1.06);
 .register-form__grid{grid-template-columns:1fr}
 .footer__tagline{padding:0 20px 32px}
 .footer__top{padding:32px 20px}
+.footer__product{padding:0 20px 24px}
 .footer__bottom{padding:12px 20px;flex-direction:column;gap:6px}
 }
 @media(max-width:480px){
