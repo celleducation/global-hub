@@ -20,7 +20,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{--accent:#ff5bd6;--black:#050505;--white:#fff;--ink:#0a0a0a;--muted:#625d59;--line:rgba(10,10,10,.09);--soft:#f7f6f4;--mono:'Roboto Mono',monospace;--headline:'Roboto Flex',sans-serif;--body:'DM Sans',sans-serif}
 html{scroll-behavior:smooth}body{font-family:var(--body);font-weight:300;color:var(--ink);background:#fff;line-height:1.7;-webkit-font-smoothing:antialiased}a{color:inherit;text-decoration:none}img{max-width:100%;display:block}
-.nav{position:fixed;top:0;left:0;right:0;z-index:20;padding:12px 34px;display:flex;align-items:center;justify-content:space-between;background:rgba(255,255,255,.92);border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}.nav__logo img{height:18px;width:auto}.nav__links{display:flex;align-items:center;gap:20px;list-style:none}.nav__links a{font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:rgba(10,10,10,.55);transition:color .25s}.nav__links a:hover,.nav__links a.active{color:var(--ink)}.nav__right{display:flex;align-items:center;gap:12px}.nav__mobile{display:none;width:34px;height:34px;border:1px solid var(--line);border-radius:999px;align-items:center;justify-content:center;flex-direction:column;gap:4px;cursor:pointer;background:rgba(255,255,255,.7)}.nav__mobile span{display:block;width:14px;height:1px;background:var(--ink)}.nav-overlay{position:fixed;inset:0;background:rgba(0,0,0,.96);backdrop-filter:blur(20px);z-index:999;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:28px;opacity:0;pointer-events:none;transition:opacity .3s}.nav-overlay.active{opacity:1;pointer-events:all}.nav-overlay a{font-family:var(--mono);font-size:20px;text-transform:uppercase;letter-spacing:2px;color:rgba(255,255,255,.68);transition:color .25s}.nav-overlay a:hover{color:var(--accent)}.nav-overlay__close{position:absolute;top:16px;right:20px;width:36px;height:36px;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:24px;color:#fff}.lang-switcher{display:flex;align-items:center;gap:4px}.lang-switcher button{border:1px solid var(--line);background:#fff;color:var(--muted);border-radius:999px;padding:6px 8px;font-family:var(--mono);font-size:10px;text-transform:uppercase;cursor:default}.lang-switcher button.active{background:var(--ink);border-color:var(--ink);color:#fff}.nav-overlay .lang-switcher{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:4px}.nav-overlay .lang-switcher button{border-color:rgba(255,255,255,.22);background:rgba(255,255,255,.08);color:rgba(255,255,255,.72);font-size:11px}.nav-overlay .lang-switcher button.active{background:#fff;border-color:#fff;color:#0a0a0a}
+.nav{position:fixed;top:0;left:0;right:0;z-index:20;padding:12px 34px;display:flex;align-items:center;justify-content:space-between;background:rgba(255,255,255,.92);border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}.nav__logo img{height:18px;width:auto}.nav__links{display:flex;align-items:center;gap:20px;list-style:none}.nav__links a{font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:rgba(10,10,10,.55);transition:color .25s}.nav__links a:hover,.nav__links a.active{color:var(--ink)}.nav__right{display:flex;align-items:center;gap:12px}.nav__mobile{display:none;width:34px;height:34px;border:1px solid var(--line);border-radius:999px;align-items:center;justify-content:center;flex-direction:column;gap:4px;cursor:pointer;background:rgba(255,255,255,.7)}.nav__mobile span{display:block;width:14px;height:1px;background:var(--ink)}.nav-overlay{position:fixed;inset:0;background:rgba(0,0,0,.96);backdrop-filter:blur(20px);z-index:999;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:28px;opacity:0;pointer-events:none;transition:opacity .3s}.nav-overlay.active{opacity:1;pointer-events:all}.nav-overlay a{font-family:var(--mono);font-size:20px;text-transform:uppercase;letter-spacing:2px;color:rgba(255,255,255,.68);transition:color .25s}.nav-overlay a:hover{color:var(--accent)}.nav-overlay__close{position:absolute;top:16px;right:20px;width:36px;height:36px;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:24px;color:#fff}.lang-switcher{display:flex;align-items:center;gap:4px}.lang-switcher button{border:1px solid var(--line);background:#fff;color:var(--muted);border-radius:999px;padding:6px 8px;font-family:var(--mono);font-size:10px;text-transform:uppercase;cursor:pointer}.lang-switcher button.active{background:var(--ink);border-color:var(--ink);color:#fff}.nav-overlay .lang-switcher{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:4px}.nav-overlay .lang-switcher button{border-color:rgba(255,255,255,.22);background:rgba(255,255,255,.08);color:rgba(255,255,255,.72);font-size:11px}.nav-overlay .lang-switcher button.active{background:#fff;border-color:#fff;color:#0a0a0a}
 .pill{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:1px solid rgba(10,10,10,.16);border-radius:999px;padding:10px 18px;font-family:var(--mono);font-size:13px;text-transform:uppercase;letter-spacing:-.02em;white-space:nowrap;transition:border-color .25s,box-shadow .25s,transform .25s;background:#fff}.pill:hover,.pill:focus-visible{border-color:var(--accent);box-shadow:inset 0 0 0 1px rgba(255,91,214,.18);transform:translateY(-1px);outline:none}.pill--solid{background:var(--accent);border-color:var(--accent);color:#fff}.pill svg{width:12px;height:12px;flex:0 0 auto}.nav__shop{padding:8px 16px;font-size:12px;line-height:1}
 .label{font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:1.4px;color:#777;margin-bottom:12px}.hero{padding:126px 40px 72px;background:linear-gradient(180deg,#fff,#f8f7f5);border-bottom:1px solid var(--line)}.hero__inner{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1fr) minmax(320px,460px);gap:40px;align-items:end}.hero h1{font-family:var(--headline);font-weight:800;font-size:clamp(44px,6vw,82px);line-height:.98;letter-spacing:-.02em;margin-bottom:18px}.hero p{font-size:clamp(16px,1.35vw,19px);line-height:1.68;color:var(--muted);max-width:760px}.hero__actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}.brand-panel{border:1px solid var(--line);border-radius:24px;background:#fff;padding:24px;box-shadow:0 24px 70px rgba(0,0,0,.06)}.brand-panel__logo{height:42px;max-width:180px;object-fit:contain;object-position:left center;margin-bottom:22px}.brand-panel__image{aspect-ratio:4/3;border-radius:18px;overflow:hidden;background:#f6f2ec}.brand-panel__image img{width:100%;height:100%;object-fit:cover}
 .section{padding:66px 40px}.section--soft{background:var(--soft);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.section__inner{max-width:1180px;margin:0 auto}.section__header{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,420px);gap:30px;align-items:end;margin-bottom:30px}.section h2,.cta h2{font-family:var(--headline);font-weight:800;font-size:clamp(30px,4vw,56px);line-height:1.05;letter-spacing:-.01em}.section__header p,.copy p{font-size:15px;color:var(--muted);line-height:1.78}.reason-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}.reason{border:1px solid var(--line);border-radius:18px;background:#fff;padding:20px;min-height:180px}.reason span{font-family:var(--mono);font-size:10px;letter-spacing:1px;text-transform:uppercase;color:#8a8580}.reason h3{font-size:20px;line-height:1.15;margin:32px 0 8px}.reason p{font-size:14px;line-height:1.65;color:var(--muted)}.product-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.product{display:grid;grid-template-columns:180px minmax(0,1fr);gap:20px;align-items:center;border:1px solid var(--line);border-radius:22px;background:#fff;padding:18px}.product__image{aspect-ratio:1;border-radius:16px;background:#fafafa;overflow:hidden}.product__image img{width:100%;height:100%;object-fit:contain}.product h3{font-size:24px;line-height:1.1;margin-bottom:8px}.product p{font-size:14px;color:var(--muted);line-height:1.65;margin-bottom:16px}.profile-layout{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(280px,.92fr);gap:24px;align-items:start}.copy{border:1px solid var(--line);border-radius:24px;background:#fff;padding:28px}.copy h3{font-family:var(--headline);font-size:34px;line-height:1.05;margin-bottom:16px}.facts{border:1px solid var(--line);border-radius:24px;background:#0a0a0a;color:#fff;padding:24px}.fact{padding:16px 0;border-bottom:1px solid rgba(255,255,255,.12)}.fact:first-child{padding-top:0}.fact:last-child{border-bottom:0;padding-bottom:0}.fact span{font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:1.2px;color:rgba(255,255,255,.45)}.fact strong{display:block;font-size:18px;font-weight:500;margin-top:4px}.cta{padding:72px 40px;background:#0a0a0a;color:#fff}.cta__inner{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:28px;align-items:end}.cta p{margin-top:14px;max-width:760px;color:rgba(255,255,255,.72);font-size:15px;line-height:1.72}.cta__actions{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end}.cta .pill{border-color:rgba(255,255,255,.25);background:transparent;color:#fff}.cta .pill--solid{background:var(--accent);border-color:var(--accent)}
@@ -34,27 +34,27 @@ html{scroll-behavior:smooth}body{font-family:var(--body);font-weight:300;color:v
 <!-- End Google Tag Manager (noscript) -->
 <nav class="nav" id="nav">
 <a class="nav__logo" href="index.html" aria-label="Global Hub home"><img src="images/global-hub-logo-dark.svg" alt="Global Hub for Cell Performance"></a>
-<ul class="nav__links"><li><a href="index.html">Home</a></li><li><a href="longevity-lab.html">Longevity Lab 2026</a></li><li><a href="shop.html" class="active">Shop</a></li></ul>
-<div class="nav__right"><div class="lang-switcher" aria-label="Language switcher"><button type="button" class="active">EN</button><button type="button">DE</button><button type="button">ES</button><button type="button">PL</button><button type="button">FR</button><button type="button">CZ</button></div><a href="shop.html#products" class="pill nav__shop">Products</a></div>
+<ul class="nav__links"><li><a href="index.html" data-i18n="nav.home">Home</a></li><li><a href="longevity-lab.html">Longevity Lab 2026</a></li><li><a href="shop.html" class="active" data-i18n="nav.shop">Shop</a></li></ul>
+<div class="nav__right"><div class="lang-switcher" aria-label="Language switcher"><button type="button" class="active" data-lang="en">EN</button><button type="button" data-lang="de">DE</button><button type="button" data-lang="es">ES</button><button type="button" data-lang="pl">PL</button><button type="button" data-lang="fr">FR</button><button type="button" data-lang="cz">CZ</button></div><a href="shop.html#products" class="pill nav__shop" data-i18n="nav.products">Products</a></div>
 <div class="nav__mobile" onclick="toggleNav()" aria-label="Open navigation"><span></span><span></span><span></span></div>
 </nav>
 <div class="nav-overlay" id="navOverlay">
 <div class="nav-overlay__close" onclick="toggleNav()">x</div>
-<a href="index.html" onclick="toggleNav()">Home</a>
+<a href="index.html" onclick="toggleNav()" data-i18n="nav.home">Home</a>
 <a href="longevity-lab.html" onclick="toggleNav()">Longevity Lab 2026</a>
-<a href="shop.html" onclick="toggleNav()">Shop</a>
-<div class="lang-switcher" aria-label="Language switcher mobile"><button type="button" class="active">EN</button><button type="button">DE</button><button type="button">ES</button><button type="button">PL</button><button type="button">FR</button><button type="button">CZ</button></div>
+<a href="shop.html" onclick="toggleNav()" data-i18n="nav.shop">Shop</a>
+<div class="lang-switcher" aria-label="Language switcher mobile"><button type="button" class="active" data-lang="en">EN</button><button type="button" data-lang="de">DE</button><button type="button" data-lang="es">ES</button><button type="button" data-lang="pl">PL</button><button type="button" data-lang="fr">FR</button><button type="button" data-lang="cz">CZ</button></div>
 </div>
 <main>
 <section class="hero">
 <div class="hero__inner">
 <div>
-<div class="label">Global Hub Partner</div>
+<div class="label" data-i18n="hero.label">Global Hub Partner</div>
 <h1>Cachao</h1>
-<p>Cachao represents a focused, ingredient-first approach to organic cacao. Within the Global Hub partner platform, the brand stands for clean sourcing, minimal processing and a product world that fits naturally into nutrition, performance and longevity-oriented routines.</p>
+<p data-i18n="hero.text">Cachao represents a focused, ingredient-first approach to organic cacao. Within the Global Hub partner platform, the brand stands for clean sourcing, minimal processing and a product world that fits naturally into nutrition, performance and longevity-oriented routines.</p>
 <div class="hero__actions">
-<a class="pill pill--solid" href="#why">Why We Chose Cachao</a>
-<a class="pill" href="shop.html#products">Back to Products</a>
+<a class="pill pill--solid" href="#why" data-i18n="hero.primary">Why We Chose Cachao</a>
+<a class="pill" href="shop.html#products" data-i18n="hero.secondary">Back to Products</a>
 </div>
 </div>
 <aside class="brand-panel">
@@ -67,14 +67,14 @@ html{scroll-behavior:smooth}body{font-family:var(--body);font-weight:300;color:v
 <section class="section" id="why">
 <div class="section__inner">
 <div class="section__header">
-<div><div class="label">Why We Chose This Partner</div><h2>Clean cacao with a premium nutrition profile.</h2></div>
-<p>The Global Hub highlights partners that bring clarity, quality and a credible fit to cellular performance, longevity and everyday health routines. Cachao was selected because its cacao products are simple, traceable and close to the original ingredient.</p>
+<div><div class="label" data-i18n="why.label">Why We Chose This Partner</div><h2 data-i18n="why.title">Clean cacao with a premium nutrition profile.</h2></div>
+<p data-i18n="why.text">The Global Hub highlights partners that bring clarity, quality and a credible fit to cellular performance, longevity and everyday health routines. Cachao was selected because its cacao products are simple, traceable and close to the original ingredient.</p>
 </div>
 <div class="reason-grid">
-<article class="reason"><span>01</span><h3>Organic Criollo Cacao</h3><p>Cachao works with organic single-origin Criollo cacao, a premium cacao variety known for its distinct aroma and naturally rich profile.</p></article>
-<article class="reason"><span>02</span><h3>Minimal Processing</h3><p>The products are processed with restraint, helping preserve the natural character of the cacao bean without unnecessary industrial steps.</p></article>
-<article class="reason"><span>03</span><h3>No Additives</h3><p>The selected cacao products are built around ingredient purity: no added sugar, no unnecessary fillers and no complicated positioning.</p></article>
-<article class="reason"><span>04</span><h3>Everyday Performance Fit</h3><p>Cacao integrates easily into breakfast, smoothies, functional recipes and routines for people interested in nutrition quality.</p></article>
+<article class="reason"><span>01</span><h3 data-i18n="reasons.0.title">Organic Criollo Cacao</h3><p data-i18n="reasons.0.text">Cachao works with organic single-origin Criollo cacao, a premium cacao variety known for its distinct aroma and naturally rich profile.</p></article>
+<article class="reason"><span>02</span><h3 data-i18n="reasons.1.title">Minimal Processing</h3><p data-i18n="reasons.1.text">The products are processed with restraint, helping preserve the natural character of the cacao bean without unnecessary industrial steps.</p></article>
+<article class="reason"><span>03</span><h3 data-i18n="reasons.2.title">No Additives</h3><p data-i18n="reasons.2.text">The selected cacao products are built around ingredient purity: no added sugar, no unnecessary fillers and no complicated positioning.</p></article>
+<article class="reason"><span>04</span><h3 data-i18n="reasons.3.title">Everyday Performance Fit</h3><p data-i18n="reasons.3.text">Cacao integrates easily into breakfast, smoothies, functional recipes and routines for people interested in nutrition quality.</p></article>
 </div>
 </div>
 </section>
@@ -82,17 +82,17 @@ html{scroll-behavior:smooth}body{font-family:var(--body);font-weight:300;color:v
 <section class="section section--soft">
 <div class="section__inner">
 <div class="section__header">
-<div><div class="label">Selected Products</div><h2>Cachao products in the Global Hub selection.</h2></div>
-<p>The product cards link directly to Cachao. Orders, availability and fulfilment are handled by the partner.</p>
+<div><div class="label" data-i18n="products.label">Selected Products</div><h2 data-i18n="products.title">Cachao products in the Global Hub selection.</h2></div>
+<p data-i18n="products.text">The product cards link directly to Cachao. Orders, availability and fulfilment are handled by the partner.</p>
 </div>
 <div class="product-pair">
 <article class="product">
 <div class="product__image"><img src="images/partner-products/cachao-cacao-powder.webp" alt="Cachao organic raw cacao powder"></div>
-<div><h3>Organic Raw Cacao Powder</h3><p>Premium organic raw cacao powder with a naturally rich aroma, minimal processing and a clean ingredient profile.</p><a class="pill" href="https://cachao.de/products/bio-rohkakaopulver" target="_blank" rel="noopener noreferrer">View Product</a></div>
+<div><h3 data-i18n="productCards.powder.title">Organic Raw Cacao Powder</h3><p data-i18n="productCards.powder.text">Premium organic raw cacao powder with a naturally rich aroma, minimal processing and a clean ingredient profile.</p><a class="pill" href="https://cachao.de/products/bio-rohkakaopulver" target="_blank" rel="noopener noreferrer" data-i18n="productCards.cta">View Product</a></div>
 </article>
 <article class="product">
 <div class="product__image"><img src="images/partner-products/cachao-cacao-nibs.webp" alt="Cachao organic cacao nibs"></div>
-<div><h3>Organic Cacao Nibs</h3><p>Organic cacao nibs with an intense cacao character, natural crunch and no added sugar.</p><a class="pill" href="https://cachao.de/products/bio-kakao-nibs" target="_blank" rel="noopener noreferrer">View Product</a></div>
+<div><h3 data-i18n="productCards.nibs.title">Organic Cacao Nibs</h3><p data-i18n="productCards.nibs.text">Organic cacao nibs with an intense cacao character, natural crunch and no added sugar.</p><a class="pill" href="https://cachao.de/products/bio-kakao-nibs" target="_blank" rel="noopener noreferrer" data-i18n="productCards.cta">View Product</a></div>
 </article>
 </div>
 </div>
@@ -101,16 +101,16 @@ html{scroll-behavior:smooth}body{font-family:var(--body);font-weight:300;color:v
 <section class="section">
 <div class="section__inner profile-layout">
 <div class="copy">
-<div class="label">Partner Profile</div>
-<h3>Where Cachao fits into the Global Hub.</h3>
-<p>Cachao complements the Global Hub product platform as a nutrition partner with a clear, premium product focus. Rather than presenting a broad supplement line, the brand concentrates on cacao as a high-quality whole-food ingredient.</p>
-<p>For the Global Hub ecosystem, this makes Cachao relevant for professionals and consumers who value simple products, transparent ingredient logic and practical daily use. It also adds a more culinary, lifestyle-oriented layer to the partner platform without moving into exaggerated health claims.</p>
+<div class="label" data-i18n="profile.label">Partner Profile</div>
+<h3 data-i18n="profile.title">Where Cachao fits into the Global Hub.</h3>
+<p data-i18n="profile.text1">Cachao complements the Global Hub product platform as a nutrition partner with a clear, premium product focus. The brand concentrates on cacao as a high-quality whole-food ingredient with a transparent origin and a strong emphasis on purity, taste and everyday usability.</p>
+<p data-i18n="profile.text2">Within the Global Hub ecosystem, Cachao adds a refined nutrition and lifestyle dimension for people who value clean ingredients, thoughtful sourcing and products that integrate naturally into daily routines.</p>
 </div>
 <aside class="facts">
-<div class="fact"><span>Category</span><strong>Nutrition & Supplements</strong></div>
-<div class="fact"><span>Partner Focus</span><strong>Organic cacao products</strong></div>
-<div class="fact"><span>Global Hub Fit</span><strong>Clean nutrition, daily routines, cellular health culture</strong></div>
-<div class="fact"><span>Products</span><strong>Raw cacao powder and cacao nibs</strong></div>
+<div class="fact"><span data-i18n="facts.categoryLabel">Category</span><strong data-i18n="facts.categoryValue">Nutrition & Supplements</strong></div>
+<div class="fact"><span data-i18n="facts.focusLabel">Partner Focus</span><strong data-i18n="facts.focusValue">Organic cacao products</strong></div>
+<div class="fact"><span data-i18n="facts.fitLabel">Global Hub Fit</span><strong data-i18n="facts.fitValue">Clean nutrition, daily routines, cellular health culture</strong></div>
+<div class="fact"><span data-i18n="facts.productsLabel">Products</span><strong data-i18n="facts.productsValue">Raw cacao powder and cacao nibs</strong></div>
 </aside>
 </div>
 </section>
@@ -118,13 +118,13 @@ html{scroll-behavior:smooth}body{font-family:var(--body);font-weight:300;color:v
 <section class="cta">
 <div class="cta__inner">
 <div>
-<div class="label" style="color:rgba(255,255,255,.5)">Partner Products</div>
-<h2>Explore the curated product platform.</h2>
-<p>Discover selected products and technologies from the wider Global Hub partner network.</p>
+<div class="label" style="color:rgba(255,255,255,.5)" data-i18n="cta.label">Partner Products</div>
+<h2 data-i18n="cta.title">Explore the curated product platform.</h2>
+<p data-i18n="cta.text">Discover selected products and technologies from the wider Global Hub partner network.</p>
 </div>
 <div class="cta__actions">
-<a class="pill pill--solid" href="shop.html#products">Back to Shop</a>
-<a class="pill" href="mailto:info@cell-education.com?subject=Global%20Hub%20Partner%20Products">Contact the Global Hub</a>
+<a class="pill pill--solid" href="shop.html#products" data-i18n="cta.primary">Back to Shop</a>
+<a class="pill" href="mailto:info@cell-education.com?subject=Global%20Hub%20Partner%20Products" data-i18n="cta.secondary">Contact the Global Hub</a>
 </div>
 </div>
 </section>
@@ -134,12 +134,99 @@ html{scroll-behavior:smooth}body{font-family:var(--body);font-weight:300;color:v
 <div class="footer__bg"></div>
 <div class="footer__overlay"></div>
 <div class="footer__top"><div class="footer__col"><a href="index.html"><img src="images/global-hub-logo.svg" alt="Global Hub for Cell Performance"></a></div><div class="footer__col"><h5>Instagram</h5><div class="footer__socials"><a href="https://www.instagram.com/celleducationinstitute/" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="white" stroke="none"/></svg></a></div></div></div>
-<div class="footer__tagline"><h2>Curated<br>Partner<br>Solutions</h2></div>
-<div class="footer__product"><span>A product of Cell Education</span><a href="https://cell-education.com" target="_blank" rel="noopener noreferrer" aria-label="Cell Education"><img src="images/cell-education-logo-white.svg" alt="Cell Education"></a></div>
-<div class="footer__bottom"><span>Cell Education - The Institute GmbH &amp; Co. KG · Frankfurter Straße 7 · 61462 Königstein im Taunus</span><span class="footer__legal"><a href="https://cell-education.com/impressum" target="_blank" rel="noopener noreferrer">Imprint</a><span>·</span><a href="https://cell-education.com/datenschutz" target="_blank" rel="noopener noreferrer">Privacy Policy</a></span></div>
+<div class="footer__tagline"><h2 data-i18n-html="footer.tagline">Curated<br>Partner<br>Solutions</h2></div>
+<div class="footer__product"><span data-i18n="footer.product">A product of Cell Education</span><a href="https://cell-education.com" target="_blank" rel="noopener noreferrer" aria-label="Cell Education"><img src="images/cell-education-logo-white.svg" alt="Cell Education"></a></div>
+<div class="footer__bottom"><span>Cell Education - The Institute GmbH &amp; Co. KG · Frankfurter Straße 7 · 61462 Königstein im Taunus</span><span class="footer__legal"><a href="https://cell-education.com/impressum" target="_blank" rel="noopener noreferrer" data-i18n="footer.imprint">Imprint</a><span>·</span><a href="https://cell-education.com/datenschutz" target="_blank" rel="noopener noreferrer" data-i18n="footer.privacy">Privacy Policy</a></span></div>
 </footer>
 <script>
+const translations={
+  en:{
+    nav:{home:'Home',shop:'Shop',products:'Products'},
+    hero:{label:'Global Hub Partner',text:'Cachao represents a focused, ingredient-first approach to organic cacao. Within the Global Hub partner platform, the brand stands for clean sourcing, minimal processing and a product world that fits naturally into nutrition, performance and longevity-oriented routines.',primary:'Why We Chose Cachao',secondary:'Back to Products'},
+    why:{label:'Why We Chose This Partner',title:'Clean cacao with a premium nutrition profile.',text:'The Global Hub highlights partners that bring clarity, quality and a credible fit to cellular performance, longevity and everyday health routines. Cachao was selected because its cacao products are simple, traceable and close to the original ingredient.'},
+    reasons:[{title:'Organic Criollo Cacao',text:'Cachao works with organic single-origin Criollo cacao, a premium cacao variety known for its distinct aroma and naturally rich profile.'},{title:'Minimal Processing',text:'The products are processed with restraint, helping preserve the natural character of the cacao bean without unnecessary industrial steps.'},{title:'No Additives',text:'The selected cacao products are built around ingredient purity: no added sugar, no unnecessary fillers and no complicated positioning.'},{title:'Everyday Performance Fit',text:'Cacao integrates easily into breakfast, smoothies, functional recipes and routines for people interested in nutrition quality.'}],
+    products:{label:'Selected Products',title:'Cachao products in the Global Hub selection.',text:'The product cards link directly to Cachao. Orders, availability and fulfilment are handled by the partner.'},
+    productCards:{cta:'View Product',powder:{title:'Organic Raw Cacao Powder',text:'Premium organic raw cacao powder with a naturally rich aroma, minimal processing and a clean ingredient profile.'},nibs:{title:'Organic Cacao Nibs',text:'Organic cacao nibs with an intense cacao character, natural crunch and no added sugar.'}},
+    profile:{label:'Partner Profile',title:'Where Cachao fits into the Global Hub.',text1:'Cachao complements the Global Hub product platform as a nutrition partner with a clear, premium product focus. The brand concentrates on cacao as a high-quality whole-food ingredient with a transparent origin and a strong emphasis on purity, taste and everyday usability.',text2:'Within the Global Hub ecosystem, Cachao adds a refined nutrition and lifestyle dimension for people who value clean ingredients, thoughtful sourcing and products that integrate naturally into daily routines.'},
+    facts:{categoryLabel:'Category',categoryValue:'Nutrition & Supplements',focusLabel:'Partner Focus',focusValue:'Organic cacao products',fitLabel:'Global Hub Fit',fitValue:'Clean nutrition, daily routines, cellular health culture',productsLabel:'Products',productsValue:'Raw cacao powder and cacao nibs'},
+    cta:{label:'Partner Products',title:'Explore the curated product platform.',text:'Discover selected products and technologies from the wider Global Hub partner network.',primary:'Back to Shop',secondary:'Contact the Global Hub'},
+    footer:{tagline:'Curated<br>Partner<br>Solutions',product:'A product of Cell Education',imprint:'Imprint',privacy:'Privacy Policy'}
+  },
+  de:{
+    nav:{home:'Home',shop:'Shop',products:'Produkte'},
+    hero:{label:'Global Hub Partner',text:'Cachao steht für einen fokussierten, zutatenorientierten Ansatz rund um Bio-Kakao. Innerhalb der Global-Hub-Partnerplattform steht die Marke für saubere Herkunft, schonende Verarbeitung und eine Produktwelt, die natürlich in Ernährungs-, Performance- und Longevity-Routinen passt.',primary:'Warum Cachao',secondary:'Zurück zu den Produkten'},
+    why:{label:'Warum wir diesen Partner gewählt haben',title:'Reiner Kakao mit hochwertigem Ernährungsprofil.',text:'Der Global Hub hebt Partner hervor, die Klarheit, Qualität und eine glaubwürdige Verbindung zu zellulärer Performance, Longevity und alltagstauglichen Gesundheitsroutinen bieten. Cachao wurde ausgewählt, weil die Kakao-Produkte einfach, nachvollziehbar und nah am ursprünglichen Lebensmittel bleiben.'},
+    reasons:[{title:'Bio-Criollo-Kakao',text:'Cachao arbeitet mit Bio-Criollo-Kakao aus Single-Origin-Herkunft, einer hochwertigen Kakaosorte mit eigenständigem Aroma und natürlich reichhaltigem Profil.'},{title:'Schonende Verarbeitung',text:'Die Produkte werden zurückhaltend verarbeitet, damit der natürliche Charakter der Kakaobohne ohne unnötige industrielle Schritte erhalten bleibt.'},{title:'Keine Zusätze',text:'Die ausgewählten Kakao-Produkte setzen auf reine Zutaten: kein zugesetzter Zucker, keine unnötigen Füllstoffe und keine komplizierte Positionierung.'},{title:'Alltagstauglicher Performance-Fit',text:'Kakao lässt sich einfach in Frühstück, Smoothies, funktionale Rezepte und Routinen für ernährungsbewusste Menschen integrieren.'}],
+    products:{label:'Ausgewählte Produkte',title:'Cachao-Produkte in der Global-Hub-Auswahl.',text:'Die Produktkarten führen direkt zu Cachao. Bestellung, Verfügbarkeit und Versand liegen beim Partner.'},
+    productCards:{cta:'Produkt ansehen',powder:{title:'Bio-Rohkakaopulver',text:'Hochwertiges Bio-Rohkakaopulver mit natürlich intensivem Aroma, schonender Verarbeitung und klarem Zutatenprofil.'},nibs:{title:'Bio-Kakao-Nibs',text:'Bio-Kakao-Nibs mit intensivem Kakaocharakter, natürlichem Crunch und ohne zugesetzten Zucker.'}},
+    profile:{label:'Partnerprofil',title:'Wo Cachao in den Global Hub passt.',text1:'Cachao ergänzt die Global-Hub-Produktplattform als Ernährungspartner mit klarem, hochwertigem Produktfokus. Die Marke konzentriert sich auf Kakao als hochwertige Whole-Food-Zutat mit transparenter Herkunft und einem starken Anspruch an Reinheit, Geschmack und Alltagstauglichkeit.',text2:'Im Global-Hub-Ökosystem bringt Cachao eine feine Nutrition- und Lifestyle-Dimension für Menschen ein, die saubere Zutaten, durchdachte Herkunft und Produkte schätzen, die sich natürlich in tägliche Routinen integrieren lassen.'},
+    facts:{categoryLabel:'Kategorie',categoryValue:'Ernährung & Supplements',focusLabel:'Partnerfokus',focusValue:'Bio-Kakao-Produkte',fitLabel:'Global-Hub-Fit',fitValue:'Clean Nutrition, tägliche Routinen, zelluläre Gesundheitskultur',productsLabel:'Produkte',productsValue:'Rohkakaopulver und Kakao-Nibs'},
+    cta:{label:'Partnerprodukte',title:'Die kuratierte Produktplattform entdecken.',text:'Entdecken Sie ausgewählte Produkte und Technologien aus dem weiteren Global-Hub-Partnernetzwerk.',primary:'Zurück zum Shop',secondary:'Global Hub kontaktieren'},
+    footer:{tagline:'Kuratierte<br>Partner<br>Lösungen',product:'Ein Produkt von Cell Education',imprint:'Impressum',privacy:'Datenschutz'}
+  },
+  es:{
+    nav:{home:'Inicio',shop:'Shop',products:'Productos'},
+    hero:{label:'Partner del Global Hub',text:'Cachao representa un enfoque centrado en ingredientes de cacao orgánico. Dentro de la plataforma de partners del Global Hub, la marca destaca por origen claro, procesamiento mínimo y productos que encajan de forma natural en rutinas de nutrición, rendimiento y longevidad.',primary:'Por qué Cachao',secondary:'Volver a productos'},
+    why:{label:'Por qué elegimos este partner',title:'Cacao limpio con un perfil nutricional premium.',text:'El Global Hub destaca partners que aportan claridad, calidad y un encaje creíble con rendimiento celular, longevidad y rutinas de salud diarias. Cachao fue seleccionado porque sus productos de cacao son simples, trazables y cercanos al ingrediente original.'},
+    reasons:[{title:'Cacao Criollo orgánico',text:'Cachao trabaja con cacao Criollo orgánico de origen único, una variedad premium con aroma propio y perfil naturalmente rico.'},{title:'Procesamiento mínimo',text:'Los productos se procesan con moderación para conservar el carácter natural del grano de cacao sin pasos industriales innecesarios.'},{title:'Sin aditivos',text:'Los productos seleccionados se basan en pureza de ingredientes: sin azúcar añadido, sin rellenos innecesarios y sin posicionamiento complicado.'},{title:'Encaje diario de rendimiento',text:'El cacao se integra fácilmente en desayunos, smoothies, recetas funcionales y rutinas para personas interesadas en calidad nutricional.'}],
+    products:{label:'Productos seleccionados',title:'Productos Cachao en la selección Global Hub.',text:'Las tarjetas enlazan directamente con Cachao. Pedidos, disponibilidad y cumplimiento son gestionados por el partner.'},
+    productCards:{cta:'Ver producto',powder:{title:'Cacao crudo orgánico en polvo',text:'Cacao crudo orgánico premium con aroma naturalmente intenso, procesamiento mínimo y un perfil de ingredientes limpio.'},nibs:{title:'Nibs de cacao orgánico',text:'Nibs de cacao orgánico con carácter intenso, textura crujiente natural y sin azúcar añadido.'}},
+    profile:{label:'Perfil del partner',title:'Dónde encaja Cachao en el Global Hub.',text1:'Cachao complementa la plataforma de productos del Global Hub como partner de nutrición con un foco premium y claro. La marca se concentra en el cacao como ingrediente whole-food de alta calidad, con origen transparente y énfasis en pureza, sabor y uso diario.',text2:'Dentro del ecosistema Global Hub, Cachao añade una dimensión refinada de nutrición y lifestyle para personas que valoran ingredientes limpios, abastecimiento cuidado y productos fáciles de integrar en rutinas diarias.'},
+    facts:{categoryLabel:'Categoría',categoryValue:'Nutrición & suplementos',focusLabel:'Foco del partner',focusValue:'Productos de cacao orgánico',fitLabel:'Encaje Global Hub',fitValue:'Nutrición limpia, rutinas diarias, cultura de salud celular',productsLabel:'Productos',productsValue:'Cacao en polvo y nibs de cacao'},
+    cta:{label:'Productos partners',title:'Explorar la plataforma curada de productos.',text:'Descubre productos y tecnologías seleccionados de la red Global Hub.',primary:'Volver al Shop',secondary:'Contactar Global Hub'},
+    footer:{tagline:'Soluciones<br>de partners<br>seleccionadas',product:'Un producto de Cell Education',imprint:'Aviso legal',privacy:'Privacidad'}
+  },
+  pl:{
+    nav:{home:'Start',shop:'Shop',products:'Produkty'},
+    hero:{label:'Partner Global Hub',text:'Cachao reprezentuje skoncentrowane, składnikowe podejście do kakao organicznego. W platformie partnerskiej Global Hub marka oznacza czyste pochodzenie, minimalne przetwarzanie i produkty pasujące do rutyn żywieniowych, performance i longevity.',primary:'Dlaczego Cachao',secondary:'Powrót do produktów'},
+    why:{label:'Dlaczego wybraliśmy tego partnera',title:'Czyste kakao z premium profilem żywieniowym.',text:'Global Hub wyróżnia partnerów, którzy wnoszą klarowność, jakość i wiarygodne dopasowanie do wydajności komórkowej, longevity i codziennych rutyn zdrowotnych. Cachao wybrano, ponieważ jego produkty kakaowe są proste, przejrzyste i bliskie pierwotnemu składnikowi.'},
+    reasons:[{title:'Organiczne kakao Criollo',text:'Cachao pracuje z organicznym kakao Criollo z jednego źródła, premium odmianą znaną z wyrazistego aromatu i naturalnie bogatego profilu.'},{title:'Minimalne przetwarzanie',text:'Produkty są przetwarzane ostrożnie, aby zachować naturalny charakter ziarna kakao bez niepotrzebnych etapów przemysłowych.'},{title:'Bez dodatków',text:'Wybrane produkty opierają się na czystości składników: bez dodatku cukru, zbędnych wypełniaczy i skomplikowanego pozycjonowania.'},{title:'Dopasowanie do codziennych rutyn',text:'Kakao łatwo włączyć do śniadań, smoothie, funkcjonalnych przepisów i rutyn osób dbających o jakość żywienia.'}],
+    products:{label:'Wybrane produkty',title:'Produkty Cachao w selekcji Global Hub.',text:'Karty produktów prowadzą bezpośrednio do Cachao. Zamówienia, dostępność i realizację obsługuje partner.'},
+    productCards:{cta:'Zobacz produkt',powder:{title:'Organiczne surowe kakao w proszku',text:'Premium organiczne surowe kakao w proszku z naturalnie bogatym aromatem, minimalnym przetwarzaniem i czystym profilem składników.'},nibs:{title:'Organiczne nibsy kakaowe',text:'Organiczne nibsy kakaowe o intensywnym charakterze, naturalnej chrupkości i bez dodatku cukru.'}},
+    profile:{label:'Profil partnera',title:'Jak Cachao pasuje do Global Hub.',text1:'Cachao uzupełnia platformę produktów Global Hub jako partner żywieniowy o jasnym, premium ukierunkowaniu. Marka koncentruje się na kakao jako wysokiej jakości składniku whole-food o transparentnym pochodzeniu oraz nacisku na czystość, smak i codzienne użycie.',text2:'W ekosystemie Global Hub Cachao wnosi dopracowany wymiar nutrition i lifestyle dla osób, które cenią czyste składniki, przemyślane pochodzenie i produkty naturalnie wpisujące się w codzienne rutyny.'},
+    facts:{categoryLabel:'Kategoria',categoryValue:'Żywienie & suplementy',focusLabel:'Fokus partnera',focusValue:'Organiczne produkty kakaowe',fitLabel:'Dopasowanie Global Hub',fitValue:'Clean nutrition, codzienne rutyny, kultura zdrowia komórkowego',productsLabel:'Produkty',productsValue:'Kakao w proszku i nibsy kakaowe'},
+    cta:{label:'Produkty partnerów',title:'Poznaj kuratowaną platformę produktów.',text:'Odkryj wybrane produkty i technologie z szerszej sieci partnerów Global Hub.',primary:'Powrót do Shop',secondary:'Kontakt z Global Hub'},
+    footer:{tagline:'Wybrane<br>rozwiązania<br>partnerów',product:'Produkt Cell Education',imprint:'Imprint',privacy:'Polityka prywatności'}
+  },
+  fr:{
+    nav:{home:'Accueil',shop:'Shop',products:'Produits'},
+    hero:{label:'Partenaire Global Hub',text:'Cachao représente une approche du cacao biologique centrée sur l’ingrédient. Dans la plateforme partenaires du Global Hub, la marque incarne une origine claire, une transformation minimale et des produits qui s’intègrent naturellement aux routines nutrition, performance et longévité.',primary:'Pourquoi Cachao',secondary:'Retour aux produits'},
+    why:{label:'Pourquoi nous avons choisi ce partenaire',title:'Un cacao pur avec un profil nutritionnel premium.',text:'Le Global Hub met en avant des partenaires qui apportent clarté, qualité et cohérence avec la performance cellulaire, la longévité et les routines de santé quotidiennes. Cachao a été sélectionné parce que ses produits cacao sont simples, traçables et proches de l’ingrédient d’origine.'},
+    reasons:[{title:'Cacao Criollo biologique',text:'Cachao travaille avec du cacao Criollo biologique single-origin, une variété premium connue pour son arôme distinctif et son profil naturellement riche.'},{title:'Transformation minimale',text:'Les produits sont transformés avec retenue afin de préserver le caractère naturel de la fève de cacao, sans étapes industrielles inutiles.'},{title:'Sans additifs',text:'Les produits sélectionnés reposent sur la pureté des ingrédients : sans sucre ajouté, sans charges inutiles et sans positionnement compliqué.'},{title:'Intégration quotidienne',text:'Le cacao s’intègre facilement aux petits déjeuners, smoothies, recettes fonctionnelles et routines des personnes attentives à la qualité nutritionnelle.'}],
+    products:{label:'Produits sélectionnés',title:'Produits Cachao dans la sélection Global Hub.',text:'Les cartes produits renvoient directement vers Cachao. Commandes, disponibilité et livraison sont gérées par le partenaire.'},
+    productCards:{cta:'Voir le produit',powder:{title:'Poudre de cacao cru biologique',text:'Poudre de cacao cru biologique premium, avec un arôme naturellement riche, une transformation minimale et un profil d’ingrédients pur.'},nibs:{title:'Éclats de cacao biologiques',text:'Éclats de cacao biologiques au caractère intense, à la texture naturellement croquante et sans sucre ajouté.'}},
+    profile:{label:'Profil partenaire',title:'La place de Cachao dans le Global Hub.',text1:'Cachao complète la plateforme produits du Global Hub comme partenaire nutrition avec un positionnement premium clair. La marque se concentre sur le cacao comme ingrédient whole-food de haute qualité, avec une origine transparente et une forte exigence de pureté, de goût et d’usage quotidien.',text2:'Dans l’écosystème Global Hub, Cachao ajoute une dimension nutrition et lifestyle raffinée pour celles et ceux qui valorisent les ingrédients purs, les sources réfléchies et les produits faciles à intégrer aux routines quotidiennes.'},
+    facts:{categoryLabel:'Catégorie',categoryValue:'Nutrition & compléments',focusLabel:'Focus partenaire',focusValue:'Produits cacao biologiques',fitLabel:'Fit Global Hub',fitValue:'Nutrition pure, routines quotidiennes, culture santé cellulaire',productsLabel:'Produits',productsValue:'Poudre de cacao cru et éclats de cacao'},
+    cta:{label:'Produits partenaires',title:'Explorer la plateforme produits sélectionnée.',text:'Découvrez des produits et technologies sélectionnés dans le réseau Global Hub.',primary:'Retour au Shop',secondary:'Contacter Global Hub'},
+    footer:{tagline:'Solutions<br>partenaires<br>sélectionnées',product:'Un produit de Cell Education',imprint:'Mentions légales',privacy:'Confidentialité'}
+  },
+  cz:{
+    nav:{home:'Domů',shop:'Shop',products:'Produkty'},
+    hero:{label:'Partner Global Hub',text:'Cachao představuje soustředěný přístup k bio kakau založený na kvalitní surovině. V partnerské platformě Global Hub značka reprezentuje čistý původ, minimální zpracování a produkty, které přirozeně zapadají do výživových, výkonnostních a longevity rutin.',primary:'Proč Cachao',secondary:'Zpět na produkty'},
+    why:{label:'Proč jsme vybrali tohoto partnera',title:'Čisté kakao s prémiovým nutričním profilem.',text:'Global Hub zdůrazňuje partnery, kteří přinášejí jasnost, kvalitu a důvěryhodné propojení s buněčnou výkonností, longevity a každodenními zdravotními rutinami. Cachao bylo vybráno, protože jeho kakaové produkty jsou jednoduché, dohledatelné a blízké původní surovině.'},
+    reasons:[{title:'Bio kakao Criollo',text:'Cachao pracuje s bio kakaem Criollo z jednoho původu, prémiovou odrůdou známou výrazným aroma a přirozeně bohatým profilem.'},{title:'Minimální zpracování',text:'Produkty jsou zpracovány střídmě, aby byl zachován přirozený charakter kakaového bobu bez zbytečných průmyslových kroků.'},{title:'Bez aditiv',text:'Vybrané kakaové produkty stojí na čistotě složení: bez přidaného cukru, zbytečných plnidel a komplikovaného pozicování.'},{title:'Vhodné pro každodenní rutiny',text:'Kakao lze snadno začlenit do snídaní, smoothie, funkčních receptů a rutin lidí, kteří dbají na kvalitu výživy.'}],
+    products:{label:'Vybrané produkty',title:'Produkty Cachao ve výběru Global Hub.',text:'Produktové karty vedou přímo na Cachao. Objednávky, dostupnost a plnění zajišťuje partner.'},
+    productCards:{cta:'Zobrazit produkt',powder:{title:'Bio raw kakaový prášek',text:'Prémiový bio raw kakaový prášek s přirozeně bohatým aroma, minimálním zpracováním a čistým složením.'},nibs:{title:'Bio kakaové nibs',text:'Bio kakaové nibs s intenzivním kakaovým charakterem, přirozenou křupavostí a bez přidaného cukru.'}},
+    profile:{label:'Profil partnera',title:'Kam Cachao zapadá v Global Hub.',text1:'Cachao doplňuje produktovou platformu Global Hub jako výživový partner s jasným prémiovým zaměřením. Značka se soustředí na kakao jako vysoce kvalitní whole-food surovinu s transparentním původem a důrazem na čistotu, chuť a každodenní použitelnost.',text2:'V ekosystému Global Hub přidává Cachao kultivovaný rozměr výživy a lifestyle pro lidi, kteří oceňují čisté ingredience, promyšlený původ a produkty, které se přirozeně začlení do každodenních rutin.'},
+    facts:{categoryLabel:'Kategorie',categoryValue:'Výživa & suplementy',focusLabel:'Zaměření partnera',focusValue:'Bio kakaové produkty',fitLabel:'Global Hub fit',fitValue:'Clean nutrition, denní rutiny, kultura buněčného zdraví',productsLabel:'Produkty',productsValue:'Kakaový prášek a kakaové nibs'},
+    cta:{label:'Partnerské produkty',title:'Prozkoumat vybranou produktovou platformu.',text:'Objevte vybrané produkty a technologie z širší partnerské sítě Global Hub.',primary:'Zpět do Shopu',secondary:'Kontaktovat Global Hub'},
+    footer:{tagline:'Vybraná<br>partnerská<br>řešení',product:'Produkt Cell Education',imprint:'Impressum',privacy:'Ochrana soukromí'}
+  }
+};
+let currentLang='en';
+function getText(path){
+  return path.split('.').reduce((value,key)=>value?.[key],translations[currentLang]) ?? path.split('.').reduce((value,key)=>value?.[key],translations.en) ?? '';
+}
+function applyLanguage(lang){
+  currentLang=translations[lang]?lang:'en';
+  document.documentElement.lang=currentLang;
+  document.querySelectorAll('[data-lang]').forEach(button=>button.classList.toggle('active',button.dataset.lang===currentLang));
+  document.querySelectorAll('[data-i18n]').forEach(node=>{node.textContent=getText(node.dataset.i18n)});
+  document.querySelectorAll('[data-i18n-html]').forEach(node=>{node.innerHTML=getText(node.dataset.i18nHtml)});
+}
 function toggleNav(){document.getElementById('navOverlay')?.classList.toggle('active')}
+document.querySelectorAll('[data-lang]').forEach(button=>button.addEventListener('click',()=>applyLanguage(button.dataset.lang)));
+applyLanguage('en');
 </script>
 </body>
 </html>
