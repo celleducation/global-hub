@@ -20,7 +20,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{--accent:#ff5bd6;--black:#050505;--white:#fff;--ink:#0a0a0a;--muted:#625d59;--line:rgba(10,10,10,.09);--soft:#f7f6f4;--mono:'Roboto Mono',monospace;--headline:'Roboto Flex',sans-serif;--body:'DM Sans',sans-serif}
 html{scroll-behavior:smooth}body{font-family:var(--body);font-weight:300;color:var(--ink);background:#fff;line-height:1.7;-webkit-font-smoothing:antialiased}a{color:inherit;text-decoration:none}img{max-width:100%;display:block}button{font:inherit}
-.nav{position:fixed;top:0;left:0;right:0;z-index:20;padding:12px 34px;display:flex;align-items:center;justify-content:space-between;background:rgba(255,255,255,.92);border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}.nav__logo img{height:18px;width:auto}.nav__links{display:flex;align-items:center;gap:20px;list-style:none}.nav__links a{font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:rgba(10,10,10,.55);transition:color .25s}.nav__links a:hover,.nav__links a.active{color:var(--ink)}.nav__right{display:flex;align-items:center;gap:12px}.nav__mobile{display:none;width:34px;height:34px;border:1px solid var(--line);border-radius:999px;align-items:center;justify-content:center;flex-direction:column;gap:4px;cursor:pointer;background:rgba(255,255,255,.7)}.nav__mobile span{display:block;width:14px;height:1px;background:var(--ink)}.nav-overlay{position:fixed;inset:0;background:rgba(0,0,0,.96);backdrop-filter:blur(20px);z-index:999;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:28px;opacity:0;pointer-events:none;transition:opacity .3s}.nav-overlay.active{opacity:1;pointer-events:all}.nav-overlay a{font-family:var(--mono);font-size:20px;text-transform:uppercase;letter-spacing:2px;color:rgba(255,255,255,.68);transition:color .25s}.nav-overlay a:hover{color:var(--accent)}.nav-overlay__close{position:absolute;top:16px;right:20px;width:36px;height:36px;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:24px;color:#fff}.lang-switcher{display:flex;align-items:center;gap:4px}.lang-switcher button{border:1px solid var(--line);background:#fff;color:var(--muted);border-radius:999px;padding:6px 8px;font-family:var(--mono);font-size:10px;text-transform:uppercase;cursor:default}.lang-switcher button.active{background:var(--ink);border-color:var(--ink);color:#fff}.nav-overlay .lang-switcher{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:4px}.nav-overlay .lang-switcher button{border-color:rgba(255,255,255,.22);background:rgba(255,255,255,.08);color:rgba(255,255,255,.72);font-size:11px}.nav-overlay .lang-switcher button.active{background:#fff;border-color:#fff;color:#0a0a0a}
+.nav{position:fixed;top:0;left:0;right:0;z-index:20;padding:12px 34px;display:flex;align-items:center;justify-content:space-between;background:rgba(255,255,255,.92);border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}.nav__logo img{height:18px;width:auto}.nav__links{display:flex;align-items:center;gap:20px;list-style:none}.nav__links a{font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:rgba(10,10,10,.55);transition:color .25s}.nav__links a:hover,.nav__links a.active{color:var(--ink)}.nav__right{display:flex;align-items:center;gap:12px}.nav__mobile{display:none;width:34px;height:34px;border:1px solid var(--line);border-radius:999px;align-items:center;justify-content:center;flex-direction:column;gap:4px;cursor:pointer;background:rgba(255,255,255,.7)}.nav__mobile span{display:block;width:14px;height:1px;background:var(--ink)}.nav-overlay{position:fixed;inset:0;background:rgba(0,0,0,.96);backdrop-filter:blur(20px);z-index:999;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:28px;opacity:0;pointer-events:none;transition:opacity .3s}.nav-overlay.active{opacity:1;pointer-events:all}.nav-overlay a{font-family:var(--mono);font-size:20px;text-transform:uppercase;letter-spacing:2px;color:rgba(255,255,255,.68);transition:color .25s}.nav-overlay a:hover{color:var(--accent)}.nav-overlay__close{position:absolute;top:16px;right:20px;width:36px;height:36px;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:24px;color:#fff}.lang-switcher{display:flex;align-items:center;gap:4px}.lang-switcher button{border:1px solid var(--line);background:#fff;color:var(--muted);border-radius:999px;padding:6px 8px;font-family:var(--mono);font-size:10px;text-transform:uppercase;cursor:pointer}.lang-switcher button.active{background:var(--ink);border-color:var(--ink);color:#fff}.nav-overlay .lang-switcher{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:4px}.nav-overlay .lang-switcher button{border-color:rgba(255,255,255,.22);background:rgba(255,255,255,.08);color:rgba(255,255,255,.72);font-size:11px}.nav-overlay .lang-switcher button.active{background:#fff;border-color:#fff;color:#0a0a0a}
 .pill{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:1px solid rgba(10,10,10,.16);border-radius:999px;padding:10px 18px;font-family:var(--mono);font-size:13px;text-transform:uppercase;letter-spacing:-.02em;white-space:nowrap;transition:border-color .25s,box-shadow .25s,transform .25s;background:#fff;cursor:pointer}.pill:hover,.pill:focus-visible{border-color:var(--accent);box-shadow:inset 0 0 0 1px rgba(255,91,214,.18);transform:translateY(-1px);outline:none}.pill--solid{background:var(--accent);border-color:var(--accent);color:#fff}.pill svg{width:12px;height:12px;flex:0 0 auto}.nav__shop{padding:8px 16px;font-size:12px;line-height:1}
 .label{font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:1.4px;color:#777;margin-bottom:12px}.hero{padding:126px 40px 72px;background:linear-gradient(180deg,#fff,#f8f7f5);border-bottom:1px solid var(--line);overflow:hidden}.hero__inner{max-width:1180px;margin:0 auto}.hero h1{font-family:var(--headline);font-weight:800;font-size:clamp(42px,6vw,82px);line-height:.98;letter-spacing:-.02em;margin-bottom:18px;max-width:980px}.hero p{font-size:clamp(16px,1.35vw,19px);line-height:1.68;color:var(--muted);max-width:760px}.hero__actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
 .intro{padding:58px 40px;border-bottom:1px solid var(--line)}.intro__inner{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,420px);gap:34px;align-items:start}.intro h2,.section h2,.cta h2{font-family:var(--headline);font-weight:800;font-size:clamp(30px,4vw,56px);line-height:1.05;letter-spacing:-.01em}.intro p{font-size:16px;line-height:1.78;color:var(--muted)}.notice{padding:18px 20px;border:1px solid rgba(255,91,214,.24);border-radius:16px;background:rgba(255,91,214,.055);font-size:14px;color:#4d474a}
@@ -38,27 +38,27 @@ html{scroll-behavior:smooth}body{font-family:var(--body);font-weight:300;color:v
 <!-- End Google Tag Manager (noscript) -->
 <nav class="nav" id="nav">
 <a class="nav__logo" href="index.html" aria-label="Global Hub home"><img src="images/global-hub-logo-dark.svg" alt="Global Hub for Cell Performance"></a>
-<ul class="nav__links"><li><a href="index.html">Home</a></li><li><a href="longevity-lab.html">Longevity Lab 2026</a></li><li><a href="shop.html" class="active">Shop</a></li></ul>
-<div class="nav__right"><div class="lang-switcher" aria-label="Language switcher"><button type="button" class="active">EN</button><button type="button">DE</button><button type="button">ES</button><button type="button">PL</button><button type="button">FR</button><button type="button">CZ</button></div><a href="#products" class="pill nav__shop">Explore</a></div>
+<ul class="nav__links"><li><a href="index.html" data-i18n="nav.home">Home</a></li><li><a href="longevity-lab.html">Longevity Lab 2026</a></li><li><a href="shop.html" class="active" data-i18n="nav.shop">Shop</a></li></ul>
+<div class="nav__right"><div class="lang-switcher" aria-label="Language switcher"><button type="button" class="active" data-lang="en">EN</button><button type="button" data-lang="de">DE</button><button type="button" data-lang="es">ES</button><button type="button" data-lang="pl">PL</button><button type="button" data-lang="fr">FR</button><button type="button" data-lang="cz">CZ</button></div><a href="#products" class="pill nav__shop" data-i18n="nav.explore">Explore</a></div>
 <div class="nav__mobile" onclick="toggleNav()" aria-label="Open navigation"><span></span><span></span><span></span></div>
 </nav>
 <div class="nav-overlay" id="navOverlay">
 <div class="nav-overlay__close" onclick="toggleNav()">✕</div>
-<a href="index.html" onclick="toggleNav()">Home</a>
+<a href="index.html" onclick="toggleNav()" data-i18n="nav.home">Home</a>
 <a href="longevity-lab.html" onclick="toggleNav()">Longevity Lab 2026</a>
-<a href="shop.html" onclick="toggleNav()">Shop</a>
-<div class="lang-switcher" aria-label="Language switcher mobile"><button type="button" class="active">EN</button><button type="button">DE</button><button type="button">ES</button><button type="button">PL</button><button type="button">FR</button><button type="button">CZ</button></div>
+<a href="shop.html" onclick="toggleNav()" data-i18n="nav.shop">Shop</a>
+<div class="lang-switcher" aria-label="Language switcher mobile"><button type="button" class="active" data-lang="en">EN</button><button type="button" data-lang="de">DE</button><button type="button" data-lang="es">ES</button><button type="button" data-lang="pl">PL</button><button type="button" data-lang="fr">FR</button><button type="button" data-lang="cz">CZ</button></div>
 </div>
 <main>
 <section class="hero">
 <div class="hero__inner">
 <div>
-<div class="label">Partner Products</div>
-<h1>Curated Products for Cellular Performance</h1>
-<p>Discover selected products, technologies and medical devices from our international partner network. From premium nutrition to innovative medical technologies, the Global Hub brings together carefully selected solutions for performance, regeneration, longevity and cellular health.</p>
+<div class="label" data-i18n="hero.label">Partner Products</div>
+<h1 data-i18n="hero.title">Curated Products for Cellular Performance</h1>
+<p data-i18n="hero.text">Discover selected products, technologies and medical devices from our international partner network. From premium nutrition to innovative medical technologies, the Global Hub brings together carefully selected solutions for performance, regeneration, longevity and cellular health.</p>
 <div class="hero__actions">
-<a class="pill pill--solid" href="#products">Explore Products <svg viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
-<a class="pill" href="#partners">Our Partners</a>
+<a class="pill pill--solid" href="#products"><span data-i18n="hero.primary">Explore Products</span> <svg viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+<a class="pill" href="#partners" data-i18n="hero.secondary">Our Partners</a>
 </div>
 </div>
 </div>
@@ -67,15 +67,15 @@ html{scroll-behavior:smooth}body{font-family:var(--body);font-weight:300;color:v
 <section class="section" id="products">
 <div class="section__inner">
 <div class="section__header">
-<div><div class="label">Product Platform</div><h2>Products and medical technologies.</h2></div>
-<p>A curated overview for performance, regeneration, longevity, cellular health, medical technology and nutrition. No checkout, no prices, no cart, only direct partner access.</p>
+<div><div class="label" data-i18n="products.label">Product Platform</div><h2 data-i18n="products.title">Products and medical technologies.</h2></div>
+<p data-i18n="products.text">A curated overview for performance, regeneration, longevity, cellular health, medical technology and nutrition. No checkout, no prices, no cart, only direct partner access.</p>
 </div>
 <div class="filters" role="tablist" aria-label="Product categories">
-<button class="filter active" type="button" data-filter="all">All Products</button>
-<button class="filter" type="button" data-filter="nutrition">Nutrition & Supplements</button>
-<button class="filter" type="button" data-filter="medical-device">Medical Devices</button>
-<button class="filter" type="button" data-filter="regeneration-performance">Regeneration & Performance</button>
-<button class="filter" type="button" data-filter="cellular-health">Cellular Health</button>
+<button class="filter active" type="button" data-filter="all" data-filter-label="all">All Products</button>
+<button class="filter" type="button" data-filter="nutrition" data-filter-label="nutrition">Nutrition & Supplements</button>
+<button class="filter" type="button" data-filter="medical-device" data-filter-label="medicalDevice">Medical Devices</button>
+<button class="filter" type="button" data-filter="regeneration-performance" data-filter-label="regeneration">Regeneration & Performance</button>
+<button class="filter" type="button" data-filter="cellular-health" data-filter-label="cellular">Cellular Health</button>
 </div>
 <div class="product-grid" id="productGrid" aria-live="polite"></div>
 </div>
@@ -84,8 +84,8 @@ html{scroll-behavior:smooth}body{font-family:var(--body);font-weight:300;color:v
 <section class="section" id="partners">
 <div class="section__inner">
 <div class="section__header">
-<div><div class="label">Partner Network</div><h2>Our Product and Technology Partners</h2></div>
-<p>The logo overview complements the product platform and can be expanded as new partners and products are added to the Global Hub ecosystem.</p>
+<div><div class="label" data-i18n="partners.label">Partner Network</div><h2 data-i18n="partners.title">Our Product and Technology Partners</h2></div>
+<p data-i18n="partners.text">The logo overview complements the product platform and can be expanded as new partners and products are added to the Global Hub ecosystem.</p>
 </div>
 <div class="partner-grid" id="partnerGrid"></div>
 </div>
@@ -95,12 +95,12 @@ html{scroll-behavior:smooth}body{font-family:var(--body);font-weight:300;color:v
 <div class="cta__inner">
 <div>
 <div class="label" style="color:rgba(255,255,255,.5)">Global Hub</div>
-<h2>Become Part of the Global Hub</h2>
-<p>Are you developing innovative products, medical technologies or solutions for cellular health and performance? Become part of our international partner network.</p>
+<h2 data-i18n="cta.title">Become Part of the Global Hub</h2>
+<p data-i18n="cta.text">Are you developing innovative products, medical technologies or solutions for cellular health and performance? Become part of our international partner network.</p>
 </div>
 <div class="cta__actions">
-<a class="pill pill--solid" href="mailto:info@cell-education.com?subject=Become%20a%20Global%20Hub%20Partner">Become a Partner <svg viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
-<a class="pill" href="mailto:info@cell-education.com?subject=Global%20Hub%20Partner%20Products">Contact the Global Hub</a>
+<a class="pill pill--solid" href="mailto:info@cell-education.com?subject=Become%20a%20Global%20Hub%20Partner"><span data-i18n="cta.primary">Become a Partner</span> <svg viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+<a class="pill" href="mailto:info@cell-education.com?subject=Global%20Hub%20Partner%20Products" data-i18n="cta.secondary">Contact the Global Hub</a>
 </div>
 </div>
 </section>
@@ -110,12 +110,14 @@ html{scroll-behavior:smooth}body{font-family:var(--body);font-weight:300;color:v
 <div class="footer__bg"></div>
 <div class="footer__overlay"></div>
 <div class="footer__top"><div class="footer__col"><a href="index.html"><img src="images/global-hub-logo.svg" alt="Global Hub for Cell Performance"></a></div><div class="footer__col"><h5>Instagram</h5><div class="footer__socials"><a href="https://www.instagram.com/celleducationinstitute/" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="white" stroke="none"/></svg></a></div></div></div>
-<div class="footer__tagline"><h2>Curated<br>Partner<br>Solutions</h2></div>
-<div class="footer__product"><span>A product of Cell Education</span><a href="https://cell-education.com" target="_blank" rel="noopener noreferrer" aria-label="Cell Education"><img src="images/cell-education-logo-white.svg" alt="Cell Education"></a></div>
-<div class="footer__bottom"><span>Cell Education - The Institute GmbH &amp; Co. KG · Frankfurter Straße 7 · 61462 Königstein im Taunus</span><span class="footer__legal"><a href="https://cell-education.com/impressum" target="_blank" rel="noopener noreferrer">Imprint</a><span>·</span><a href="https://cell-education.com/datenschutz" target="_blank" rel="noopener noreferrer">Privacy Policy</a></span></div>
+<div class="footer__tagline"><h2 data-i18n-html="footer.tagline">Curated<br>Partner<br>Solutions</h2></div>
+<div class="footer__product"><span data-i18n="footer.product">A product of Cell Education</span><a href="https://cell-education.com" target="_blank" rel="noopener noreferrer" aria-label="Cell Education"><img src="images/cell-education-logo-white.svg" alt="Cell Education"></a></div>
+<div class="footer__bottom"><span>Cell Education - The Institute GmbH &amp; Co. KG · Frankfurter Straße 7 · 61462 Königstein im Taunus</span><span class="footer__legal"><a href="https://cell-education.com/impressum" target="_blank" rel="noopener noreferrer" data-i18n="footer.imprint">Imprint</a><span>·</span><a href="https://cell-education.com/datenschutz" target="_blank" rel="noopener noreferrer" data-i18n="footer.privacy">Privacy Policy</a></span></div>
 </footer>
 <script>
 function toggleNav(){document.getElementById('navOverlay')?.classList.toggle('active')}
+let currentLang='en';
+let currentFilter='all';
 
 const productCategories={
   nutrition:'Nutrition & Supplements',
@@ -123,6 +125,46 @@ const productCategories={
   'regeneration-performance':'Regeneration & Performance',
   'cellular-health':'Cellular Health'
 };
+
+const uiTranslations={
+  en:{nav:{home:'Home',shop:'Shop',explore:'Explore'},hero:{label:'Partner Products',title:'Curated Products for Cellular Performance',text:'Discover selected products, technologies and medical devices from our international partner network. From premium nutrition to innovative medical technologies, the Global Hub brings together carefully selected solutions for performance, regeneration, longevity and cellular health.',primary:'Explore Products',secondary:'Our Partners'},products:{label:'Product Platform',title:'Products and medical technologies.',text:'A curated overview for performance, regeneration, longevity, cellular health, medical technology and nutrition. No checkout, no prices, no cart, only direct partner access.'},filters:{all:'All Products',nutrition:'Nutrition & Supplements',medicalDevice:'Medical Devices',regeneration:'Regeneration & Performance',cellular:'Cellular Health'},categories:productCategories,card:{why:'Why we chose this partner',profile:'Partner Profile'},partners:{label:'Partner Network',title:'Our Product and Technology Partners',text:'The logo overview complements the product platform and can be expanded as new partners and products are added to the Global Hub ecosystem.'},cta:{title:'Become Part of the Global Hub',text:'Are you developing innovative products, medical technologies or solutions for cellular health and performance? Become part of our international partner network.',primary:'Become a Partner',secondary:'Contact the Global Hub'},footer:{tagline:'Curated<br>Partner<br>Solutions',product:'A product of Cell Education',imprint:'Imprint',privacy:'Privacy Policy'}},
+  de:{nav:{home:'Home',shop:'Shop',explore:'Entdecken'},hero:{label:'Partnerprodukte',title:'Kuratierte Produkte für zelluläre Performance',text:'Entdecken Sie ausgewählte Produkte, Technologien und medizinische Geräte aus unserem internationalen Partnernetzwerk. Von hochwertiger Ernährung bis zu innovativer Medizintechnologie bündelt der Global Hub sorgfältig ausgewählte Lösungen für Performance, Regeneration, Longevity und zelluläre Gesundheit.',primary:'Produkte ansehen',secondary:'Unsere Partner'},products:{label:'Produktplattform',title:'Produkte und medizinische Technologien.',text:'Eine kuratierte Übersicht für Performance, Regeneration, Longevity, zelluläre Gesundheit, Medizintechnologie und Ernährung. Kein Checkout, keine Preise, kein Warenkorb, nur direkter Zugang zu den Partnern.'},filters:{all:'Alle Produkte',nutrition:'Ernährung & Supplements',medicalDevice:'Medizinische Geräte',regeneration:'Regeneration & Performance',cellular:'Zelluläre Gesundheit'},categories:{nutrition:'Ernährung & Supplements','medical-device':'Medizinische Geräte','regeneration-performance':'Regeneration & Performance','cellular-health':'Zelluläre Gesundheit'},card:{why:'Warum wir diesen Partner gewählt haben',profile:'Partnerprofil'},partners:{label:'Partnernetzwerk',title:'Unsere Produkt- und Technologiepartner',text:'Die Logoübersicht ergänzt die Produktplattform und kann erweitert werden, sobald neue Partner und Produkte in das Global-Hub-Ökosystem aufgenommen werden.'},cta:{title:'Werden Sie Teil des Global Hub',text:'Entwickeln Sie innovative Produkte, medizinische Technologien oder Lösungen für zelluläre Gesundheit und Performance? Werden Sie Teil unseres internationalen Partnernetzwerks.',primary:'Partner werden',secondary:'Global Hub kontaktieren'},footer:{tagline:'Kuratierte<br>Partner<br>Lösungen',product:'Ein Produkt von Cell Education',imprint:'Impressum',privacy:'Datenschutz'}},
+  es:{nav:{home:'Inicio',shop:'Shop',explore:'Explorar'},hero:{label:'Productos de partners',title:'Productos seleccionados para el rendimiento celular',text:'Descubre productos, tecnologías y dispositivos médicos seleccionados de nuestra red internacional de partners. El Global Hub reúne soluciones para rendimiento, regeneración, longevidad y salud celular.',primary:'Explorar productos',secondary:'Nuestros partners'},products:{label:'Plataforma de productos',title:'Productos y tecnologías médicas.',text:'Una selección para rendimiento, regeneración, longevidad, salud celular, tecnología médica y nutrición. Sin checkout, sin precios, sin carrito: solo acceso directo a los partners.'},filters:{all:'Todos los productos',nutrition:'Nutrición & suplementos',medicalDevice:'Dispositivos médicos',regeneration:'Regeneración & rendimiento',cellular:'Salud celular'},categories:{nutrition:'Nutrición & suplementos','medical-device':'Dispositivos médicos','regeneration-performance':'Regeneración & rendimiento','cellular-health':'Salud celular'},card:{why:'Por qué elegimos este partner',profile:'Perfil del partner'},partners:{label:'Red de partners',title:'Nuestros partners de producto y tecnología',text:'La vista de logotipos complementa la plataforma de productos y puede ampliarse con nuevos partners y productos.'},cta:{title:'Forma parte del Global Hub',text:'¿Desarrollas productos innovadores, tecnologías médicas o soluciones para salud celular y rendimiento? Forma parte de nuestra red internacional.',primary:'Ser partner',secondary:'Contactar Global Hub'},footer:{tagline:'Soluciones<br>de partners<br>seleccionadas',product:'Un producto de Cell Education',imprint:'Aviso legal',privacy:'Privacidad'}},
+  pl:{nav:{home:'Start',shop:'Shop',explore:'Zobacz'},hero:{label:'Produkty partnerów',title:'Wybrane produkty dla wydajności komórkowej',text:'Poznaj wybrane produkty, technologie i urządzenia medyczne z naszej międzynarodowej sieci partnerów. Global Hub łączy rozwiązania dla wydajności, regeneracji, longevity i zdrowia komórkowego.',primary:'Zobacz produkty',secondary:'Nasi partnerzy'},products:{label:'Platforma produktów',title:'Produkty i technologie medyczne.',text:'Kuratowany przegląd dla performance, regeneracji, longevity, zdrowia komórkowego, technologii medycznej i żywienia. Bez checkoutu, cen i koszyka, tylko bezpośredni dostęp do partnerów.'},filters:{all:'Wszystkie produkty',nutrition:'Żywienie & suplementy',medicalDevice:'Urządzenia medyczne',regeneration:'Regeneracja & performance',cellular:'Zdrowie komórkowe'},categories:{nutrition:'Żywienie & suplementy','medical-device':'Urządzenia medyczne','regeneration-performance':'Regeneracja & performance','cellular-health':'Zdrowie komórkowe'},card:{why:'Dlaczego wybraliśmy tego partnera',profile:'Profil partnera'},partners:{label:'Sieć partnerów',title:'Nasi partnerzy produktowi i technologiczni',text:'Przegląd logo uzupełnia platformę produktów i może być rozszerzany o kolejnych partnerów oraz produkty.'},cta:{title:'Dołącz do Global Hub',text:'Tworzysz innowacyjne produkty, technologie medyczne lub rozwiązania dla zdrowia komórkowego i performance? Dołącz do naszej międzynarodowej sieci.',primary:'Zostań partnerem',secondary:'Kontakt z Global Hub'},footer:{tagline:'Wybrane<br>rozwiązania<br>partnerów',product:'Produkt Cell Education',imprint:'Imprint',privacy:'Polityka prywatności'}},
+  fr:{nav:{home:'Accueil',shop:'Shop',explore:'Explorer'},hero:{label:'Produits partenaires',title:'Produits sélectionnés pour la performance cellulaire',text:'Découvrez des produits, technologies et dispositifs médicaux issus de notre réseau international de partenaires. Le Global Hub réunit des solutions pour la performance, la régénération, la longévité et la santé cellulaire.',primary:'Explorer les produits',secondary:'Nos partenaires'},products:{label:'Plateforme produits',title:'Produits et technologies médicales.',text:'Une sélection dédiée à la performance, la régénération, la longévité, la santé cellulaire, la technologie médicale et la nutrition. Pas de paiement, pas de prix, pas de panier, uniquement un accès direct aux partenaires.'},filters:{all:'Tous les produits',nutrition:'Nutrition & compléments',medicalDevice:'Dispositifs médicaux',regeneration:'Régénération & performance',cellular:'Santé cellulaire'},categories:{nutrition:'Nutrition & compléments','medical-device':'Dispositifs médicaux','regeneration-performance':'Régénération & performance','cellular-health':'Santé cellulaire'},card:{why:'Pourquoi nous avons choisi ce partenaire',profile:'Profil partenaire'},partners:{label:'Réseau de partenaires',title:'Nos partenaires produits et technologies',text:'La grille de logos complète la plateforme produits et pourra évoluer avec de nouveaux partenaires et produits.'},cta:{title:'Rejoindre le Global Hub',text:'Vous développez des produits innovants, des technologies médicales ou des solutions pour la santé cellulaire et la performance ? Rejoignez notre réseau international.',primary:'Devenir partenaire',secondary:'Contacter le Global Hub'},footer:{tagline:'Solutions<br>partenaires<br>sélectionnées',product:'Un produit de Cell Education',imprint:'Mentions légales',privacy:'Confidentialité'}},
+  cz:{nav:{home:'Domů',shop:'Shop',explore:'Prozkoumat'},hero:{label:'Partnerské produkty',title:'Vybrané produkty pro buněčnou výkonnost',text:'Objevte vybrané produkty, technologie a zdravotnická zařízení z naší mezinárodní partnerské sítě. Global Hub propojuje řešení pro výkon, regeneraci, longevity a buněčné zdraví.',primary:'Prozkoumat produkty',secondary:'Naši partneři'},products:{label:'Produktová platforma',title:'Produkty a zdravotnické technologie.',text:'Kuratovaný přehled pro výkon, regeneraci, longevity, buněčné zdraví, zdravotnické technologie a výživu. Bez pokladny, cen a košíku, pouze přímý přístup k partnerům.'},filters:{all:'Všechny produkty',nutrition:'Výživa & suplementy',medicalDevice:'Zdravotnická zařízení',regeneration:'Regenerace & výkon',cellular:'Buněčné zdraví'},categories:{nutrition:'Výživa & suplementy','medical-device':'Zdravotnická zařízení','regeneration-performance':'Regenerace & výkon','cellular-health':'Buněčné zdraví'},card:{why:'Proč jsme vybrali tohoto partnera',profile:'Profil partnera'},partners:{label:'Partnerská síť',title:'Naši produktoví a technologičtí partneři',text:'Přehled log doplňuje produktovou platformu a lze jej rozšířit o další partnery a produkty.'},cta:{title:'Staňte se součástí Global Hub',text:'Vyvíjíte inovativní produkty, zdravotnické technologie nebo řešení pro buněčné zdraví a výkon? Připojte se k naší mezinárodní síti.',primary:'Staňte se partnerem',secondary:'Kontaktovat Global Hub'},footer:{tagline:'Vybraná<br>partnerská<br>řešení',product:'Produkt Cell Education',imprint:'Impressum',privacy:'Ochrana soukromí'}}
+};
+
+const productCopy={
+  de:{
+    'cachao-raw-cacao-powder':{productName:'Bio-Rohkakaopulver',description:'Bio-Criollo-Kakao aus Single-Origin-Herkunft, schonend verarbeitet, um natürlich vorkommende Flavanole, Polyphenole und den authentischen Kakaocharakter zu bewahren.',ctaLabel:'Produkt ansehen',why:['Bio-Criollo aus Single Origin','Natürlich reich an Flavanolen','Schonend verarbeitet','Ohne Zusätze']},
+    'cachao-cacao-nibs':{productName:'Bio-Kakao-Nibs',description:'Criollo-Kakao-Nibs als Whole-Food-Zutat mit natürlicher Kakaobutter, Ballaststoffen und authentischem Geschmack. Sauber, knusprig und ohne zugesetzten Zucker.',ctaLabel:'Produkt ansehen',why:['Bio Whole Food','Natürliche Kakaobutter','Ohne zugesetzten Zucker','Natürlich ballaststoffreich']},
+    'alps-pure-gel':{description:'Eine innovative Formel mit strukturiertem Wasser für Menschen, die sich für Wasserqualität und alternative Konzepte rund um strukturierte Flüssigkeiten interessieren.',ctaLabel:'Produkt ansehen'},
+    'supernutural-nutbooster':{description:'Ein kompaktes System, das frische Nusscreme direkt aus ganzen Nüssen in Sekunden zubereitet. Entwickelt für frische Zutaten ohne unnötige Zusatzstoffe.',ctaLabel:'Produkt ansehen'},
+    'supernutural-nutbooster-pro':{description:'Das professionelle Nutbooster-System für Hospitality, Sport, Healthcare und Longevity-Umgebungen. Für frische Nusszubereitungen mit gleichbleibender Qualität.',ctaLabel:'Produkt ansehen'},
+    'papimi-devices':{description:'Eine Technologie mit gepulsten elektromagnetischen Feldern für professionelle Anwendungen und integrative Therapiekonzepte.',ctaLabel:'Geräte ansehen'},
+    'rifetech-plasma':{description:'Eine plasmabasierte Technologieplattform für professionelle therapeutische Anwendungen, die moderne Technik mit regenerativen Konzepten verbindet.',ctaLabel:'Technologie ansehen'},
+    'human-regenerator-jet':{description:'Eine nicht-invasive Technologieplattform für regenerationsorientierte Konzepte in Performance-, Recovery- und Wellness-Umgebungen.',ctaLabel:'Technologie entdecken'},
+    'oxyven-systems':{description:'Ein etabliertes Sauerstofftherapie-Konzept für medizinische Fachanwender und integrative oxygen-basierte Behandlungsansätze.',ctaLabel:'Oxyven besuchen'},
+    'weber-endolight':{description:'Ein Photobiomodulationsgerät für die Anwendung zu Hause, entwickelt von Weber Medical auf Basis langjähriger Erfahrung mit medizinischen Lasersystemen.',ctaLabel:'EndoLight ansehen'}
+  },
+  es:{'cachao-raw-cacao-powder':{productName:'Cacao crudo orgánico en polvo',ctaLabel:'Ver producto'},'cachao-cacao-nibs':{productName:'Nibs de cacao orgánico',ctaLabel:'Ver producto'}},
+  pl:{'cachao-raw-cacao-powder':{productName:'Organiczne surowe kakao w proszku',ctaLabel:'Zobacz produkt'},'cachao-cacao-nibs':{productName:'Organiczne nibsy kakaowe',ctaLabel:'Zobacz produkt'}},
+  fr:{'cachao-raw-cacao-powder':{productName:'Poudre de cacao cru biologique',ctaLabel:'Voir le produit'},'cachao-cacao-nibs':{productName:'Éclats de cacao biologiques',ctaLabel:'Voir le produit'}},
+  cz:{'cachao-raw-cacao-powder':{productName:'Bio raw kakaový prášek',ctaLabel:'Zobrazit produkt'},'cachao-cacao-nibs':{productName:'Bio kakaové nibsy',ctaLabel:'Zobrazit produkt'}}
+};
+
+function t(path){
+  return path.split('.').reduce((value,key)=>value?.[key],uiTranslations[currentLang]) ?? path.split('.').reduce((value,key)=>value?.[key],uiTranslations.en) ?? '';
+}
+
+function productValue(product,key){
+  return productCopy[currentLang]?.[product.id]?.[key] ?? product[key];
+}
+
+function productWhy(product){
+  return productCopy[currentLang]?.[product.id]?.why ?? product.why;
+}
 
 const products=[
   {id:'cachao-raw-cacao-powder',partner:'Cachao',partnerLogo:'images/partner-products/logos/cachao-logo.svg',productName:'Organic Raw Cacao Powder',category:'nutrition',description:'Organic single-origin Criollo cacao, minimally processed to preserve its naturally occurring flavanols, polyphenols and authentic cacao character. Produced without additives for maximum ingredient purity.',image:'images/partner-products/cachao-cacao-powder.webp',externalUrl:'https://cachao.de/products/bio-rohkakaopulver',ctaLabel:'View Product',partnerPage:'partner-cachao.html',tags:['cellular-health'],why:['Organic Single-Origin Criollo','Naturally Rich in Flavanols','Minimally Processed','Additive Free']},
@@ -157,17 +199,19 @@ function externalIcon(){
 function renderProductCard(product){
   const tags=[product.category,...(product.tags||[])].join(' ');
   const logo=product.partnerLogo?`<img class="partner-logo" src="${product.partnerLogo}" alt="${product.partner} logo" loading="lazy">`:`<span class="partner-text">${product.partner}</span>`;
-  const media=product.image?`<img src="${product.image}" alt="${product.productName} by ${product.partner}" loading="lazy">`:`<div class="product-card__placeholder">${product.partnerLogo?`<img src="${product.partnerLogo}" alt="${product.partner} logo" loading="lazy">`:`<span class="partner-text">${product.partner}</span>`}</div>`;
-  const why=product.why?.length?`<div class="why-selected"><div class="why-selected__label">Why we chose this partner</div><div class="why-selected__chips">${product.why.map(item=>`<span class="why-chip">${item}</span>`).join('')}</div></div>`:'';
-  const partnerLink=product.partnerPage?`<a class="pill partner-profile-link" href="${product.partnerPage}">Partner Profile</a>`:'';
+  const productName=productValue(product,'productName');
+  const media=product.image?`<img src="${product.image}" alt="${productName} by ${product.partner}" loading="lazy">`:`<div class="product-card__placeholder">${product.partnerLogo?`<img src="${product.partnerLogo}" alt="${product.partner} logo" loading="lazy">`:`<span class="partner-text">${product.partner}</span>`}</div>`;
+  const whyItems=productWhy(product);
+  const why=whyItems?.length?`<div class="why-selected"><div class="why-selected__label">${t('card.why')}</div><div class="why-selected__chips">${whyItems.map(item=>`<span class="why-chip">${item}</span>`).join('')}</div></div>`:'';
+  const partnerLink=product.partnerPage?`<a class="pill partner-profile-link" href="${product.partnerPage}">${t('card.profile')}</a>`:'';
   return `<article class="product-card ${product.category==='medical-device'?'product-card--medical':''} ${product.featured?'product-card--featured':''}" data-category="${product.category}" data-tags="${tags}">
     <div class="product-card__media">${media}</div>
     <div class="product-card__body">
-      <div class="product-card__top"><div>${logo}</div><span class="category">${productCategories[product.category]}</span></div>
-      <h3>${product.productName}</h3>
-      <p>${product.description}</p>
+      <div class="product-card__top"><div>${logo}</div><span class="category">${t(`categories.${product.category}`)}</span></div>
+      <h3>${productName}</h3>
+      <p>${productValue(product,'description')}</p>
       ${why}
-      <div class="product-card__cta">${partnerLink}<a class="pill" href="${product.externalUrl}" target="_blank" rel="noopener noreferrer">${product.ctaLabel} ${externalIcon()}</a></div>
+      <div class="product-card__cta">${partnerLink}<a class="pill" href="${product.externalUrl}" target="_blank" rel="noopener noreferrer">${productValue(product,'ctaLabel')} ${externalIcon()}</a></div>
     </div>
   </article>`;
 }
@@ -181,6 +225,7 @@ function renderPartners(){
 }
 
 function filterProducts(filter){
+  currentFilter=filter;
   document.querySelectorAll('.filter').forEach(button=>button.classList.toggle('active',button.dataset.filter===filter));
   document.querySelectorAll('.product-card').forEach(card=>{
     const show=filter==='all'||card.dataset.category===filter||card.dataset.tags.split(' ').includes(filter);
@@ -188,9 +233,27 @@ function filterProducts(filter){
   });
 }
 
-document.getElementById('productGrid').innerHTML=products.map(renderProductCard).join('');
+function renderProducts(){
+  document.getElementById('productGrid').innerHTML=products.map(renderProductCard).join('');
+  filterProducts(currentFilter);
+}
+
+function applyLanguage(lang){
+  currentLang=uiTranslations[lang]?lang:'en';
+  document.documentElement.lang=currentLang;
+  document.querySelectorAll('[data-i18n]').forEach(node=>{node.textContent=t(node.dataset.i18n)});
+  document.querySelectorAll('[data-i18n-html]').forEach(node=>{node.innerHTML=t(node.dataset.i18nHtml)});
+  document.querySelectorAll('[data-filter-label]').forEach(node=>{node.textContent=t(`filters.${node.dataset.filterLabel}`)});
+  document.querySelectorAll('[data-lang]').forEach(button=>button.classList.toggle('active',button.dataset.lang===currentLang));
+  renderProducts();
+  localStorage.setItem('globalHubLanguage',currentLang);
+}
+
+renderProducts();
 renderPartners();
 document.querySelectorAll('.filter').forEach(button=>button.addEventListener('click',()=>filterProducts(button.dataset.filter)));
+document.querySelectorAll('[data-lang]').forEach(button=>button.addEventListener('click',()=>applyLanguage(button.dataset.lang)));
+applyLanguage(localStorage.getItem('globalHubLanguage')||'en');
 </script>
 </body>
 </html>
