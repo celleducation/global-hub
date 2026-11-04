@@ -108,7 +108,6 @@ shopLabel:"Shop",
 shopTitle:"Products & Solutions",
 shopCards:[
 ["Supplements","Targeted formulations for mitochondrial support, cellular health, and performance-oriented practice concepts.","Explore"],
-["Infusions","Specialized infusion solutions for structured clinical use, including mitochondrial support and practice-oriented application concepts.","Explore"],
 ["Medical Know-How","Educational resources and structured medical guidance around bionic cell therapy, cellular health protocols, and practical integration into clinical settings.","Explore"]
 ],
 eventLabel:"Event",
@@ -151,7 +150,7 @@ sportText:"As an official sponsor of RCD Mallorca, we support elite performance 
 sportBtn:"Visit RCD Mallorca",
 officialLabel:"Official Partners",
 officialBodies:[
-"With Burg-Apotheke as a partner, we develop novel infusion applications that are available exclusively to our participants. Together, we offer a unique combination of medical knowledge transfer and innovative infusion solutions, individually developed for your practice or clinic.",
+"",
 "Mallorca Country Club is one of the island's leading sports and event venues and hosts international tennis events such as the ATP Mallorca Championships. This partnership creates a distinctive setting for our events and network gatherings, combining a professional sports environment, an international audience, and high-quality infrastructure for meaningful exchange around health, performance, and prevention."
 ],
 officialBtns:["Burg Apotheke","Mallorca Country Club"],
@@ -186,7 +185,6 @@ shopLabel:"Shop",
 shopTitle:"Produkte & Lösungen",
 shopCards:[
 ["Supplemente","Gezielte Formulierungen für mitochondriale Unterstützung, zelluläre Gesundheit und leistungsorientierte Praxiskonzepte.","Entdecken"],
-["Infusionen","Spezialisierte Infusionslösungen für den strukturierten klinischen Einsatz, inklusive mitochondrialer Unterstützung und praxisnaher Anwendungskonzepte.","Entdecken"],
 ["Medizinisches Know-how","Fachliche Inhalte und strukturierte medizinische Orientierung zu bionischer Zelltherapie, Protokollen für zelluläre Gesundheit und deren Integration in den Praxisalltag.","Entdecken"]
 ],
 eventLabel:"Veranstaltung",
@@ -229,7 +227,7 @@ sportText:"Als offizieller Sponsor des RCD Mallorca unterstützen wir Spitzenlei
 sportBtn:"RCD Mallorca besuchen",
 officialLabel:"Offizielle Partner",
 officialBodies:[
-"Gemeinsam mit der Burg-Apotheke entwickeln wir neuartige Infusionsanwendungen, die exklusiv für unsere Teilnehmer verfügbar sind. So entsteht eine besondere Verbindung aus medizinischer Wissensvermittlung und innovativen Infusionslösungen, individuell für Praxis oder Klinik konzipiert.",
+"",
 "Der Mallorca Country Club zählt zu den renommiertesten Sport- und Eventlocations der Insel und ist Austragungsort internationaler Tennisevents wie der ATP Mallorca Championships. Die Partnerschaft schafft den passenden Rahmen für unsere Veranstaltungen und Netzwerktreffen mit professionellem Sportumfeld, internationalem Publikum und hochwertiger Infrastruktur."
 ],
 officialBtns:["Burg Apotheke","Mallorca Country Club"],
@@ -264,7 +262,6 @@ shopLabel:"Tienda",
 shopTitle:"Productos y soluciones",
 shopCards:[
 ["Suplementos","Formulaciones dirigidas al soporte mitocondrial, la salud celular y conceptos orientados al rendimiento en la practica profesional.","Explorar"],
-["Infusiones","Soluciones de infusion especializadas para un uso clinico estructurado, con apoyo mitocondrial y conceptos de aplicacion orientados a la practica.","Explorar"],
 ["Conocimiento medico","Recursos formativos y orientacion medica estructurada sobre terapia celular bionica, protocolos de salud celular e integracion practica en entornos clinicos.","Explorar"]
 ],
 eventLabel:"Evento",
@@ -307,7 +304,7 @@ sportText:"Como patrocinador oficial del RCD Mallorca, apoyamos el rendimiento d
 sportBtn:"Visitar RCD Mallorca",
 officialLabel:"Socios oficiales",
 officialBodies:[
-"Junto a Burg-Apotheke desarrollamos nuevas aplicaciones de infusion disponibles en exclusiva para nuestros participantes. La colaboracion combina transferencia de conocimiento medico e innovadoras soluciones de infusion adaptadas a cada consulta o clinica.",
+"",
 "Mallorca Country Club es uno de los espacios deportivos y de eventos mas destacados de la isla y acoge citas internacionales como la ATP Mallorca Championships. Esta colaboracion crea el entorno ideal para nuestros eventos y encuentros de red, con un ambiente deportivo profesional, publico internacional e infraestructura de alto nivel."
 ],
 officialBtns:["Burg Apotheke","Mallorca Country Club"],
@@ -342,7 +339,6 @@ shopLabel:"Boutique",
 shopTitle:"Produits & solutions",
 shopCards:[
 ["Compléments","Formulations ciblées pour le soutien mitochondrial, la santé cellulaire et des concepts de pratique orientés performance.","Découvrir"],
-["Infusions","Solutions d'infusion spécialisées pour un usage clinique structuré, incluant le soutien mitochondrial et des concepts d'application adaptés à la pratique.","Découvrir"],
 ["Savoir-faire médical","Ressources pédagogiques et orientation médicale structurée autour de la thérapie cellulaire bionique, des protocoles de santé cellulaire et de leur intégration en pratique clinique.","Découvrir"]
 ],
 eventLabel:"Événement",
@@ -385,7 +381,7 @@ sportText:"En tant que sponsor officiel du RCD Mallorca, nous soutenons la perfo
 sportBtn:"Visiter le RCD Mallorca",
 officialLabel:"Partenaires officiels",
 officialBodies:[
-"Avec Burg-Apotheke comme partenaire, nous développons de nouvelles applications d'infusion disponibles exclusivement pour nos participants. Cette collaboration associe transfert de connaissances médicales et solutions d'infusion innovantes, conçues individuellement pour votre cabinet ou votre clinique.",
+"",
 "Mallorca Country Club est l'un des lieux sportifs et événementiels les plus réputés de l'île et accueille des événements internationaux tels que l'ATP Mallorca Championships. Ce partenariat crée le cadre idéal pour nos événements et rencontres réseau, avec un environnement sportif professionnel, un public international et une infrastructure de haut niveau."
 ],
 officialBtns:["Burg Apotheke","Mallorca Country Club"],
@@ -420,7 +416,6 @@ shopLabel:"Obchod",
 shopTitle:"Produkty a řešení",
 shopCards:[
 ["Doplňky stravy","Cílené formulace pro mitochondriální podporu, buněčné zdraví a výkonnostně orientované koncepty praxe.","Prozkoumat"],
-["Infuze","Specializovaná infuzní řešení pro strukturované klinické použití včetně mitochondriální podpory a prakticky zaměřených aplikačních konceptů.","Prozkoumat"],
 ["Medicínské know-how","Vzdělávací materiály a strukturované medicínské vedení k bionické buněčné terapii, protokolům buněčného zdraví a jejich integraci do klinické praxe.","Prozkoumat"]
 ],
 eventLabel:"Událost",
@@ -463,7 +458,7 @@ sportText:"Jako oficiální sponzor RCD Mallorca podporujeme elitní výkon na n
 sportBtn:"Navštívit RCD Mallorca",
 officialLabel:"Oficiální partneři",
 officialBodies:[
-"Společně s Burg-Apotheke vyvíjíme nové infuzní aplikace dostupné exkluzivně pro naše účastníky. Tato spolupráce spojuje přenos medicínských znalostí a inovativní infuzní řešení navržená individuálně pro vaši praxi nebo kliniku.",
+"",
 "Mallorca Country Club patří mezi nejprestižnější sportovní a eventové lokality na ostrově a hostí mezinárodní tenisové akce, jako je ATP Mallorca Championships. Toto partnerství vytváří ideální prostředí pro naše události a setkání sítě, s profesionálním sportovním zázemím, mezinárodním publikem a vysoce kvalitní infrastrukturou."
 ],
 officialBtns:["Burg Apotheke","Mallorca Country Club"],
@@ -498,7 +493,6 @@ shopLabel:"Sklep",
 shopTitle:"Produkty i rozwiazania",
 shopCards:[
 ["Suplementy","Ukierunkowane formulacje wspierajace mitochondria, zdrowie komorkowe i koncepcje pracy zorientowane na wydolnosc.","Odkryj"],
-["Infuzje","Specjalistyczne rozwiazania infuzyjne do ustrukturyzowanego zastosowania klinicznego, obejmujace wsparcie mitochondrialne i praktyczne koncepcje wdrozenia.","Odkryj"],
 ["Know-how medyczny","Materialy edukacyjne i uporzadkowane wskazowki medyczne dotyczace bionicznej terapii komorkowej, protokolow zdrowia komorkowego i ich integracji w praktyce klinicznej.","Odkryj"]
 ],
 eventLabel:"Wydarzenie",
@@ -541,7 +535,7 @@ sportText:"Jako oficjalny sponsor RCD Mallorca wspieramy najwyższy poziom sport
 sportBtn:"Odwiedz RCD Mallorca",
 officialLabel:"Oficjalni partnerzy",
 officialBodies:[
-"Wspolnie z Burg-Apotheke rozwijamy nowoczesne zastosowania infuzyjne dostepne wylacznie dla naszych uczestnikow. To polaczenie transferu wiedzy medycznej i innowacyjnych rozwiazan infuzyjnych dopasowanych do potrzeb gabinetu lub kliniki.",
+"",
 "Mallorca Country Club nalezy do najbardziej renomowanych obiektow sportowych i eventowych na wyspie i gosci miedzynarodowe wydarzenia tenisowe, takie jak ATP Mallorca Championships. Ta wspolpraca tworzy idealne warunki dla naszych wydarzen i spotkan sieciowych."
 ],
 officialBtns:["Burg Apotheke","Mallorca Country Club"],
@@ -626,7 +620,6 @@ function applyLanguage(lang){
   document.querySelector('.partner-cluster__spotlight-copy h3').innerHTML=t.sportHead;
   document.querySelector('.partner-cluster__spotlight-copy p').textContent=t.sportText;
   document.querySelector('.partner-cluster__spotlight-copy .pill').childNodes[0].textContent=t.sportBtn+" ";
-  document.querySelectorAll('.official-card__content p')[0].textContent=t.officialBodies[0];
   document.querySelectorAll('.official-card__content p')[1].textContent=t.officialBodies[1];
   document.querySelectorAll('.official-card .pill').forEach((btn,i)=>btn.childNodes[0].textContent=t.officialBtns[i]+" ");
 
