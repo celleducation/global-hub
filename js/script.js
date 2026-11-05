@@ -104,12 +104,6 @@ headlineCta:"Join the Network",
 cards:["About Cell Education","Our Partners"],
 textblock:'With the Global Hub Network, we connect doctors worldwide for cellular medicine, longevity, and therapeutic innovation.',
 textblockCta:"Register",
-shopLabel:"Shop",
-shopTitle:"Products & Solutions",
-shopCards:[
-["Supplements","Targeted formulations for mitochondrial support, cellular health, and performance-oriented practice concepts.","Explore"],
-["Medical Know-How","Educational resources and structured medical guidance around bionic cell therapy, cellular health protocols, and practical integration into clinical settings.","Explore"]
-],
 eventLabel:"Event",
 eventTitle:"Longevity Lab Mallorca 2026",
 eventDate:"June 20, 2026",
@@ -150,26 +144,24 @@ sportText:"As an official sponsor of RCD Mallorca, we support elite performance 
 sportBtn:"Visit RCD Mallorca",
 officialLabel:"Official Partners",
 officialBodies:[
-"",
 "Mallorca Country Club is one of the island's leading sports and event venues and hosts international tennis events such as the ATP Mallorca Championships. This partnership creates a distinctive setting for our events and network gatherings, combining a professional sports environment, an international audience, and high-quality infrastructure for meaningful exchange around health, performance, and prevention."
 ],
-officialBtns:["Burg Apotheke","Mallorca Country Club"],
+officialBtns:["Mallorca Country Club"],
 finalTitle:'Become Part of the Global Hub',
 finalText:"B2B inquiry for doctors, practitioners, health professionals, and companies in the health sector.",
-finalIntro:"Please enter your details. We will get back to you personally and review the right fit for network access, event participation, and shop access.",
+finalIntro:"Please enter your details. We will get back to you personally and review the right fit for network access and event participation.",
 formLabels:["Company / Practice","Contact Person","Email","Phone","Role","Interest","Message"],
 roleOptions:["Please choose","Doctor","Practitioner","Pharmacist / Pharmacy","Health Professional","Health Sector Company","Sports Medicine / Performance","Other"],
-interestOptions:["Please choose","Longevity Lab Mallorca 2026","Global Hub Network","Shop Access / Products","Partnership / Cooperation"],
+interestOptions:["Please choose", "Longevity Lab Mallorca 2026", "Global Hub Network", "Partnership / Cooperation"],
 messagePlaceholder:"What are you specifically interested in?",
 formNote:"We review every request personally. For direct contact, please email",
-formBtns:["Send Inquiry","Go to Shop"],
+formBtns:["Send Inquiry"],
 memberCta:"Become a Member",
 formStatus:{submitting:"Sending your inquiry...",submittingButton:"Sending...",success:"Thank you. Your request has been sent successfully.",error:"We could not send your request right now. Please email info@cell-education.com."},
 footerHeadings:["","Instagram"],
 footerTag:'Connecting<br>Medicine<br><span class="accent">Worldwide</span>',
 footerCompany:"Cell Education - The Institute GmbH & Co. KG · Frankfurter Straße 7 · 61462 Königstein im Taunus",
 footerLegal:["Imprint","Privacy Policy"],
-floatingShop:"Shop"
 },
 de:{
 nav:["Home","Longevity Lab 2026"],
@@ -181,12 +173,6 @@ headlineCta:"Dem Netzwerk beitreten",
 cards:["Über Cell Education","Unsere Partner"],
 textblock:'Mit dem Global Hub Netzwerk vernetzen wir Ärzte weltweit für Zellmedizin, Longevity und therapeutische Innovation.',
 textblockCta:"Jetzt anfragen",
-shopLabel:"Shop",
-shopTitle:"Produkte & Lösungen",
-shopCards:[
-["Supplemente","Gezielte Formulierungen für mitochondriale Unterstützung, zelluläre Gesundheit und leistungsorientierte Praxiskonzepte.","Entdecken"],
-["Medizinisches Know-how","Fachliche Inhalte und strukturierte medizinische Orientierung zu bionischer Zelltherapie, Protokollen für zelluläre Gesundheit und deren Integration in den Praxisalltag.","Entdecken"]
-],
 eventLabel:"Veranstaltung",
 eventTitle:"Longevity Lab Mallorca 2026",
 eventDate:"20. Juni 2026",
@@ -227,26 +213,24 @@ sportText:"Als offizieller Sponsor des RCD Mallorca unterstützen wir Spitzenlei
 sportBtn:"RCD Mallorca besuchen",
 officialLabel:"Offizielle Partner",
 officialBodies:[
-"",
 "Der Mallorca Country Club zählt zu den renommiertesten Sport- und Eventlocations der Insel und ist Austragungsort internationaler Tennisevents wie der ATP Mallorca Championships. Die Partnerschaft schafft den passenden Rahmen für unsere Veranstaltungen und Netzwerktreffen mit professionellem Sportumfeld, internationalem Publikum und hochwertiger Infrastruktur."
 ],
-officialBtns:["Burg Apotheke","Mallorca Country Club"],
+officialBtns:["Mallorca Country Club"],
 finalTitle:'Teil des Global Hub werden',
 finalText:"B2B-Anfrage für Ärzte, Heilpraktiker, Gesundheitsfachkräfte und Unternehmen aus dem Gesundheitsbereich.",
-finalIntro:"Bitte hinterlassen Sie Ihre Angaben. Wir melden uns persönlich bei Ihnen und prüfen gemeinsam den passenden Zugang zu Netzwerk, Veranstaltung und Shop.",
+finalIntro:"Bitte hinterlassen Sie Ihre Angaben. Wir melden uns persönlich bei Ihnen und prüfen gemeinsam den passenden Zugang zu Netzwerk und Veranstaltung.",
 formLabels:["Unternehmen / Praxis","Ansprechpartner","E-Mail","Telefon","Rolle","Interesse","Nachricht"],
 roleOptions:["Bitte wählen","Arzt","Heilpraktiker","Apotheker / Apotheke","Gesundheitsfachkraft","Unternehmen im Gesundheitsbereich","Sportmedizin / Performance","Sonstiges"],
-interestOptions:["Bitte wählen","Longevity Lab Mallorca 2026","Global Hub Netzwerk","Shop-Zugang / Produkte","Partnerschaft / Kooperation"],
+interestOptions:["Bitte wählen", "Longevity Lab Mallorca 2026", "Global Hub Netzwerk", "Partnerschaft / Kooperation"],
 messagePlaceholder:"Wofür interessieren Sie sich konkret?",
 formNote:"Wir prüfen jede Anfrage persönlich. Für direkten Kontakt schreiben Sie bitte an",
-formBtns:["Anfrage senden","Zum Shop"],
+formBtns:["Anfrage senden"],
 memberCta:"Mitglied werden",
 formStatus:{submitting:"Ihre Anfrage wird gesendet...",submittingButton:"Wird gesendet...",success:"Vielen Dank. Ihre Anfrage wurde erfolgreich versendet.",error:"Ihre Anfrage konnte gerade nicht gesendet werden. Bitte schreiben Sie an info@cell-education.com."},
 footerHeadings:["","Instagram"],
 footerTag:'Medizin<br>weltweit<br><span class="accent">verbinden</span>',
 footerCompany:"Cell Education - The Institute GmbH & Co. KG · Frankfurter Straße 7 · 61462 Königstein im Taunus",
 footerLegal:["Impressum","Datenschutz"],
-floatingShop:"Shop"
 },
 es:{
 nav:["Inicio","Longevity Lab 2026"],
@@ -258,12 +242,6 @@ headlineCta:"Unirse a la red",
 cards:["Sobre Cell Education","Nuestros socios"],
 textblock:'Con la red Global Hub conectamos a profesionales medicos de todo el mundo en torno a la medicina celular, la longevidad y la innovacion terapeutica.',
 textblockCta:"Solicitar acceso",
-shopLabel:"Tienda",
-shopTitle:"Productos y soluciones",
-shopCards:[
-["Suplementos","Formulaciones dirigidas al soporte mitocondrial, la salud celular y conceptos orientados al rendimiento en la practica profesional.","Explorar"],
-["Conocimiento medico","Recursos formativos y orientacion medica estructurada sobre terapia celular bionica, protocolos de salud celular e integracion practica en entornos clinicos.","Explorar"]
-],
 eventLabel:"Evento",
 eventTitle:"Longevity Lab Mallorca 2026",
 eventDate:"20 de junio de 2026",
@@ -304,26 +282,24 @@ sportText:"Como patrocinador oficial del RCD Mallorca, apoyamos el rendimiento d
 sportBtn:"Visitar RCD Mallorca",
 officialLabel:"Socios oficiales",
 officialBodies:[
-"",
 "Mallorca Country Club es uno de los espacios deportivos y de eventos mas destacados de la isla y acoge citas internacionales como la ATP Mallorca Championships. Esta colaboracion crea el entorno ideal para nuestros eventos y encuentros de red, con un ambiente deportivo profesional, publico internacional e infraestructura de alto nivel."
 ],
-officialBtns:["Burg Apotheke","Mallorca Country Club"],
+officialBtns:["Mallorca Country Club"],
 finalTitle:'Forme parte del Global Hub',
 finalText:"Solicitud B2B para medicos, terapeutas, profesionales sanitarios y empresas del sector salud.",
-finalIntro:"Dejenos sus datos. Nos pondremos en contacto personalmente para valorar el acceso mas adecuado a la red, al evento y a la tienda.",
+finalIntro:"Dejenos sus datos. Nos pondremos en contacto personalmente para valorar el acceso mas adecuado a la red y al evento.",
 formLabels:["Empresa / consulta","Persona de contacto","Email","Telefono","Perfil","Interes","Mensaje"],
 roleOptions:["Seleccione","Medico","Terapeuta","Farmaceutico / farmacia","Profesional sanitario","Empresa del sector salud","Medicina deportiva / performance","Otro"],
-interestOptions:["Seleccione","Longevity Lab Mallorca 2026","Red Global Hub","Acceso a tienda / productos","Partnership / cooperacion"],
+interestOptions:["Seleccione", "Longevity Lab Mallorca 2026", "Red Global Hub", "Partnership / cooperacion"],
 messagePlaceholder:"En que esta interesado exactamente?",
 formNote:"Revisamos cada solicitud personalmente. Para contacto directo, escribanos a",
-formBtns:["Enviar solicitud","Ir a la tienda"],
+formBtns:["Enviar solicitud"],
 memberCta:"Hazte miembro",
 formStatus:{submitting:"Enviando su solicitud...",submittingButton:"Enviando...",success:"Gracias. Su solicitud se ha enviado correctamente.",error:"No hemos podido enviar su solicitud en este momento. Escribanos a info@cell-education.com."},
 footerHeadings:["","Instagram"],
 footerTag:'Conectando<br>la medicina<br><span class="accent">en todo el mundo</span>',
 footerCompany:"Cell Education - The Institute GmbH & Co. KG · Frankfurter Straße 7 · 61462 Königstein im Taunus",
 footerLegal:["Aviso legal","Privacidad"],
-floatingShop:"Tienda"
 },
 fr:{
 nav:["Accueil","Longevity Lab 2026"],
@@ -335,12 +311,6 @@ headlineCta:"Rejoindre le réseau",
 cards:["À propos de Cell Education","Nos partenaires"],
 textblock:"Avec le Global Hub Network, nous relions les médecins du monde entier autour de la médecine cellulaire, de la longévité et de l'innovation thérapeutique.",
 textblockCta:"Demander l'accès",
-shopLabel:"Boutique",
-shopTitle:"Produits & solutions",
-shopCards:[
-["Compléments","Formulations ciblées pour le soutien mitochondrial, la santé cellulaire et des concepts de pratique orientés performance.","Découvrir"],
-["Savoir-faire médical","Ressources pédagogiques et orientation médicale structurée autour de la thérapie cellulaire bionique, des protocoles de santé cellulaire et de leur intégration en pratique clinique.","Découvrir"]
-],
 eventLabel:"Événement",
 eventTitle:"Longevity Lab Mallorca 2026",
 eventDate:"20 juin 2026",
@@ -381,26 +351,24 @@ sportText:"En tant que sponsor officiel du RCD Mallorca, nous soutenons la perfo
 sportBtn:"Visiter le RCD Mallorca",
 officialLabel:"Partenaires officiels",
 officialBodies:[
-"",
 "Mallorca Country Club est l'un des lieux sportifs et événementiels les plus réputés de l'île et accueille des événements internationaux tels que l'ATP Mallorca Championships. Ce partenariat crée le cadre idéal pour nos événements et rencontres réseau, avec un environnement sportif professionnel, un public international et une infrastructure de haut niveau."
 ],
-officialBtns:["Burg Apotheke","Mallorca Country Club"],
+officialBtns:["Mallorca Country Club"],
 finalTitle:"Rejoindre le Global Hub",
 finalText:"Demande B2B pour médecins, praticiens, professionnels de santé et entreprises du secteur santé.",
-finalIntro:"Laissez-nous vos coordonnées. Nous vous recontacterons personnellement afin d'évaluer l'accès le plus adapté au réseau, à l'événement et à la boutique.",
+finalIntro:"Laissez-nous vos coordonnées. Nous vous recontacterons personnellement afin d'évaluer l'accès le plus adapté au réseau et à l'événement.",
 formLabels:["Entreprise / cabinet","Personne de contact","E-mail","Téléphone","Rôle","Intérêt","Message"],
 roleOptions:["Veuillez choisir","Médecin","Praticien","Pharmacien / pharmacie","Professionnel de santé","Entreprise du secteur santé","Médecine du sport / performance","Autre"],
-interestOptions:["Veuillez choisir","Longevity Lab Mallorca 2026","Global Hub Network","Accès boutique / produits","Partenariat / coopération"],
+interestOptions:["Veuillez choisir", "Longevity Lab Mallorca 2026", "Global Hub Network", "Partenariat / coopération"],
 messagePlaceholder:"Quel est précisément votre intérêt ?",
 formNote:"Nous examinons chaque demande personnellement. Pour un contact direct, écrivez à",
-formBtns:["Envoyer la demande","Aller à la boutique"],
+formBtns:["Envoyer la demande"],
 memberCta:"Devenir membre",
 formStatus:{submitting:"Envoi de votre demande...",submittingButton:"Envoi...",success:"Merci. Votre demande a été envoyée avec succès.",error:"Nous ne pouvons pas envoyer votre demande pour le moment. Veuillez écrire à info@cell-education.com."},
 footerHeadings:["","Instagram"],
 footerTag:"Relier<br>la médecine<br><span class=\"accent\">dans le monde entier</span>",
 footerCompany:"Cell Education - The Institute GmbH & Co. KG · Frankfurter Straße 7 · 61462 Königstein im Taunus",
 footerLegal:["Mentions légales","Confidentialité"],
-floatingShop:"Boutique"
 },
 cz:{
 nav:["Home","Longevity Lab 2026"],
@@ -412,12 +380,6 @@ headlineCta:"Připojit se k síti",
 cards:["O Cell Education","Naši partneři"],
 textblock:'Prostřednictvím sítě Global Hub Network propojujeme lékaře z celého světa v oblasti buněčné medicíny, longevity a terapeutických inovací.',
 textblockCta:"Požádat o přístup",
-shopLabel:"Obchod",
-shopTitle:"Produkty a řešení",
-shopCards:[
-["Doplňky stravy","Cílené formulace pro mitochondriální podporu, buněčné zdraví a výkonnostně orientované koncepty praxe.","Prozkoumat"],
-["Medicínské know-how","Vzdělávací materiály a strukturované medicínské vedení k bionické buněčné terapii, protokolům buněčného zdraví a jejich integraci do klinické praxe.","Prozkoumat"]
-],
 eventLabel:"Událost",
 eventTitle:"Longevity Lab Mallorca 2026",
 eventDate:"20. června 2026",
@@ -458,26 +420,24 @@ sportText:"Jako oficiální sponzor RCD Mallorca podporujeme elitní výkon na n
 sportBtn:"Navštívit RCD Mallorca",
 officialLabel:"Oficiální partneři",
 officialBodies:[
-"",
 "Mallorca Country Club patří mezi nejprestižnější sportovní a eventové lokality na ostrově a hostí mezinárodní tenisové akce, jako je ATP Mallorca Championships. Toto partnerství vytváří ideální prostředí pro naše události a setkání sítě, s profesionálním sportovním zázemím, mezinárodním publikem a vysoce kvalitní infrastrukturou."
 ],
-officialBtns:["Burg Apotheke","Mallorca Country Club"],
+officialBtns:["Mallorca Country Club"],
 finalTitle:"Staňte se součástí Global Hub",
 finalText:"B2B poptávka pro lékaře, praktiky, zdravotnické odborníky a firmy ze zdravotnického sektoru.",
-finalIntro:"Zanechte nám své údaje. Ozveme se vám osobně a společně posoudíme vhodný přístup k síti, události i obchodu.",
+finalIntro:"Zanechte nám své údaje. Ozveme se vám osobně a společně posoudíme vhodný přístup k síti a události.",
 formLabels:["Společnost / praxe","Kontaktní osoba","E-mail","Telefon","Role","Zájem","Zpráva"],
 roleOptions:["Prosím vyberte","Lékař","Praktik","Lékárník / lékárna","Zdravotnický odborník","Firma ze zdravotnického sektoru","Sportovní medicína / performance","Jiné"],
-interestOptions:["Prosím vyberte","Longevity Lab Mallorca 2026","Global Hub Network","Přístup do obchodu / produkty","Partnerství / spolupráce"],
+interestOptions:["Prosím vyberte", "Longevity Lab Mallorca 2026", "Global Hub Network", "Partnerství / spolupráce"],
 messagePlaceholder:"O co máte konkrétně zájem?",
 formNote:"Každou poptávku posuzujeme osobně. Pro přímý kontakt napište na",
-formBtns:["Odeslat poptávku","Přejít do obchodu"],
+formBtns:["Odeslat poptávku"],
 memberCta:"Stát se členem",
 formStatus:{submitting:"Odesílání vaší poptávky...",submittingButton:"Odesílání...",success:"Děkujeme. Vaše poptávka byla úspěšně odeslána.",error:"Vaši poptávku se teď nepodařilo odeslat. Napište prosím na info@cell-education.com."},
 footerHeadings:["","Instagram"],
 footerTag:"Propojujeme<br>medicínu<br><span class=\"accent\">po celém světě</span>",
 footerCompany:"Cell Education - The Institute GmbH & Co. KG · Frankfurter Straße 7 · 61462 Königstein im Taunus",
 footerLegal:["Impresum","Ochrana soukromí"],
-floatingShop:"Obchod"
 },
 pl:{
 nav:["Home","Longevity Lab 2026"],
@@ -489,12 +449,6 @@ headlineCta:"Dolacz do sieci",
 cards:["O Cell Education","Nasi partnerzy"],
 textblock:'<span class="accent">Laczymy lekarzy z calego swiata</span> wokol medycyny komorkowej, longevity i innowacji terapeutycznych.',
 textblockCta:"Zglos sie",
-shopLabel:"Sklep",
-shopTitle:"Produkty i rozwiazania",
-shopCards:[
-["Suplementy","Ukierunkowane formulacje wspierajace mitochondria, zdrowie komorkowe i koncepcje pracy zorientowane na wydolnosc.","Odkryj"],
-["Know-how medyczny","Materialy edukacyjne i uporzadkowane wskazowki medyczne dotyczace bionicznej terapii komorkowej, protokolow zdrowia komorkowego i ich integracji w praktyce klinicznej.","Odkryj"]
-],
 eventLabel:"Wydarzenie",
 eventTitle:"Longevity Lab Mallorca 2026",
 eventDate:"20 czerwca 2026",
@@ -535,26 +489,24 @@ sportText:"Jako oficjalny sponsor RCD Mallorca wspieramy najwyższy poziom sport
 sportBtn:"Odwiedz RCD Mallorca",
 officialLabel:"Oficjalni partnerzy",
 officialBodies:[
-"",
 "Mallorca Country Club nalezy do najbardziej renomowanych obiektow sportowych i eventowych na wyspie i gosci miedzynarodowe wydarzenia tenisowe, takie jak ATP Mallorca Championships. Ta wspolpraca tworzy idealne warunki dla naszych wydarzen i spotkan sieciowych."
 ],
-officialBtns:["Burg Apotheke","Mallorca Country Club"],
+officialBtns:["Mallorca Country Club"],
 finalTitle:'Dołącz do Global Hub',
 finalText:"Zapytanie B2B dla lekarzy, terapeutow, specjalistow medycznych i firm z sektora zdrowia.",
-finalIntro:"Zostaw swoje dane. Skontaktujemy sie osobiscie, aby dobrac odpowiedni dostep do sieci, wydarzenia i sklepu.",
+finalIntro:"Zostaw swoje dane. Skontaktujemy sie osobiscie, aby dobrac odpowiedni dostep do sieci i wydarzenia.",
 formLabels:["Firma / gabinet","Osoba kontaktowa","Email","Telefon","Rola","Zainteresowanie","Wiadomosc"],
 roleOptions:["Wybierz","Lekarz","Terapeuta","Farmaceuta / apteka","Specjalista medyczny","Firma z sektora zdrowia","Medycyna sportowa / performance","Inne"],
-interestOptions:["Wybierz","Longevity Lab Mallorca 2026","Siec Global Hub","Dostep do sklepu / produkty","Partnerstwo / wspolpraca"],
+interestOptions:["Wybierz", "Longevity Lab Mallorca 2026", "Siec Global Hub", "Partnerstwo / wspolpraca"],
 messagePlaceholder:"Czym dokladnie jestes zainteresowany?",
 formNote:"Kazde zgloszenie analizujemy osobiscie. Aby skontaktowac sie bezposrednio, napisz na",
-formBtns:["Wyslij zapytanie","Przejdz do sklepu"],
+formBtns:["Wyslij zapytanie"],
 memberCta:"Zostań członkiem",
 formStatus:{submitting:"Wysylanie zapytania...",submittingButton:"Wysylanie...",success:"Dziekujemy. Twoje zapytanie zostalo pomyslnie wyslane.",error:"Nie udalo sie teraz wyslac zapytania. Napisz prosze na info@cell-education.com."},
 footerHeadings:["","Instagram"],
 footerTag:'Laczymy<br>medycyne<br><span class="accent">na calym swiecie</span>',
 footerCompany:"Cell Education - The Institute GmbH & Co. KG · Frankfurter Straße 7 · 61462 Königstein im Taunus",
 footerLegal:["Nota prawna","Prywatnosc"],
-floatingShop:"Sklep"
 }
 };
 
@@ -565,32 +517,23 @@ function applyLanguage(lang){
   document.querySelectorAll('.lang-switcher button').forEach(btn=>btn.classList.toggle('active',btn.dataset.lang===lang));
 
   document.querySelectorAll('.nav__links a').forEach((link,i)=>{if(t.nav[i]) link.textContent=t.nav[i];});
-  document.querySelector('.nav__cta .pill').childNodes[0].textContent=t.shopLabel+" ";
   document.querySelectorAll('#navOverlay > a').forEach((link,i)=>{
     if(i < t.nav.length) link.textContent=t.nav[i];
-    if(i === 2) link.textContent=t.shopLabel;
   });
 
 
-  document.querySelector('.hero__content .pill').childNodes[0].textContent=t.heroAbout+" ";
-  document.querySelector('.headline-section h2').innerHTML=t.headlineTitle;
-  document.querySelector('.headline-section p').textContent=t.headlineText;
-  document.querySelector('.headline-section .pill').childNodes[0].textContent=t.headlineCta+" ";
-  document.querySelector('.network__lede').innerHTML=t.textblock;
+  if(document.querySelector('.hero__content .pill')) document.querySelector('.hero__content .pill').childNodes[0].textContent=t.heroAbout+" ";
+  if(document.querySelector('.headline-section h2')) document.querySelector('.headline-section h2').innerHTML=t.headlineTitle;
+  if(document.querySelector('.headline-section p')) document.querySelector('.headline-section p').textContent=t.headlineText;
+  if(document.querySelector('.headline-section .pill')) document.querySelector('.headline-section .pill').childNodes[0].textContent=t.headlineCta+" ";
+  if(document.querySelector('.network__lede')) document.querySelector('.network__lede').innerHTML=t.textblock;
 
-  document.querySelector('#shop .sec-label').textContent=t.shopLabel;
-  document.querySelector('#shop .sec-title').textContent=t.shopTitle;
-  document.querySelectorAll('.shop__card').forEach((card,i)=>{
-    card.querySelector('h3').textContent=t.shopCards[i][0];
-    card.querySelector('p').textContent=t.shopCards[i][1];
-    card.querySelector('.pill').childNodes[0].textContent=t.shopCards[i][2]+" ";
-  });
 
-  document.querySelector('.event__date').textContent=t.eventDate;
-  document.querySelector('.event__hero h3').innerHTML=t.eventHeroTitle;
-  document.querySelector('.event__location').innerHTML=t.eventLocation;
-  document.querySelector('.event__desc').textContent=t.eventDesc;
-  document.querySelectorAll('.event__btns .pill')[0].childNodes[0].textContent=t.eventBtns[0]+" ";
+  if(document.querySelector('.event__date')) document.querySelector('.event__date').textContent=t.eventDate;
+  if(document.querySelector('.event__hero h3')) document.querySelector('.event__hero h3').innerHTML=t.eventHeroTitle;
+  if(document.querySelector('.event__location')) document.querySelector('.event__location').innerHTML=t.eventLocation;
+  if(document.querySelector('.event__desc')) document.querySelector('.event__desc').textContent=t.eventDesc;
+  if(document.querySelectorAll('.event__btns .pill')[0]) document.querySelectorAll('.event__btns .pill')[0].childNodes[0].textContent=t.eventBtns[0]+" ";
   document.querySelectorAll('.timeline__item').forEach((item,i)=>{
     item.querySelector('.timeline__title').textContent=t.timeline[i][0];
     item.querySelector('.timeline__desc').textContent=t.timeline[i][1];
@@ -600,51 +543,48 @@ function applyLanguage(lang){
     cap.querySelector('span').textContent=t.gallery[i][1];
   });
 
-  document.querySelector('#experts .sec-label').textContent=t.expertsLabel;
-  document.querySelector('#experts .sec-title').textContent=t.expertsTitle;
-  document.querySelector('.expert-card__role').textContent=t.expertRole;
-  document.querySelector('.expert-card p').textContent=t.expertDesc;
+  if(document.querySelector('#experts .sec-label')) document.querySelector('#experts .sec-label').textContent=t.expertsLabel;
+  if(document.querySelector('#experts .sec-title')) document.querySelector('#experts .sec-title').textContent=t.expertsTitle;
+  if(document.querySelector('.expert-card__role')) document.querySelector('.expert-card__role').textContent=t.expertRole;
+  if(document.querySelector('.expert-card p')) document.querySelector('.expert-card p').textContent=t.expertDesc;
   document.querySelectorAll('.expert-card .badge').forEach((badge,i)=>badge.textContent=t.badges[i]);
 
-  document.querySelector('#network .sec-label').textContent=t.networkLabel;
+  if(document.querySelector('#network .sec-label')) document.querySelector('#network .sec-label').textContent=t.networkLabel;
   document.querySelectorAll('.network__feature').forEach((feature,i)=>{
     feature.querySelector('h4').textContent=t.networkFeatures[i][0];
     feature.querySelector('p').textContent=t.networkFeatures[i][1];
   });
-  document.querySelectorAll('.network__actions .pill')[0].childNodes[0].textContent=t.memberCta+" ";
+  if(document.querySelectorAll('.network__actions .pill')[0]) document.querySelectorAll('.network__actions .pill')[0].childNodes[0].textContent=t.memberCta+" ";
 
-  document.querySelector('#partners .sec-label').textContent=t.partnersLabel;
-  document.querySelector('#partners .sec-title').textContent=t.partnersTitle;
-  document.querySelector('.partner-cluster__text').textContent=t.partnersText;
-  document.querySelector('.partner-cluster__eyebrow').textContent=t.sportLabel;
-  document.querySelector('.partner-cluster__spotlight-copy h3').innerHTML=t.sportHead;
-  document.querySelector('.partner-cluster__spotlight-copy p').textContent=t.sportText;
-  document.querySelector('.partner-cluster__spotlight-copy .pill').childNodes[0].textContent=t.sportBtn+" ";
-  document.querySelectorAll('.official-card__content p')[1].textContent=t.officialBodies[1];
-  document.querySelectorAll('.official-card .pill').forEach((btn,i)=>btn.childNodes[0].textContent=t.officialBtns[i]+" ");
+  if(document.querySelector('#partners .sec-label')) document.querySelector('#partners .sec-label').textContent=t.partnersLabel;
+  if(document.querySelector('#partners .sec-title')) document.querySelector('#partners .sec-title').textContent=t.partnersTitle;
+  if(document.querySelector('.partner-cluster__text')) document.querySelector('.partner-cluster__text').textContent=t.partnersText;
+  if(document.querySelector('.partner-cluster__eyebrow')) document.querySelector('.partner-cluster__eyebrow').textContent=t.sportLabel;
+  if(document.querySelector('.partner-cluster__spotlight-copy h3')) document.querySelector('.partner-cluster__spotlight-copy h3').innerHTML=t.sportHead;
+  if(document.querySelector('.partner-cluster__spotlight-copy p')) document.querySelector('.partner-cluster__spotlight-copy p').textContent=t.sportText;
+  if(document.querySelector('.partner-cluster__spotlight-copy .pill')) document.querySelector('.partner-cluster__spotlight-copy .pill').childNodes[0].textContent=t.sportBtn+" ";
+  const countryClubCard=document.querySelector('.official-card a[href="https://mallorcacountryclub.es/"]')?.closest('.official-card');
+  if(countryClubCard){countryClubCard.querySelector('p').textContent=t.officialBodies[0];countryClubCard.querySelector('.pill').childNodes[0].textContent=t.officialBtns[0]+" ";}
 
-  document.querySelector('.final-cta h2').innerHTML=t.finalTitle;
-  document.querySelector('.final-cta > p').textContent=t.finalText;
-  document.querySelector('.register-form__intro').textContent=t.finalIntro;
+  if(document.querySelector('.final-cta h2')) document.querySelector('.final-cta h2').innerHTML=t.finalTitle;
+  if(document.querySelector('.final-cta > p')) document.querySelector('.final-cta > p').textContent=t.finalText;
+  if(document.querySelector('.register-form__intro')) document.querySelector('.register-form__intro').textContent=t.finalIntro;
   document.querySelectorAll('.register-form label').forEach((label,i)=>label.textContent=t.formLabels[i]);
   const roleOptions=document.querySelectorAll('#role option');
   t.roleOptions.forEach((opt,i)=>{if(roleOptions[i]) roleOptions[i].textContent=opt;});
   const interestOptions=document.querySelectorAll('#interest option');
   t.interestOptions.forEach((opt,i)=>{if(interestOptions[i]) interestOptions[i].textContent=opt;});
-  document.querySelector('#message').placeholder=t.messagePlaceholder;
-  document.querySelector('.register-form__note').innerHTML=`${t.formNote} <a class="register-form__email" href="mailto:info@cell-education.com">info@cell-education.com</a>.`;
-  document.querySelector('.register-form__actions .pill--solid').childNodes[0].textContent=t.formBtns[0]+" ";
-  document.querySelector('.register-form__actions .pill:not(.pill--solid)').childNodes[0].textContent=t.formBtns[1]+" ";
+  if(document.querySelector('#message')) document.querySelector('#message').placeholder=t.messagePlaceholder;
+  if(document.querySelector('.register-form__note')) document.querySelector('.register-form__note').innerHTML=`${t.formNote} <a class="register-form__email" href="mailto:info@cell-education.com">info@cell-education.com</a>.`;
+  if(document.querySelector('.register-form__actions .pill--solid')) document.querySelector('.register-form__actions .pill--solid').childNodes[0].textContent=t.formBtns[0]+" ";
   syncFormUi();
 
-  document.querySelectorAll('.footer__col h5')[0].textContent=t.footerHeadings[0];
-  document.querySelectorAll('.footer__col h5')[1].textContent=t.footerHeadings[1];
-  document.querySelector('.footer__tagline h2').innerHTML=t.footerTag;
-  document.querySelectorAll('.footer__bottom span')[0].textContent=t.footerCompany;
-  document.querySelectorAll('.footer__legal-links a')[0].textContent=t.footerLegal[0];
-  document.querySelectorAll('.footer__legal-links a')[1].textContent=t.footerLegal[1];
-  document.querySelector('.floating-shop').childNodes[0].textContent=t.floatingShop+"\n";
-  document.querySelector('.floating-shop').setAttribute('aria-label',t.formBtns[1]);
+  if(document.querySelectorAll('.footer__col h5')[0]) document.querySelectorAll('.footer__col h5')[0].textContent=t.footerHeadings[0];
+  if(document.querySelectorAll('.footer__col h5')[1]) document.querySelectorAll('.footer__col h5')[1].textContent=t.footerHeadings[1];
+  if(document.querySelector('.footer__tagline h2')) document.querySelector('.footer__tagline h2').innerHTML=t.footerTag;
+  if(document.querySelectorAll('.footer__bottom span')[0]) document.querySelectorAll('.footer__bottom span')[0].textContent=t.footerCompany;
+  if(document.querySelectorAll('.footer__legal-links a')[0]) document.querySelectorAll('.footer__legal-links a')[0].textContent=t.footerLegal[0];
+  if(document.querySelectorAll('.footer__legal-links a')[1]) document.querySelectorAll('.footer__legal-links a')[1].textContent=t.footerLegal[1];
 }
 
 const registerForm=document.getElementById('registerForm');

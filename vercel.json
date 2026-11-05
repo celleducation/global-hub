@@ -1,4 +1,26 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/shop",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/shop.html",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/global-hub_9",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/global-hub_9.html",
+      "destination": "/",
+      "permanent": false
+    }
+  ]
 }
