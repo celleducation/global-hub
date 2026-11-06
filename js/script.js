@@ -104,6 +104,12 @@ headlineCta:"Join the Network",
 cards:["About Cell Education","Our Partners"],
 textblock:'With the Global Hub Network, we connect doctors worldwide for cellular medicine, longevity, and therapeutic innovation.',
 textblockCta:"Register",
+shopLabel:"Shop",
+shopTitle:"Products & Solutions",
+shopCards:[
+["Supplements","Targeted formulations for mitochondrial support, cellular health, and performance-oriented practice concepts.","Explore"],
+["Medical Know-How","Educational resources and structured medical guidance around bionic cell therapy, cellular health protocols, and practical integration into clinical settings.","Explore"]
+],
 eventLabel:"Event",
 eventTitle:"Longevity Lab Mallorca 2026",
 eventDate:"June 20, 2026",
@@ -149,19 +155,20 @@ officialBodies:[
 officialBtns:["Mallorca Country Club"],
 finalTitle:'Become Part of the Global Hub',
 finalText:"B2B inquiry for doctors, practitioners, health professionals, and companies in the health sector.",
-finalIntro:"Please enter your details. We will get back to you personally and review the right fit for network access and event participation.",
+finalIntro:"Please enter your details. We will get back to you personally and review the right fit for network access, event participation, and shop access.",
 formLabels:["Company / Practice","Contact Person","Email","Phone","Role","Interest","Message"],
 roleOptions:["Please choose","Doctor","Practitioner","Pharmacist / Pharmacy","Health Professional","Health Sector Company","Sports Medicine / Performance","Other"],
-interestOptions:["Please choose", "Longevity Lab Mallorca 2026", "Global Hub Network", "Partnership / Cooperation"],
+interestOptions:["Please choose","Longevity Lab Mallorca 2026","Global Hub Network","Shop Access / Products","Partnership / Cooperation"],
 messagePlaceholder:"What are you specifically interested in?",
 formNote:"We review every request personally. For direct contact, please email",
-formBtns:["Send Inquiry"],
+formBtns:["Send Inquiry","Go to Shop"],
 memberCta:"Become a Member",
 formStatus:{submitting:"Sending your inquiry...",submittingButton:"Sending...",success:"Thank you. Your request has been sent successfully.",error:"We could not send your request right now. Please email info@cell-education.com."},
 footerHeadings:["","Instagram"],
 footerTag:'Connecting<br>Medicine<br><span class="accent">Worldwide</span>',
 footerCompany:"Cell Education - The Institute GmbH & Co. KG · Frankfurter Straße 7 · 61462 Königstein im Taunus",
 footerLegal:["Imprint","Privacy Policy"],
+floatingShop:"Shop"
 },
 de:{
 nav:["Home","Longevity Lab 2026"],
@@ -173,6 +180,12 @@ headlineCta:"Dem Netzwerk beitreten",
 cards:["Über Cell Education","Unsere Partner"],
 textblock:'Mit dem Global Hub Netzwerk vernetzen wir Ärzte weltweit für Zellmedizin, Longevity und therapeutische Innovation.',
 textblockCta:"Jetzt anfragen",
+shopLabel:"Shop",
+shopTitle:"Produkte & Lösungen",
+shopCards:[
+["Supplemente","Gezielte Formulierungen für mitochondriale Unterstützung, zelluläre Gesundheit und leistungsorientierte Praxiskonzepte.","Entdecken"],
+["Medizinisches Know-how","Fachliche Inhalte und strukturierte medizinische Orientierung zu bionischer Zelltherapie, Protokollen für zelluläre Gesundheit und deren Integration in den Praxisalltag.","Entdecken"]
+],
 eventLabel:"Veranstaltung",
 eventTitle:"Longevity Lab Mallorca 2026",
 eventDate:"20. Juni 2026",
@@ -218,19 +231,20 @@ officialBodies:[
 officialBtns:["Mallorca Country Club"],
 finalTitle:'Teil des Global Hub werden',
 finalText:"B2B-Anfrage für Ärzte, Heilpraktiker, Gesundheitsfachkräfte und Unternehmen aus dem Gesundheitsbereich.",
-finalIntro:"Bitte hinterlassen Sie Ihre Angaben. Wir melden uns persönlich bei Ihnen und prüfen gemeinsam den passenden Zugang zu Netzwerk und Veranstaltung.",
+finalIntro:"Bitte hinterlassen Sie Ihre Angaben. Wir melden uns persönlich bei Ihnen und prüfen gemeinsam den passenden Zugang zu Netzwerk, Veranstaltung und Shop.",
 formLabels:["Unternehmen / Praxis","Ansprechpartner","E-Mail","Telefon","Rolle","Interesse","Nachricht"],
 roleOptions:["Bitte wählen","Arzt","Heilpraktiker","Apotheker / Apotheke","Gesundheitsfachkraft","Unternehmen im Gesundheitsbereich","Sportmedizin / Performance","Sonstiges"],
-interestOptions:["Bitte wählen", "Longevity Lab Mallorca 2026", "Global Hub Netzwerk", "Partnerschaft / Kooperation"],
+interestOptions:["Bitte wählen","Longevity Lab Mallorca 2026","Global Hub Netzwerk","Shop-Zugang / Produkte","Partnerschaft / Kooperation"],
 messagePlaceholder:"Wofür interessieren Sie sich konkret?",
 formNote:"Wir prüfen jede Anfrage persönlich. Für direkten Kontakt schreiben Sie bitte an",
-formBtns:["Anfrage senden"],
+formBtns:["Anfrage senden","Zum Shop"],
 memberCta:"Mitglied werden",
 formStatus:{submitting:"Ihre Anfrage wird gesendet...",submittingButton:"Wird gesendet...",success:"Vielen Dank. Ihre Anfrage wurde erfolgreich versendet.",error:"Ihre Anfrage konnte gerade nicht gesendet werden. Bitte schreiben Sie an info@cell-education.com."},
 footerHeadings:["","Instagram"],
 footerTag:'Medizin<br>weltweit<br><span class="accent">verbinden</span>',
 footerCompany:"Cell Education - The Institute GmbH & Co. KG · Frankfurter Straße 7 · 61462 Königstein im Taunus",
 footerLegal:["Impressum","Datenschutz"],
+floatingShop:"Shop"
 },
 es:{
 nav:["Inicio","Longevity Lab 2026"],
@@ -242,6 +256,12 @@ headlineCta:"Unirse a la red",
 cards:["Sobre Cell Education","Nuestros socios"],
 textblock:'Con la red Global Hub conectamos a profesionales medicos de todo el mundo en torno a la medicina celular, la longevidad y la innovacion terapeutica.',
 textblockCta:"Solicitar acceso",
+shopLabel:"Tienda",
+shopTitle:"Productos y soluciones",
+shopCards:[
+["Suplementos","Formulaciones dirigidas al soporte mitocondrial, la salud celular y conceptos orientados al rendimiento en la practica profesional.","Explorar"],
+["Conocimiento medico","Recursos formativos y orientacion medica estructurada sobre terapia celular bionica, protocolos de salud celular e integracion practica en entornos clinicos.","Explorar"]
+],
 eventLabel:"Evento",
 eventTitle:"Longevity Lab Mallorca 2026",
 eventDate:"20 de junio de 2026",
@@ -287,19 +307,20 @@ officialBodies:[
 officialBtns:["Mallorca Country Club"],
 finalTitle:'Forme parte del Global Hub',
 finalText:"Solicitud B2B para medicos, terapeutas, profesionales sanitarios y empresas del sector salud.",
-finalIntro:"Dejenos sus datos. Nos pondremos en contacto personalmente para valorar el acceso mas adecuado a la red y al evento.",
+finalIntro:"Dejenos sus datos. Nos pondremos en contacto personalmente para valorar el acceso mas adecuado a la red, al evento y a la tienda.",
 formLabels:["Empresa / consulta","Persona de contacto","Email","Telefono","Perfil","Interes","Mensaje"],
 roleOptions:["Seleccione","Medico","Terapeuta","Farmaceutico / farmacia","Profesional sanitario","Empresa del sector salud","Medicina deportiva / performance","Otro"],
-interestOptions:["Seleccione", "Longevity Lab Mallorca 2026", "Red Global Hub", "Partnership / cooperacion"],
+interestOptions:["Seleccione","Longevity Lab Mallorca 2026","Red Global Hub","Acceso a tienda / productos","Partnership / cooperacion"],
 messagePlaceholder:"En que esta interesado exactamente?",
 formNote:"Revisamos cada solicitud personalmente. Para contacto directo, escribanos a",
-formBtns:["Enviar solicitud"],
+formBtns:["Enviar solicitud","Ir a la tienda"],
 memberCta:"Hazte miembro",
 formStatus:{submitting:"Enviando su solicitud...",submittingButton:"Enviando...",success:"Gracias. Su solicitud se ha enviado correctamente.",error:"No hemos podido enviar su solicitud en este momento. Escribanos a info@cell-education.com."},
 footerHeadings:["","Instagram"],
 footerTag:'Conectando<br>la medicina<br><span class="accent">en todo el mundo</span>',
 footerCompany:"Cell Education - The Institute GmbH & Co. KG · Frankfurter Straße 7 · 61462 Königstein im Taunus",
 footerLegal:["Aviso legal","Privacidad"],
+floatingShop:"Tienda"
 },
 fr:{
 nav:["Accueil","Longevity Lab 2026"],
@@ -311,6 +332,12 @@ headlineCta:"Rejoindre le réseau",
 cards:["À propos de Cell Education","Nos partenaires"],
 textblock:"Avec le Global Hub Network, nous relions les médecins du monde entier autour de la médecine cellulaire, de la longévité et de l'innovation thérapeutique.",
 textblockCta:"Demander l'accès",
+shopLabel:"Boutique",
+shopTitle:"Produits & solutions",
+shopCards:[
+["Compléments","Formulations ciblées pour le soutien mitochondrial, la santé cellulaire et des concepts de pratique orientés performance.","Découvrir"],
+["Savoir-faire médical","Ressources pédagogiques et orientation médicale structurée autour de la thérapie cellulaire bionique, des protocoles de santé cellulaire et de leur intégration en pratique clinique.","Découvrir"]
+],
 eventLabel:"Événement",
 eventTitle:"Longevity Lab Mallorca 2026",
 eventDate:"20 juin 2026",
@@ -356,19 +383,20 @@ officialBodies:[
 officialBtns:["Mallorca Country Club"],
 finalTitle:"Rejoindre le Global Hub",
 finalText:"Demande B2B pour médecins, praticiens, professionnels de santé et entreprises du secteur santé.",
-finalIntro:"Laissez-nous vos coordonnées. Nous vous recontacterons personnellement afin d'évaluer l'accès le plus adapté au réseau et à l'événement.",
+finalIntro:"Laissez-nous vos coordonnées. Nous vous recontacterons personnellement afin d'évaluer l'accès le plus adapté au réseau, à l'événement et à la boutique.",
 formLabels:["Entreprise / cabinet","Personne de contact","E-mail","Téléphone","Rôle","Intérêt","Message"],
 roleOptions:["Veuillez choisir","Médecin","Praticien","Pharmacien / pharmacie","Professionnel de santé","Entreprise du secteur santé","Médecine du sport / performance","Autre"],
-interestOptions:["Veuillez choisir", "Longevity Lab Mallorca 2026", "Global Hub Network", "Partenariat / coopération"],
+interestOptions:["Veuillez choisir","Longevity Lab Mallorca 2026","Global Hub Network","Accès boutique / produits","Partenariat / coopération"],
 messagePlaceholder:"Quel est précisément votre intérêt ?",
 formNote:"Nous examinons chaque demande personnellement. Pour un contact direct, écrivez à",
-formBtns:["Envoyer la demande"],
+formBtns:["Envoyer la demande","Aller à la boutique"],
 memberCta:"Devenir membre",
 formStatus:{submitting:"Envoi de votre demande...",submittingButton:"Envoi...",success:"Merci. Votre demande a été envoyée avec succès.",error:"Nous ne pouvons pas envoyer votre demande pour le moment. Veuillez écrire à info@cell-education.com."},
 footerHeadings:["","Instagram"],
 footerTag:"Relier<br>la médecine<br><span class=\"accent\">dans le monde entier</span>",
 footerCompany:"Cell Education - The Institute GmbH & Co. KG · Frankfurter Straße 7 · 61462 Königstein im Taunus",
 footerLegal:["Mentions légales","Confidentialité"],
+floatingShop:"Boutique"
 },
 cz:{
 nav:["Home","Longevity Lab 2026"],
@@ -380,6 +408,12 @@ headlineCta:"Připojit se k síti",
 cards:["O Cell Education","Naši partneři"],
 textblock:'Prostřednictvím sítě Global Hub Network propojujeme lékaře z celého světa v oblasti buněčné medicíny, longevity a terapeutických inovací.',
 textblockCta:"Požádat o přístup",
+shopLabel:"Obchod",
+shopTitle:"Produkty a řešení",
+shopCards:[
+["Doplňky stravy","Cílené formulace pro mitochondriální podporu, buněčné zdraví a výkonnostně orientované koncepty praxe.","Prozkoumat"],
+["Medicínské know-how","Vzdělávací materiály a strukturované medicínské vedení k bionické buněčné terapii, protokolům buněčného zdraví a jejich integraci do klinické praxe.","Prozkoumat"]
+],
 eventLabel:"Událost",
 eventTitle:"Longevity Lab Mallorca 2026",
 eventDate:"20. června 2026",
@@ -425,19 +459,20 @@ officialBodies:[
 officialBtns:["Mallorca Country Club"],
 finalTitle:"Staňte se součástí Global Hub",
 finalText:"B2B poptávka pro lékaře, praktiky, zdravotnické odborníky a firmy ze zdravotnického sektoru.",
-finalIntro:"Zanechte nám své údaje. Ozveme se vám osobně a společně posoudíme vhodný přístup k síti a události.",
+finalIntro:"Zanechte nám své údaje. Ozveme se vám osobně a společně posoudíme vhodný přístup k síti, události i obchodu.",
 formLabels:["Společnost / praxe","Kontaktní osoba","E-mail","Telefon","Role","Zájem","Zpráva"],
 roleOptions:["Prosím vyberte","Lékař","Praktik","Lékárník / lékárna","Zdravotnický odborník","Firma ze zdravotnického sektoru","Sportovní medicína / performance","Jiné"],
-interestOptions:["Prosím vyberte", "Longevity Lab Mallorca 2026", "Global Hub Network", "Partnerství / spolupráce"],
+interestOptions:["Prosím vyberte","Longevity Lab Mallorca 2026","Global Hub Network","Přístup do obchodu / produkty","Partnerství / spolupráce"],
 messagePlaceholder:"O co máte konkrétně zájem?",
 formNote:"Každou poptávku posuzujeme osobně. Pro přímý kontakt napište na",
-formBtns:["Odeslat poptávku"],
+formBtns:["Odeslat poptávku","Přejít do obchodu"],
 memberCta:"Stát se členem",
 formStatus:{submitting:"Odesílání vaší poptávky...",submittingButton:"Odesílání...",success:"Děkujeme. Vaše poptávka byla úspěšně odeslána.",error:"Vaši poptávku se teď nepodařilo odeslat. Napište prosím na info@cell-education.com."},
 footerHeadings:["","Instagram"],
 footerTag:"Propojujeme<br>medicínu<br><span class=\"accent\">po celém světě</span>",
 footerCompany:"Cell Education - The Institute GmbH & Co. KG · Frankfurter Straße 7 · 61462 Königstein im Taunus",
 footerLegal:["Impresum","Ochrana soukromí"],
+floatingShop:"Obchod"
 },
 pl:{
 nav:["Home","Longevity Lab 2026"],
@@ -449,6 +484,12 @@ headlineCta:"Dolacz do sieci",
 cards:["O Cell Education","Nasi partnerzy"],
 textblock:'<span class="accent">Laczymy lekarzy z calego swiata</span> wokol medycyny komorkowej, longevity i innowacji terapeutycznych.',
 textblockCta:"Zglos sie",
+shopLabel:"Sklep",
+shopTitle:"Produkty i rozwiazania",
+shopCards:[
+["Suplementy","Ukierunkowane formulacje wspierajace mitochondria, zdrowie komorkowe i koncepcje pracy zorientowane na wydolnosc.","Odkryj"],
+["Know-how medyczny","Materialy edukacyjne i uporzadkowane wskazowki medyczne dotyczace bionicznej terapii komorkowej, protokolow zdrowia komorkowego i ich integracji w praktyce klinicznej.","Odkryj"]
+],
 eventLabel:"Wydarzenie",
 eventTitle:"Longevity Lab Mallorca 2026",
 eventDate:"20 czerwca 2026",
@@ -494,19 +535,20 @@ officialBodies:[
 officialBtns:["Mallorca Country Club"],
 finalTitle:'Dołącz do Global Hub',
 finalText:"Zapytanie B2B dla lekarzy, terapeutow, specjalistow medycznych i firm z sektora zdrowia.",
-finalIntro:"Zostaw swoje dane. Skontaktujemy sie osobiscie, aby dobrac odpowiedni dostep do sieci i wydarzenia.",
+finalIntro:"Zostaw swoje dane. Skontaktujemy sie osobiscie, aby dobrac odpowiedni dostep do sieci, wydarzenia i sklepu.",
 formLabels:["Firma / gabinet","Osoba kontaktowa","Email","Telefon","Rola","Zainteresowanie","Wiadomosc"],
 roleOptions:["Wybierz","Lekarz","Terapeuta","Farmaceuta / apteka","Specjalista medyczny","Firma z sektora zdrowia","Medycyna sportowa / performance","Inne"],
-interestOptions:["Wybierz", "Longevity Lab Mallorca 2026", "Siec Global Hub", "Partnerstwo / wspolpraca"],
+interestOptions:["Wybierz","Longevity Lab Mallorca 2026","Siec Global Hub","Dostep do sklepu / produkty","Partnerstwo / wspolpraca"],
 messagePlaceholder:"Czym dokladnie jestes zainteresowany?",
 formNote:"Kazde zgloszenie analizujemy osobiscie. Aby skontaktowac sie bezposrednio, napisz na",
-formBtns:["Wyslij zapytanie"],
+formBtns:["Wyslij zapytanie","Przejdz do sklepu"],
 memberCta:"Zostań członkiem",
 formStatus:{submitting:"Wysylanie zapytania...",submittingButton:"Wysylanie...",success:"Dziekujemy. Twoje zapytanie zostalo pomyslnie wyslane.",error:"Nie udalo sie teraz wyslac zapytania. Napisz prosze na info@cell-education.com."},
 footerHeadings:["","Instagram"],
 footerTag:'Laczymy<br>medycyne<br><span class="accent">na calym swiecie</span>',
 footerCompany:"Cell Education - The Institute GmbH & Co. KG · Frankfurter Straße 7 · 61462 Königstein im Taunus",
 footerLegal:["Nota prawna","Prywatnosc"],
+floatingShop:"Sklep"
 }
 };
 
@@ -516,9 +558,11 @@ function applyLanguage(lang){
   localStorage.setItem("globalHubLang",lang);
   document.querySelectorAll('.lang-switcher button').forEach(btn=>btn.classList.toggle('active',btn.dataset.lang===lang));
 
+  document.querySelector('.nav__cta .pill').childNodes[0].textContent=t.shopLabel+' ';
   document.querySelectorAll('.nav__links a').forEach((link,i)=>{if(t.nav[i]) link.textContent=t.nav[i];});
   document.querySelectorAll('#navOverlay > a').forEach((link,i)=>{
     if(i < t.nav.length) link.textContent=t.nav[i];
+    if(i === 2) link.textContent=t.shopLabel;
   });
 
 
@@ -528,6 +572,14 @@ function applyLanguage(lang){
   if(document.querySelector('.headline-section .pill')) document.querySelector('.headline-section .pill').childNodes[0].textContent=t.headlineCta+" ";
   if(document.querySelector('.network__lede')) document.querySelector('.network__lede').innerHTML=t.textblock;
 
+
+  document.querySelector('#shop .sec-label').textContent=t.shopLabel;
+  document.querySelector('#shop .sec-title').textContent=t.shopTitle;
+  document.querySelectorAll('.shop__card').forEach((card,i)=>{
+    card.querySelector('h3').textContent=t.shopCards[i][0];
+    card.querySelector('p').textContent=t.shopCards[i][1];
+    card.querySelector('.pill').childNodes[0].textContent=t.shopCards[i][2]+" ";
+  });
 
   if(document.querySelector('.event__date')) document.querySelector('.event__date').textContent=t.eventDate;
   if(document.querySelector('.event__hero h3')) document.querySelector('.event__hero h3').innerHTML=t.eventHeroTitle;
@@ -577,6 +629,9 @@ function applyLanguage(lang){
   if(document.querySelector('#message')) document.querySelector('#message').placeholder=t.messagePlaceholder;
   if(document.querySelector('.register-form__note')) document.querySelector('.register-form__note').innerHTML=`${t.formNote} <a class="register-form__email" href="mailto:info@cell-education.com">info@cell-education.com</a>.`;
   if(document.querySelector('.register-form__actions .pill--solid')) document.querySelector('.register-form__actions .pill--solid').childNodes[0].textContent=t.formBtns[0]+" ";
+  document.querySelector('.register-form__actions .pill:not(.pill--solid)').childNodes[0].textContent=t.formBtns[1]+' ';
+  document.querySelector('.floating-shop').childNodes[0].textContent=t.floatingShop+'\n';
+  document.querySelector('.floating-shop').setAttribute('aria-label',t.formBtns[1]);
   syncFormUi();
 
   if(document.querySelectorAll('.footer__col h5')[0]) document.querySelectorAll('.footer__col h5')[0].textContent=t.footerHeadings[0];

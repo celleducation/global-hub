@@ -34,15 +34,15 @@ html{scroll-behavior:smooth}body{font-family:var(--body);font-weight:300;color:v
 <!-- End Google Tag Manager (noscript) -->
 <nav class="nav" id="nav">
 <a class="nav__logo" href="index.html" aria-label="Global Hub home"><img src="images/global-hub-logo-dark.svg" alt="Global Hub for Cell Performance"></a>
-<ul class="nav__links"><li><a href="index.html" data-i18n="nav.home">Home</a></li><li><a href="longevity-lab.html">Longevity Lab 2026</a></li></ul>
-<div class="nav__right"><div class="lang-switcher" aria-label="Language switcher"><button type="button" class="active" data-lang="en">EN</button><button type="button" data-lang="de">DE</button><button type="button" data-lang="es">ES</button><button type="button" data-lang="pl">PL</button><button type="button" data-lang="fr">FR</button><button type="button" data-lang="cz">CZ</button></div></div>
+<ul class="nav__links"><li><a href="index.html" data-i18n="nav.home">Home</a></li><li><a href="longevity-lab.html">Longevity Lab 2026</a></li><li><a href="shop.html" class="active" data-i18n="nav.shop">Shop</a></li></ul>
+<div class="nav__right"><div class="lang-switcher" aria-label="Language switcher"><button type="button" class="active" data-lang="en">EN</button><button type="button" data-lang="de">DE</button><button type="button" data-lang="es">ES</button><button type="button" data-lang="pl">PL</button><button type="button" data-lang="fr">FR</button><button type="button" data-lang="cz">CZ</button></div><a href="shop.html#products" class="pill nav__shop" data-i18n="nav.products">Products</a></div>
 <div class="nav__mobile" onclick="toggleNav()" aria-label="Open navigation"><span></span><span></span><span></span></div>
 </nav>
 <div class="nav-overlay" id="navOverlay">
 <div class="nav-overlay__close" onclick="toggleNav()">x</div>
 <a href="index.html" onclick="toggleNav()" data-i18n="nav.home">Home</a>
 <a href="longevity-lab.html" onclick="toggleNav()">Longevity Lab 2026</a>
-
+<a href="shop.html" onclick="toggleNav()" data-i18n="nav.shop">Shop</a>
 <div class="lang-switcher" aria-label="Language switcher mobile"><button type="button" class="active" data-lang="en">EN</button><button type="button" data-lang="de">DE</button><button type="button" data-lang="es">ES</button><button type="button" data-lang="pl">PL</button><button type="button" data-lang="fr">FR</button><button type="button" data-lang="cz">CZ</button></div>
 </div>
 <main>
@@ -54,7 +54,7 @@ html{scroll-behavior:smooth}body{font-family:var(--body);font-weight:300;color:v
 <p data-i18n="hero.text">Cachao represents a focused, ingredient-first approach to organic cacao. Within the Global Hub partner platform, the brand stands for clean sourcing, minimal processing and a product world that fits naturally into nutrition, performance and longevity-oriented routines.</p>
 <div class="hero__actions">
 <a class="pill pill--solid" href="#why" data-i18n="hero.primary">Why We Chose Cachao</a>
-
+<a class="pill" href="shop.html#products" data-i18n="hero.secondary">Back to Products</a>
 </div>
 </div>
 <aside class="brand-panel">
@@ -115,7 +115,19 @@ html{scroll-behavior:smooth}body{font-family:var(--body);font-weight:300;color:v
 </div>
 </section>
 
-
+<section class="cta">
+<div class="cta__inner">
+<div>
+<div class="label" style="color:rgba(255,255,255,.5)" data-i18n="cta.label">Partner Products</div>
+<h2 data-i18n="cta.title">Explore the curated product platform.</h2>
+<p data-i18n="cta.text">Discover selected products and technologies from the wider Global Hub partner network.</p>
+</div>
+<div class="cta__actions">
+<a class="pill pill--solid" href="shop.html#products" data-i18n="cta.primary">Back to Shop</a>
+<a class="pill" href="mailto:info@cell-education.com?subject=Global%20Hub%20Partner%20Products" data-i18n="cta.secondary">Contact the Global Hub</a>
+</div>
+</div>
+</section>
 </main>
 
 <footer class="footer">
